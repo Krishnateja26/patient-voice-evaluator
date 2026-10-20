@@ -58,7 +58,6 @@ Calls 027–030 came from a temporary direct-OpenAI experiment. I found the simu
 - [Current compliance review](COMPLIANCE_REVIEW.md)
 - [Iteration history](ITERATION_LOG.md)
 - [GitHub readiness](docs/GITHUB_READINESS.md)
- - [Project explanation and Loom notes](docs/PROJECT_AND_LOOM_GUIDE.md)
 
 ## Development checks
 

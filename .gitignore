@@ -43,3 +43,6 @@ tmp/
 # Local agent instructions and source/reference attachments are not submission files.
 /AGENTS.md
 /docs/references/
+
+# Private, local presenter notes
+/local-notes/
