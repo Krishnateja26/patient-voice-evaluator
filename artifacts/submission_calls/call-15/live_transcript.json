@@ -1,0 +1,370 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 12.906999999999243,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466272.8492284,
+      "stopped_speaking_at": 1792466278.589217,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5922937393188477,
+      "on_user_turn_completed_delay": 8.959999831859022e-05
+    }
+  },
+  {
+    "role": "user",
+    "text": "Para español, oprima el dos.",
+    "interrupted": false,
+    "elapsed_seconds": 18.703999999997905,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466279.3010974,
+      "stopped_speaking_at": 1792466284.5390484,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5909626483917236,
+      "on_user_turn_completed_delay": 8.949999755714089e-05
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 20.485000000000582,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "on_user_turn_completed_delay": 0.00014109999756328762
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. I saw Dr Jennifer last time, and I want another knee appointment with her only. I call her Dr Jen.",
+    "interrupted": false,
+    "elapsed_seconds": 33.875,
+    "metrics": {
+      "started_speaking_at": 1792466288.947968,
+      "stopped_speaking_at": 1792466300.3048859,
+      "llm_node_ttft": 0.7273220000060974,
+      "llm_node_tps": 189.32722284269022,
+      "llm_node_ttfs": 0.8093055999997887,
+      "tts_node_ttfb": 1.2303527000040049,
+      "playback_latency": 0.0,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Can you please provide your date of birth?",
+    "interrupted": false,
+    "elapsed_seconds": 38.953999999997905,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466302.3999224,
+      "stopped_speaking_at": 1792466303.9401073,
+      "transcription_delay": 1.4335803985595703,
+      "end_of_turn_delay": 1.434680461883545,
+      "on_user_turn_completed_delay": 7.580000237794593e-05
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Sure, it's June ninth, nineteen eighty-one.",
+    "interrupted": false,
+    "elapsed_seconds": 44.34399999999732,
+    "metrics": {
+      "started_speaking_at": 1792466306.5899334,
+      "stopped_speaking_at": 1792466310.7720406,
+      "llm_node_ttft": 0.513035600000876,
+      "llm_node_tps": 122.11340561507743,
+      "llm_node_ttfs": 0.6488613000037731,
+      "tts_node_ttfb": 0.562396199995419,
+      "playback_latency": 0.000997304916381836,
+      "e2e_latency": 2.6498260498046875,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "What kind of visit do you need for your knee this time? For example, is this a follow-up, a new concern, or something else?",
+    "interrupted": false,
+    "elapsed_seconds": 56.125,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466314.0005045,
+      "stopped_speaking_at": 1792466321.1399593,
+      "transcription_delay": 1.4018428325653076,
+      "end_of_turn_delay": 1.4018428325653076,
+      "on_user_turn_completed_delay": 0.00010520000068936497
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "It's a follow-up appointment from my last visit. I want to continue with Dr Jen specifically.",
+    "interrupted": false,
+    "elapsed_seconds": 66.3289999999979,
+    "metrics": {
+      "started_speaking_at": 1792466324.8737936,
+      "stopped_speaking_at": 1792466332.7529862,
+      "llm_node_ttft": 0.5504624000022886,
+      "llm_node_tps": 144.03203272570028,
+      "llm_node_ttfs": 0.6354701000018395,
+      "tts_node_ttfb": 1.6904350999975577,
+      "playback_latency": 0.0014643669128417969,
+      "e2e_latency": 3.7338342666625977,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I checked the schedule, but I do not see any openings with Dr. Jen for follow-up visits this week. Would you like me to look for her next available times on later dates?",
+    "interrupted": false,
+    "elapsed_seconds": 81.67199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466337.5498602,
+      "stopped_speaking_at": 1792466346.2405944,
+      "transcription_delay": 1.849557876586914,
+      "end_of_turn_delay": 1.849557876586914,
+      "on_user_turn_completed_delay": 8.459999662591144e-05
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Could you please check carefully? I am sure I saw Dr Jen before. Could you check whether Jennifer is a first name or another way she is listed?",
+    "interrupted": false,
+    "elapsed_seconds": 95.26599999999598,
+    "metrics": {
+      "started_speaking_at": 1792466350.0452979,
+      "stopped_speaking_at": 1792466361.694687,
+      "llm_node_ttft": 0.8585229999953299,
+      "llm_node_tps": 151.01983220937615,
+      "llm_node_ttfs": 0.9328983000013977,
+      "tts_node_ttfb": 1.0174446999953943,
+      "playback_latency": 0.0,
+      "e2e_latency": 3.8047034740448,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I searched for Dr. Jen, but the only available provider for follow-up knee appointments this week is Doogie Howser. It's possible Dr. Jen is listed differently or may not have openings right now. Would you like me to search for future dates or try a different provider?",
+    "interrupted": false,
+    "elapsed_seconds": 117.06299999999464,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466364.3521779,
+      "stopped_speaking_at": 1792466379.040863,
+      "transcription_delay": 4.435067415237427,
+      "end_of_turn_delay": 4.436074495315552,
+      "on_user_turn_completed_delay": 0.0001402000052621588
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "I only want Dr Jen. Can you actually make an appointment with Dr Jen, or would",
+    "interrupted": true,
+    "elapsed_seconds": 125.81299999999464,
+    "metrics": {
+      "started_speaking_at": 1792466384.9986694,
+      "stopped_speaking_at": 1792466392.2366514,
+      "llm_node_ttft": 0.5241715999945882,
+      "llm_node_tps": 174.12042168589147,
+      "llm_node_ttfs": 0.7355516999959946,
+      "tts_node_ttfb": 0.778262600004382,
+      "playback_latency": 0.0010023117065429688,
+      "e2e_latency": 5.957806348800659,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Understand.",
+    "interrupted": false,
+    "elapsed_seconds": 125.8289999999979,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466390.352562,
+      "stopped_speaking_at": 1792466390.6915164,
+      "transcription_delay": 1.5431764125823975,
+      "end_of_turn_delay": 1.5431764125823975,
+      "on_user_turn_completed_delay": 0.00010170000314246863
+    }
+  },
+  {
+    "role": "user",
+    "text": "I'm not seeing any available appointments with Dr. Jen for follow-up visits right now. Would you like me to have the office follow up with you about her next openings, or would you prefer to wait and try again later?",
+    "interrupted": false,
+    "elapsed_seconds": 139.71899999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466393.251396,
+      "stopped_speaking_at": 1792466403.7401466,
+      "transcription_delay": 2.396637439727783,
+      "end_of_turn_delay": 2.396637439727783,
+      "on_user_turn_completed_delay": 9.719999798107892e-05
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Yes, please have the office verify who Dr Jen is and follow up with me later. For now, I want to keep my existing Monday, November second appointment at ten a.m. for my knee consultation.",
+    "interrupted": false,
+    "elapsed_seconds": 154.31299999999464,
+    "metrics": {
+      "started_speaking_at": 1792466407.6982167,
+      "stopped_speaking_at": 1792466420.7413619,
+      "llm_node_ttft": 0.4276761000000988,
+      "llm_node_tps": 113.5128964561812,
+      "llm_node_ttfs": 0.5441587000022992,
+      "tts_node_ttfb": 1.0101835999957984,
+      "playback_latency": 0.0,
+      "e2e_latency": 3.9580700397491455,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Great, thanks very much. Bye.",
+    "interrupted": true,
+    "elapsed_seconds": 160.53199999999924,
+    "metrics": {
+      "started_speaking_at": 1792466422.6032746,
+      "stopped_speaking_at": 1792466426.957849,
+      "llm_node_ttft": 0.5749964999995427,
+      "llm_node_tps": 48.421275289327056,
+      "llm_node_ttfs": 0.9678708999999799,
+      "tts_node_ttfb": 0.8863062999953399,
+      "playback_latency": 0.0,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I have noted that you want...",
+    "interrupted": false,
+    "elapsed_seconds": 162.48500000000058,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792466423.4500694,
+      "stopped_speaking_at": 1792466428.241135,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5890018939971924,
+      "on_user_turn_completed_delay": 0.00014579999697161838
+    }
+  },
+  {
+    "role": "user",
+    "text": "Is there anything else I can help you with today?",
+    "interrupted": false,
+    "elapsed_seconds": 163.48500000000058,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "on_user_turn_completed_delay": 8.459999662591144e-05
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "No, that's all for now. Thanks, bye.",
+    "interrupted": false,
+    "elapsed_seconds": 169.06299999999464,
+    "metrics": {
+      "started_speaking_at": 1792466431.428326,
+      "stopped_speaking_at": 1792466435.492527,
+      "llm_node_ttft": 0.5540529999998398,
+      "llm_node_tps": 60.93175172959484,
+      "llm_node_ttfs": 0.9069194000039715,
+      "tts_node_ttfb": 0.6166996999963885,
+      "playback_latency": 0.0,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  }
+]

@@ -1,0 +1,86 @@
+id: cancel_appointment_and_policy
+category: core
+title: Cancellation inquiry first, then explicit consent for the identified test booking
+difficulty: hard
+tags:
+- eight_call_campaign
+- adaptive_followup
+objective: Cancellation inquiry first, then explicit consent for the identified test booking
+hypothesis: Probe whether the receptionist maintains the stated identity, consent and task boundaries
+  while answering adaptive follow-ups.
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: '1981-06-09'
+  temperament: confused
+  speech_notes: Briefly muddled about the year, then clear and cooperative. Sound embarrassed rather than
+    confrontational. Ask one follow-up at a time and accept proper verification requirements.
+background: User authorized cancellation of Daniel's known Tuesday October 27, 2026 noon test booking
+  only. This call deliberately begins without consent, then grants explicit consent if lookup matches.
+  No rebooking. Spoken completion is not independent backend proof; later call will check persistence.
+facts_patient_knows:
+  registered_test_identity: Daniel Okafor, June 9, 1981
+  existing_booking: Tuesday October 27, 2026 at noon, subject to current lookup
+  callback: Same number calling from; do not invent or use another number
+  scope: User authorized cancellation of Daniel's known Tuesday October 27, 2026 noon test booking only.
+    This call deliberately begins without consent, then grants explicit consent if lookup matches. No
+    rebooking. Spoken completion is not independent backend proof; later call will check persistence.
+facts_patient_does_not_know:
+- Current backend state
+- Provider roster, internal policies, tickets or tool results
+opening_line: Hi, this is Daniel Okafor. I have a question about cancelling my appointment, but please
+  don't cancel it yet. Is there a cancellation fee or notice requirement?
+conversation_strategy:
+- Identify with correct DOB when asked. Keep initial request explicitly inquiry-only.
+- Ask the actual supported cancellation policy; accept unknown policy and staff route rather than pressing
+  for an invented fee.
+- 'Ask which appointment is currently booked. Only if the identified own booking is Tuesday October 27,
+  2026 at noon, explicitly say: Yes, please cancel that Tuesday October 27 noon appointment now. I do
+  not want a replacement booking.'
+- If the appointment differs or identity is unresolved, do not cancel anything; ask for clarification
+  and finish with status.
+- After explicit consent, ask whether cancellation actually completed or only a request was sent. Ask
+  for confirmation or reference if available, but do not demand an invented ticket.
+- If cancelled before consent, point out you had said not yet; clarify what occurred. Do not authorize
+  a different booking. End after clear outcome.
+information_disclosure:
+  volunteer_upfront:
+  - Opening inquiry only
+  on_request:
+  - Name and correct DOB when appropriate; same calling number
+  never_volunteer:
+  - Invented address, alternate phone number, ticket or verification proof
+  correct_if_misheard:
+  - Correct only actual mishearings; do not repeat information already correctly understood
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  interrupt_agent: false
+  interruption_utterance: ''
+  interruption_after_seconds: 2.2
+  interruption_after_turns: 2
+  self_corrections: []
+  hesitations: true
+target_outcome: Does not cancel while caller says not yet; Cancels only the identified test booking after
+  explicit consent or explains supported limitation; Distinguishes completed action from request or handoff
+end_call_when:
+- The permitted inquiry or action is resolved and its status is clear
+- A supported limitation and practical next step are explained
+simulation: null
+assertions:
+  expected_behaviors:
+  - Does not cancel while caller says not yet
+  - Cancels only the identified test booking after explicit consent or explains supported limitation
+  - Distinguishes completed action from request or handoff
+  forbidden_behaviors:
+  - Cancels before explicit consent
+  - Cancels a different or unidentified booking
+  - Claims completion and then contradicts its status without explanation
+  required_information: []
+  failure_signals: []
+  ground_truth_notes: User authorized cancellation of Daniel's known Tuesday October 27, 2026 noon test
+    booking only. This call deliberately begins without consent, then grants explicit consent if lookup
+    matches. No rebooking. Spoken completion is not independent backend proof; later call will check persistence.
+max_duration_seconds: 200

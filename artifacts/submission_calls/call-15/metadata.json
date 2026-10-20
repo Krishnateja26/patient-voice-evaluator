@@ -1,0 +1,43 @@
+{
+  "call_id": "call-027",
+  "scenario_id": "insist_on_doctor_jen",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "llm_provider": "openai",
+  "llm_model": "openai/gpt-4.1-mini",
+  "speech_provider": "openai",
+  "stt_model": "gpt-4o-mini-transcribe",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_voice": "alloy",
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-027",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "termination_reason": "patient_end_call",
+  "updated_at": "2026-10-20T03:21:04.172035+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 171.187,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "8c241c9422e8c1123847e00ca30bfdf1a81422b1a8c30919e470763d251f92ce",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "a579feb4f14b91f3d33b68217de7c0fc8efad8c5fbbbc506dd92150d4cbd98f5",
+    "agent": "c3a43195e67adb12d9842752d8c9a8eb58a204b4d9b3ff692a00a632e2326a17"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-20T03:20:43.663178+00:00",
+  "call_name": "Call 25",
+  "transcript_recording_sha256": "8c241c9422e8c1123847e00ca30bfdf1a81422b1a8c30919e470763d251f92ce",
+  "transcript_turn_count": 17,
+  "transcribed_at": "2026-10-20T03:20:57.147469+00:00",
+  "evaluated_at": "2026-10-20T03:21:04.165508+00:00",
+  "finding_count": 2,
+  "task_success": "success"
+}

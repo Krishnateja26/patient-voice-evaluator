@@ -1,0 +1,219 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 20,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 10.562,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 10.562,
+      "end": 15.891,
+      "timestamp": "00:10.562",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 15.891,
+      "end": 17.484,
+      "timestamp": "00:15.891",
+      "text": "Part of Pretty Good AI.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "agent",
+      "start": 17.484,
+      "end": 19.047,
+      "timestamp": "00:17.484",
+      "text": "How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "patient",
+      "start": 19.047,
+      "end": 27.297,
+      "timestamp": "00:19.047",
+      "text": "Hi, this is Daniel Okafor. Could you check my upcoming appointment? I'm only checking it, not changing the appointment or my personal details.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 27.297,
+      "end": 31.75,
+      "timestamp": "00:27.297",
+      "text": "Please provide your date of birth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 31.75,
+      "end": 39.891,
+      "timestamp": "00:31.750",
+      "text": "Sure, my date of birth is June 9, 1981.\nActually, my birthday is June 9, 1982. Could you repeat which year you are using?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 39.891,
+      "end": 44.812,
+      "timestamp": "00:39.891",
+      "text": "I have your date of birth as June ninth",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 44.812,
+      "end": 46.187,
+      "timestamp": "00:44.812",
+      "text": "nineteen eighty one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 46.187,
+      "end": 47.094,
+      "timestamp": "00:46.187",
+      "text": "Is that correct?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "patient",
+      "start": 47.094,
+      "end": 56.906,
+      "timestamp": "00:47.094",
+      "text": "Sorry, I mixed up the year. June 9, 1981 is correct. Please disregard the 1982 I just said; I'm not asking you to change my record.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 56.906,
+      "end": 60.828,
+      "timestamp": "00:56.906",
+      "text": "No worries.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 60.828,
+      "end": 61.781,
+      "timestamp": "01:00.828",
+      "text": "Daniel.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 61.781,
+      "end": 66.609,
+      "timestamp": "01:01.781",
+      "text": "Your date of birth is June ninth nineteen eighty one,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 66.609,
+      "end": 68.469,
+      "timestamp": "01:06.609",
+      "text": "and I won't make any changes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 68.469,
+      "end": 71.453,
+      "timestamp": "01:08.469",
+      "text": "Would you like to hear the details of your upcoming appointment?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "patient",
+      "start": 71.453,
+      "end": 75.516,
+      "timestamp": "01:11.453",
+      "text": "Yes, please. I'd like to confirm the details of my appointment.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "start": 75.516,
+      "end": 82.766,
+      "timestamp": "01:15.516",
+      "text": "Your upcoming appointment is on Tuesday, October twenty seventh at twelve PM.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start": 82.766,
+      "end": 85.719,
+      "timestamp": "01:22.766",
+      "text": "It's a new patient visit with doctor Dudiehauser.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "agent",
+      "start": 85.719,
+      "end": 88.812,
+      "timestamp": "01:25.719",
+      "text": "Would you like me to send these details to your phone by text message?",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "345a9c0799ee613f15ad04291ab0fa849b37e50a3776867ed89fad22958c74e3",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

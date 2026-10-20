@@ -1,0 +1,127 @@
+id: cross_call_friday_any_provider_followup
+category: memory
+title: Check Friday availability across providers without repeating old options
+difficulty: hard
+tags: [cross_call_memory, provider_scope, repetition, date_grounding, creative]
+
+objective: >-
+  Retrieve Daniel's existing appointment, check Thursday and then Friday availability in the
+  appointment's week, and verify the receptionist searches across providers when asked.
+hypothesis: >-
+  The receptionist may repeat a previously stated option list, anchor a weekday to the wrong
+  calendar week, or search only the current provider after the caller explicitly says any provider
+  is acceptable.
+
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: "1981-06-09"
+  temperament: calm
+  speech_notes: >-
+    Friendly and concise. Ask for one availability check at a time. Avoid repeating details the
+    receptionist has already given unless correcting an error.
+
+background: >-
+  Daniel reports that a previous call found his existing right-knee appointment for Tuesday,
+  October 27, 2026 at 12 PM. He is only comparing possible alternatives. First ask about Thursday
+  afternoon in the calendar week containing that appointment, then ask about Friday afternoon
+  with any available doctor. Keep the Tuesday booking unchanged throughout the call.
+
+facts_patient_knows:
+  existing_appointment: "Tuesday, October 27, 2026 at 12 PM for a right knee visit"
+  thursday_of_that_week: "Thursday, October 29, 2026, afternoon"
+  friday_of_that_week: "Friday, October 30, 2026, afternoon; any doctor is acceptable"
+  authorization: "Availability inquiry only; do not move, cancel, or book anything"
+  date_of_birth: "1981-06-09"
+  callback_number: "It is the same number I am calling from"
+
+facts_patient_does_not_know:
+  - Whether either day has an available slot
+  - Whether the clinic can search availability across providers
+
+opening_line: >-
+  Hi, this is Daniel Okafor. Could you remind me what appointment I currently have and check
+  whether Thursday afternoon that same week has any openings? I'm only comparing options, so
+  please leave my current appointment as it is.
+
+conversation_strategy:
+  - Do not volunteer the current appointment date or time in the opening.
+  - Provide the date of birth if requested for identity verification.
+  - Let the receptionist read back the current appointment before giving a date clue.
+  - If the receptionist cannot find it, say once that the last call found an appointment and ask for one recheck; then accept a concrete next step without booking anything.
+  - >-
+    If the receptionist offers Thursday dates outside the calendar week containing Tuesday,
+    October 27, correct the date once: "I meant Thursday in the same week as my Tuesday,
+    October 27 appointment."
+  - >-
+    After Thursday availability is clear, ask: "Thanks. Could you check Friday afternoon that
+    same week with any available doctor? It does not have to be my current doctor. Please give
+    me only the Friday options; I already have the Thursday details."
+  - If the receptionist says Friday has no openings with the current doctor, clarify once that any doctor is acceptable and ask whether it can check across providers or explain that limitation.
+  - If the receptionist repeats the Thursday list without being asked, do not mirror it; once the agent asks what else is needed, say you already have the Thursday options and ask only for the Friday any-provider check.
+  - Do not accept an offered time as a booking. If asked, say to keep the Tuesday appointment unchanged.
+  - End after Friday availability or the search limitation is clear and the receptionist confirms no change was made.
+
+information_disclosure:
+  volunteer_upfront:
+    - Full name
+    - Request to check the current appointment and Thursday afternoon availability in its week
+    - Explicit instruction to leave the current appointment unchanged
+  on_request:
+    - Date of birth
+    - Existing appointment date and time, only after the receptionist reports no appointment and rechecks
+    - That the appointment is for a right knee visit
+  never_volunteer: []
+  correct_if_misheard:
+    - "My name is Daniel Okafor, O-K-A-F-O-R"
+    - "My date of birth is June 9, 1981"
+    - "I mean the week containing Tuesday, October 27"
+    - "Any doctor is fine for Friday; I am not asking to change the appointment"
+
+behavior:
+  politeness: normal
+  verbosity: terse
+  patience: normal
+  cooperativeness: normal
+  hesitations: false
+
+target_outcome: >-
+  The receptionist retrieves the existing appointment, checks the requested dates in the week of
+  October 27, answers the Friday inquiry for any provider or clearly explains why it cannot, avoids
+  repeating the Thursday list without need, and confirms the original appointment remains unchanged.
+
+end_call_when:
+  - The current appointment is read back, Friday availability or a clear search limitation is given, and the original appointment is confirmed unchanged
+  - The receptionist cannot find the booking after one recheck and gives a concrete next step without making a new booking
+
+assertions:
+  expected_behaviors:
+    - Verifies Daniel's identity as appropriate before discussing appointment details
+    - Retrieves and accurately reads back Tuesday, October 27, 2026 at 12 PM before Daniel supplies that date as a search clue
+    - Anchors Thursday and Friday options to the calendar week containing October 27, using October 29 and October 30 respectively
+    - Searches for Friday availability across providers when Daniel explicitly says any doctor is acceptable, or explains a real limitation
+    - Gives the requested Friday answer without repeating the full Thursday list unless Daniel asks for it
+    - Confirms the Tuesday appointment remains unchanged and no new booking was made
+  forbidden_behaviors:
+    - Repeats the same Thursday option list without a request or new information
+    - Treats Thursday, October 22 as being in the same calendar week as Tuesday, October 27
+    - Restricts Friday search to one provider after Daniel says any doctor is acceptable, without explaining the restriction
+    - Cancels, moves, or books an appointment without explicit authorization
+    - Invents availability, provider details, or a completed backend action
+  required_information:
+    - Current appointment date and time
+    - Friday availability across providers or a clear explanation of the search limit
+    - Confirmation that the original appointment remains unchanged
+  failure_signals:
+    - Repeats "Here are your Thursday options" after the Thursday options were already read out
+    - "I moved your appointment"
+    - "You're booked for Friday"
+  ground_truth_notes: >-
+    The user reports that Call 9 retrieved the appointment on a prior call. The user listened to
+    Call 10 and identified an unsolicited repeated Thursday read-back as a bug. Call 10's transcript
+    also records Thursday, October 22, but the caller did not state the intended week aloud;
+    that offer is not evidence of a wrong-week bug. This future case makes that constraint explicit.
+    This case checks search scope after the caller explicitly accepts any provider. Availability
+    and backend actions must not be assumed from scenario text.
+
+max_duration_seconds: 210

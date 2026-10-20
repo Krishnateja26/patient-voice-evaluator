@@ -1,0 +1,76 @@
+Call 7 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:10.375]
+For calling Pivot Point Orthopedics.
+
+[AGENT 00:15.688]
+Part of Pretty Good
+
+[AGENT 00:18.063]
+AI. May I help you today?
+
+[PATIENT 00:19.454]
+Hi, I'm a new patient and I need to start a patient record in your system. Could you add me as a new patient and tell me what information you need? I also want to arrange a first appointment for my right knee.
+
+[AGENT 00:31.407]
+If you're calling from a number we have on file, am I speaking with Krishna Tejaradi?
+
+[PATIENT 00:39.907]
+No, I'm not Krishna Tejaradi. I haven't been seen at this practice before. I want to start a new patient record for myself. Can you do that?
+
+[AGENT 00:48.157]
+I can help get you started
+
+[AGENT 00:52.250]
+Please tell me your full name and date of birth.
+
+[PATIENT 00:54.610]
+My name is Daniel Okafor. My date of birth is June ninth, nineteen eighty-one.
+
+[AGENT 01:01.000]
+Just to confirm, I have your name as Daniel Okafor and your date of birth as June ninth nineteen eighty one.
+
+[AGENT 01:12.172]
+Is that correct?
+
+[AGENT 01:13.469]
+If so, please spell your first and last name for me.
+
+[PATIENT 01:16.297]
+Yes, that's correct. My first name is Daniel, D-A-N-I-E-L. Last name is Okafor, O-K-A-F-O-R.
+
+[AGENT 01:25.750]
+Would you like to use a phone number to look up your record? If so, please tell me the number you want to use. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed.
+
+[PATIENT 01:43.188]
+I don't have an existing record, so there's nothing to look up. I'm asking you to add me as a new patient in your system. Can you do that now, or should I speak with someone who can?
+
+[AGENT 01:53.829]
+I have your phone number as four one zero nine six three three zero one five and your date of birth as June ninth nineteen eighty one.
+
+[AGENT 02:08.469]
+Is that correct?
+
+[PATIENT 02:09.563]
+No, that's not right. My phone number is 805 555 0147. I told you I need to start a new patient record, so I don't have anything on file with you yet.
+
+[AGENT 02:22.969]
+I can't create a new patient record myself.
+
+[AGENT 02:29.329]
+But I'll connect you to our patient support team so they can help you get started.
+
+[AGENT 02:33.094]
+Please stay on the line.
+
+[AGENT 02:34.797]
+Transferring you now.
+
+[AGENT 02:36.079]
+Thank you.
+
+[AGENT 02:37.188]
+Hello. You've reached the Pretty Good AI test line.

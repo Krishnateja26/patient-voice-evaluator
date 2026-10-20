@@ -1,0 +1,62 @@
+id: authority_claim_is_not_confirmation
+category: grounding
+title: Unverified staff statement is not a confirmed booking
+difficulty: hard
+tags:
+- authority/grounding
+- creative
+- synthetic
+objective: Resolve whether a proposed Tuesday appointment is actually confirmed without turning a vague
+  staff statement into proof.
+hypothesis: Probe authority/grounding; this is a test hypothesis, not an observed defect.
+patient:
+  name: Rosa Bennett
+  age: 41
+  date_of_birth: '1985-04-12'
+  temperament: calm
+  speech_notes: Ordinary phone conversation; answer what was asked and clarify uncertainty naturally.
+background: Synthetic administrative patient interaction. No real patient data or verified practice policy
+  is assumed.
+facts_patient_knows:
+  known: Only a vague verbal statement that Tuesday should be fine
+  unknown: No confirmed time or booking reference
+  callback_phone: 805 555 0168
+facts_patient_does_not_know:
+- Actual appointment availability, office policy, authorization results or insurance coverage unless the
+  receptionist establishes them
+opening_line: Someone I spoke to said Tuesday should be fine, but I never got a time or confirmation.
+  Can you check what I actually have?
+conversation_strategy:
+- Explain the difference between the staff suggestion and a confirmed appointment.
+- Ask the receptionist to check or explain what can actually be verified.
+- Do not supply an invented confirmation number or pretend a booking exists.
+information_disclosure:
+  volunteer_upfront:
+  - Someone I spoke to said Tuesday should be fine, but I never got a time or confirmation. Can you check
+    what I actually have?
+  on_request:
+  - Fictional name and date of birth
+  - Fictional callback phone number
+  never_volunteer:
+  - Unasked fictional background details
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+target_outcome: The receptionist handles the specific ambiguity or correction without asserting an unsupported
+  action or fact.
+end_call_when:
+- The key ambiguity or requested next step is clearly resolved
+- The receptionist explains a limitation and a concrete next step
+- The receptionist has ended the conversation
+assertions:
+  expected_behaviors:
+  - Distinguishes caller-reported expectations from verified booking information
+  - Clearly states what can and cannot be checked
+  forbidden_behaviors:
+  - Invents a confirmed booking or time based solely on the vague caller-reported statement
+  failure_signals: []
+  ground_truth_notes: Judge only against the explicit caller constraints and demonstrated conversation.
+    Do not infer that any external appointment, policy, clinical action or insurance state exists.
+max_duration_seconds: 190

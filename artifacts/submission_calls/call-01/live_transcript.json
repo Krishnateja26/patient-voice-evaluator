@@ -1,0 +1,486 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 12.25,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434149.9790487,
+      "stopped_speaking_at": 1792434153.1404939,
+      "transcription_delay": 0.3205561637878418,
+      "end_of_turn_delay": 0.5036008358001709,
+      "on_user_turn_completed_delay": 0.0001861000018834602
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling",
+    "interrupted": false,
+    "elapsed_seconds": 16.34400000000096,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434153.7336214,
+      "stopped_speaking_at": 1792434157.3890994,
+      "transcription_delay": 0.29340457916259766,
+      "end_of_turn_delay": 0.35069704055786133,
+      "on_user_turn_completed_delay": 8.270000034826808e-05
+    }
+  },
+  {
+    "role": "user",
+    "text": "Pivot Point Orthopaedics.",
+    "interrupted": false,
+    "elapsed_seconds": 18.625,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434157.829295,
+      "stopped_speaking_at": 1792434159.4945052,
+      "transcription_delay": 0.5201394557952881,
+      "end_of_turn_delay": 0.5221388339996338,
+      "on_user_turn_completed_delay": 0.00017279999883612618
+    }
+  },
+  {
+    "role": "user",
+    "text": "Part of Pretty Good AI.",
+    "interrupted": false,
+    "elapsed_seconds": 20.10900000000038,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434159.9815764,
+      "stopped_speaking_at": 1792434161.153484,
+      "transcription_delay": 0.2806730270385742,
+      "end_of_turn_delay": 0.36191821098327637,
+      "on_user_turn_completed_delay": 0.0001066999975591898
+    }
+  },
+  {
+    "role": "user",
+    "text": "How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 21.70300000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434161.6309946,
+      "stopped_speaking_at": 1792434162.6979413,
+      "transcription_delay": 0.36370062828063965,
+      "end_of_turn_delay": 0.38248157501220703,
+      "on_user_turn_completed_delay": 0.00016450000111944973
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, I'd like to book an appointment about my knee. I've not been seen there before.",
+    "interrupted": false,
+    "elapsed_seconds": 26.875,
+    "metrics": {
+      "started_speaking_at": 1792434164.1670172,
+      "stopped_speaking_at": 1792434168.2818947,
+      "llm_node_ttft": 0.5261317000004055,
+      "llm_node_tps": 187.01673706146684,
+      "llm_node_ttfs": 0.6382616000009875,
+      "tts_node_ttfb": 0.43078789999708533,
+      "playback_latency": 0.0009982585906982422,
+      "e2e_latency": 1.4690759181976318,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Can you please provide your full name and date of birth?",
+    "interrupted": false,
+    "elapsed_seconds": 32.56200000000172,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434171.228799,
+      "stopped_speaking_at": 1792434173.5426095,
+      "transcription_delay": 0.3966066837310791,
+      "end_of_turn_delay": 0.41864633560180664,
+      "on_user_turn_completed_delay": 0.00018950000230688602
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Sure, it's Daniel Okafor, June ninth, nineteen eighty-one.",
+    "interrupted": false,
+    "elapsed_seconds": 36.01499999999942,
+    "metrics": {
+      "started_speaking_at": 1792434174.743915,
+      "stopped_speaking_at": 1792434177.4314299,
+      "llm_node_ttft": 0.36012859999755165,
+      "llm_node_tps": 100.0175030645044,
+      "llm_node_ttfs": 0.5840818999968178,
+      "tts_node_ttfb": 0.2136358999996446,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.201305627822876,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Just to confirm, I have your name as Daniel Okafor and your date of birth as June ninth nineteen eighty one.",
+    "interrupted": false,
+    "elapsed_seconds": 46.9220000000023,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434182.0290084,
+      "stopped_speaking_at": 1792434187.9381297,
+      "transcription_delay": 0.3066072463989258,
+      "end_of_turn_delay": 0.3906068801879883,
+      "on_user_turn_completed_delay": 8.689999958733097e-05
+    }
+  },
+  {
+    "role": "user",
+    "text": "Is that correct?",
+    "interrupted": false,
+    "elapsed_seconds": 47.82800000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434188.3295195,
+      "stopped_speaking_at": 1792434188.838283,
+      "transcription_delay": 0.3159453868865967,
+      "end_of_turn_delay": 0.38219451904296875,
+      "on_user_turn_completed_delay": 0.00016340000001946464
+    }
+  },
+  {
+    "role": "user",
+    "text": "If so, could you please spell your first and last name for me?",
+    "interrupted": false,
+    "elapsed_seconds": 50.9220000000023,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434189.2789598,
+      "stopped_speaking_at": 1792434191.940342,
+      "transcription_delay": 0.35184693336486816,
+      "end_of_turn_delay": 0.3718729019165039,
+      "on_user_turn_completed_delay": 0.00011820000145235099
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "That's correct. Daniel is D-A-N-I-E-L, and Okafor is O-K-A-F-O-R.",
+    "interrupted": false,
+    "elapsed_seconds": 58.32800000000134,
+    "metrics": {
+      "started_speaking_at": 1792434193.2933812,
+      "stopped_speaking_at": 1792434199.7435782,
+      "llm_node_ttft": 0.4467320000003383,
+      "llm_node_tps": 118.04424298254358,
+      "llm_node_ttfs": 0.7350908000007621,
+      "tts_node_ttfb": 0.23959150000155205,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.353039264678955,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Would you like to use your phone number to look up your record?",
+    "interrupted": false,
+    "elapsed_seconds": 65.4220000000023,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434204.3817644,
+      "stopped_speaking_at": 1792434206.4415278,
+      "transcription_delay": 0.28003406524658203,
+      "end_of_turn_delay": 0.3880646228790283,
+      "on_user_turn_completed_delay": 0.0001269999993382953
+    }
+  },
+  {
+    "role": "user",
+    "text": "If so, please provide the number you have on file with us.",
+    "interrupted": false,
+    "elapsed_seconds": 68.7970000000023,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434206.9797223,
+      "stopped_speaking_at": 1792434209.7892406,
+      "transcription_delay": 0.3103525638580322,
+      "end_of_turn_delay": 0.4006845951080322,
+      "on_user_turn_completed_delay": 0.00019590000010794029
+    }
+  },
+  {
+    "role": "user",
+    "text": "If you're not sure, just let me know.",
+    "interrupted": false,
+    "elapsed_seconds": 70.71900000000096,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434210.378283,
+      "stopped_speaking_at": 1792434211.6916542,
+      "transcription_delay": 0.34290528297424316,
+      "end_of_turn_delay": 0.4190795421600342,
+      "on_user_turn_completed_delay": 0.00019799999790848233
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "I don't have a record yet since I haven't been seen there before, but my phone number is 805 555 0147.",
+    "interrupted": false,
+    "elapsed_seconds": 80.0,
+    "metrics": {
+      "started_speaking_at": 1792434213.1484005,
+      "stopped_speaking_at": 1792434221.4111586,
+      "llm_node_ttft": 0.4383535999986634,
+      "llm_node_tps": 118.05723330238926,
+      "llm_node_ttfs": 0.7568176999993739,
+      "tts_node_ttfb": 0.27154460000019753,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.4567463397979736,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I have your phone number as eight zero five",
+    "interrupted": false,
+    "elapsed_seconds": 86.59400000000096,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434225.9280777,
+      "stopped_speaking_at": 1792434227.590124,
+      "transcription_delay": 0.3263542652130127,
+      "end_of_turn_delay": 0.41042065620422363,
+      "on_user_turn_completed_delay": 0.00014860000010230578
+    }
+  },
+  {
+    "role": "user",
+    "text": "five five five zero one four seven.",
+    "interrupted": false,
+    "elapsed_seconds": 89.51499999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434228.230697,
+      "stopped_speaking_at": 1792434230.488405,
+      "transcription_delay": 0.33397960662841797,
+      "end_of_turn_delay": 0.43323707580566406,
+      "on_user_turn_completed_delay": 0.00014200000077835284
+    }
+  },
+  {
+    "role": "user",
+    "text": "And your date of birth as June ninth nineteen eighty one.",
+    "interrupted": false,
+    "elapsed_seconds": 93.51499999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434230.8808396,
+      "stopped_speaking_at": 1792434234.4910412,
+      "transcription_delay": 0.42714762687683105,
+      "end_of_turn_delay": 0.4437673091888428,
+      "on_user_turn_completed_delay": 7.410000034724362e-05
+    }
+  },
+  {
+    "role": "user",
+    "text": "Is that correct?",
+    "interrupted": false,
+    "elapsed_seconds": 94.81200000000172,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434234.9281297,
+      "stopped_speaking_at": 1792434235.537653,
+      "transcription_delay": 0.6668589115142822,
+      "end_of_turn_delay": 0.6693787574768066,
+      "on_user_turn_completed_delay": 0.00017840000145952217
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Yes, that's right.",
+    "interrupted": false,
+    "elapsed_seconds": 96.45300000000134,
+    "metrics": {
+      "started_speaking_at": 1792434236.9435778,
+      "stopped_speaking_at": 1792434237.8629568,
+      "llm_node_ttft": 0.4642691000008199,
+      "llm_node_tps": 585.6229565435664,
+      "llm_node_ttfs": 0.5187107000019751,
+      "tts_node_ttfb": 0.2074365000007674,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.4059247970581055,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I wasn't able to find your record in our system.",
+    "interrupted": false,
+    "elapsed_seconds": 104.375,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434243.0955138,
+      "stopped_speaking_at": 1792434245.310432,
+      "transcription_delay": 0.3778808116912842,
+      "end_of_turn_delay": 0.45084667205810547,
+      "on_user_turn_completed_delay": 0.00015690000145696104
+    }
+  },
+  {
+    "role": "user",
+    "text": "I'll connect you to our patient support team so they can help you get started. Please stay on the line.",
+    "interrupted": false,
+    "elapsed_seconds": 109.38999999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434245.7197504,
+      "stopped_speaking_at": 1792434250.3463473,
+      "transcription_delay": 0.3839542865753174,
+      "end_of_turn_delay": 0.4343729019165039,
+      "on_user_turn_completed_delay": 0.00019529999917722307
+    }
+  },
+  {
+    "role": "user",
+    "text": "Transferring you now. Thank you.",
+    "interrupted": false,
+    "elapsed_seconds": 111.5470000000023,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434251.0897639,
+      "stopped_speaking_at": 1792434252.444239,
+      "transcription_delay": 0.2614278793334961,
+      "end_of_turn_delay": 0.45775794982910156,
+      "on_user_turn_completed_delay": 0.00021130000095581636
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hello, I am",
+    "interrupted": true,
+    "elapsed_seconds": 116.21900000000096,
+    "metrics": {
+      "started_speaking_at": 1792434254.0135114,
+      "stopped_speaking_at": 1792434257.6321628,
+      "llm_node_ttft": 0.4421939999992901,
+      "llm_node_tps": 105.75455877763038,
+      "llm_node_ttfs": 0.6502537999986089,
+      "tts_node_ttfb": 0.4456793999997899,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.569272518157959,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Hello. You've reached the Pretty Good AI test line. Goodbye.",
+    "interrupted": false,
+    "elapsed_seconds": 117.07800000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792434254.3976448,
+      "stopped_speaking_at": 1792434258.0503604,
+      "transcription_delay": 0.2950739860534668,
+      "end_of_turn_delay": 0.4361119270324707,
+      "on_user_turn_completed_delay": 0.00031460000172955915
+    }
+  }
+]

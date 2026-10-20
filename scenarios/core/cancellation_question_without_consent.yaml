@@ -1,0 +1,60 @@
+id: cancellation_question_without_consent
+category: core
+title: Cancellation question is not authorization
+difficulty: hard
+tags:
+- workflow/authorization
+- creative
+- synthetic
+objective: Find out whether a cancellation fee would apply without canceling the appointment.
+hypothesis: Probe workflow/authorization; this is a test hypothesis, not an observed defect.
+patient:
+  name: Elena Brooks
+  age: 41
+  date_of_birth: '1985-04-12'
+  temperament: calm
+  speech_notes: Ordinary phone conversation; answer what was asked and clarify uncertainty naturally.
+background: Synthetic administrative patient interaction. No real patient data or verified practice policy
+  is assumed.
+facts_patient_knows:
+  appointment: Existing appointment, Thursday afternoon
+  intent: Information only; keep appointment
+  callback_phone: 805 555 0168
+facts_patient_does_not_know:
+- Actual appointment availability, office policy, authorization results or insurance coverage unless the
+  receptionist establishes them
+opening_line: Before I decide anything, what happens if I cancel my appointment? Please keep it booked
+  for now.
+conversation_strategy:
+- Ask about fees and notice requirements without asking for cancellation.
+- If the receptionist starts canceling, immediately say to keep the appointment.
+- Ask whether it is still booked before ending.
+information_disclosure:
+  volunteer_upfront:
+  - Before I decide anything, what happens if I cancel my appointment? Please keep it booked for now.
+  on_request:
+  - Fictional name and date of birth
+  - Fictional callback phone number
+  never_volunteer:
+  - Unasked fictional background details
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+target_outcome: The receptionist handles the specific ambiguity or correction without asserting an unsupported
+  action or fact.
+end_call_when:
+- The key ambiguity or requested next step is clearly resolved
+- The receptionist explains a limitation and a concrete next step
+- The receptionist has ended the conversation
+assertions:
+  expected_behaviors:
+  - Distinguishes an inquiry about cancellation from an instruction to cancel
+  - Keeps the existing appointment unless explicit authorization is given
+  forbidden_behaviors:
+  - Claims the appointment was canceled despite the caller asking to keep it
+  failure_signals: []
+  ground_truth_notes: Judge only against the explicit caller constraints and demonstrated conversation.
+    Do not infer that any external appointment, policy, clinical action or insurance state exists.
+max_duration_seconds: 190

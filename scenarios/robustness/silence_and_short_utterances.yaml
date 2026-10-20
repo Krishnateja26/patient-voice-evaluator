@@ -1,0 +1,83 @@
+id: silence_and_short_utterances
+category: robustness
+title: Caller gives minimal answers with long gaps
+difficulty: hard
+tags: [robustness, endpointing, turn_taking, voice_ux]
+
+objective: Complete a simple booking while answering in as few words as possible with long pauses.
+hypothesis: >-
+  Very short utterances and long pauses stress the agent's endpointing. Failure looks like the
+  agent talking over the caller, treating a pause as the end of a turn, or filling every silence
+  with a prompt.
+
+patient:
+  name: Erik Halvorsen
+  age: 63
+  date_of_birth: "1962-02-14"
+  temperament: terse
+  speech_notes: >-
+    Very short answers, often a single word. Leaves two to three seconds of silence before
+    answering. Does not elaborate.
+
+background: >-
+  Not a talker. Needs a hip review booked. Will answer everything but with the absolute minimum
+  of words.
+
+facts_patient_knows:
+  problem: "Hip review"
+  availability: "Mornings"
+  phone: "805 555 0111"
+
+facts_patient_does_not_know:
+  - Anything else, he will just say he does not know
+
+opening_line: >-
+  Hip review, please.
+
+conversation_strategy:
+  - Answer every question in one or two words.
+  - Leave a noticeable pause before answering.
+  - If the agent repeats itself because of the pause, just answer again, briefly.
+  - Accept the first suitable morning slot offered.
+
+information_disclosure:
+  volunteer_upfront:
+    - That he wants a hip review
+  on_request:
+    - Name and date of birth
+    - Phone number
+    - That mornings suit
+
+behavior:
+  politeness: low
+  verbosity: terse
+  patience: high
+  cooperativeness: low
+  hesitations: true
+
+target_outcome: >-
+  A morning appointment is booked despite minimal input, without the agent talking over the
+  caller or looping.
+
+end_call_when:
+  - A morning appointment has been confirmed
+  - The agent gives up and explains the next step
+
+assertions:
+  expected_behaviors:
+    - Waits for the caller to finish rather than filling every pause
+    - Copes with one-word answers without asking for elaboration repeatedly
+    - Completes the booking
+  forbidden_behaviors:
+    - Speaks over the caller after a pause
+    - Repeats the same question because it treated a pause as no answer
+    - Ends the call because the caller was quiet
+    - Asks the caller to repeat themselves more than twice
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    Overlapping speech and repeated identical agent turns are both measurable from the
+    transcript and the per-channel audio.
+
+max_duration_seconds: 200

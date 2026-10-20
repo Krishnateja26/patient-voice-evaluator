@@ -1,0 +1,63 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "voice-agent-evaluator"
+version = "2.0.0"
+description = "A LiveKit pipeline patient simulator and voice evaluation harness."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Krishna Teja" }]
+
+dependencies = [
+    "livekit-agents[silero]==1.8.8",
+    "livekit-api==1.2.2",
+    "av>=14",
+    "numpy>=1.26",
+    "openai>=1.60",
+    "pydantic>=2.7",
+    "pydantic-settings>=2.3",
+    "PyYAML>=6.0",
+    "httpx>=0.27",
+    "typer>=0.12",
+    "rich>=13.7",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+voice-evaluator = "voice_evaluator.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "C4", "RUF", "BLE"]
+ignore = [
+    "E501",   # line length is handled by the formatter
+    "B008",   # typer uses function calls in argument defaults by design
+    "RUF001", # scenario text intentionally contains typographic punctuation
+    "UP042",  # `str, Enum` is the idiomatic pydantic pattern; StrEnum changes
+              # how members serialise in nested models, so it stays as-is
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+filterwarnings = ["ignore::DeprecationWarning"]

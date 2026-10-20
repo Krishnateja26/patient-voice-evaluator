@@ -1,0 +1,20 @@
+{
+  "call_id": "call-020",
+  "scenario_id": "withdrawn_contact_change",
+  "evaluated_at": "2026-10-20T00:09:59.748776+00:00",
+  "judge_model": null,
+  "transcript_sha256": "719658fb1cb28469587c6e58b8dc27b98710c884d22fee4bdc248d51e89db42c",
+  "call_completed": false,
+  "duration_seconds": 98.394,
+  "turn_count": 12,
+  "deterministic_findings": [],
+  "assertion_findings": [],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 98.394
+  }
+}

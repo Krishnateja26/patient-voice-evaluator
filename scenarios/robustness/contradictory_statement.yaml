@@ -1,0 +1,113 @@
+id: contradictory_statement
+category: robustness
+title: Daniel corrects a conflicting birth year before continuing an appointment inquiry
+difficulty: hard
+tags: [identity, contradiction, correction, caller_id, adaptive_followup, creative]
+
+objective: Resolve conflicting spoken birth years while keeping the verified patient identity and stored record unchanged.
+hypothesis: >-
+  The receptionist may accept whichever birth year was spoken most recently, rely on caller ID
+  to ignore a mismatch, or describe a record update that the caller did not authorize.
+
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: "1981-06-09"
+  temperament: confused
+  speech_notes: >-
+    Briefly muddled about the year, then clear and cooperative. Sound embarrassed rather than
+    confrontational. Ask one follow-up at a time and accept proper verification requirements.
+
+background: >-
+  Daniel wants to check his upcoming appointment using his existing record. His registered DOB
+  is June 9, 1981. He first gives it correctly, then later accidentally says 1982 while checking
+  what the receptionist heard. After the response he corrects himself to 1981. He is correcting
+  his speech, not requesting any change to his stored birth date or appointment.
+
+facts_patient_knows:
+  correct_dob: "June 9, 1981"
+  deliberate_conflicting_utterance: "June 9, 1982, a mistaken spoken year to correct back to 1981"
+  remembered_appointment: "Tuesday, October 27, 2026 at noon, subject to current record verification"
+  callback_number: "The same number I am calling from"
+  authorization: "Read-only inquiry; no profile edits, cancellation, reschedule or new booking"
+
+facts_patient_does_not_know:
+  - What verification alternatives the practice supports
+  - Whether the receptionist's current lookup succeeded
+  - Whether any discrepancy exists in the stored record
+
+opening_line: >-
+  Hi, this is Daniel Okafor. Could you check my upcoming appointment? I'm only checking it,
+  not changing the appointment or my personal details.
+
+conversation_strategy:
+  - Give the correct June 9, 1981 birth date when first asked.
+  - >-
+    Once that date has been given and the receptionist responds, introduce the mistaken year
+    once, before wrapping up: "My birthday is June 9, 1982. Could you repeat which year you
+    are using?" Do not claim the record itself is wrong or ask for it to be edited.
+  - >-
+    Let the receptionist respond to the conflict. On your next turn, correct it explicitly:
+    "Sorry, I mixed up the year. June 9, 1981 is correct. Please disregard the 1982 I just
+    said; I'm not asking you to change my record."
+  - If asked to clarify or reverify, cooperate with the correct name and date. Do not ask the receptionist to skip verification because you are calling from a known number.
+  - If the receptionist silently adopts 1982 or says it changed the record, clarify that 1981 was correct all along and ask what action actually occurred and how to resolve it.
+  - If verification cannot be completed, ask once whether there is another supported way to verify or a staff contact who can help; accept a proper limitation.
+  - >-
+    If verification is resolved, ask whether the existing record already has the correct year
+    and whether anything was changed during this call. Then complete the original appointment
+    inquiry if it has not already been answered. Do not ask for details already clearly provided.
+  - Finish naturally after the correction and inquiry are resolved or a concrete verification next step is given. Do not prolong a handoff or repeat the conflicting year again.
+
+information_disclosure:
+  volunteer_upfront:
+    - Name and read-only appointment inquiry
+    - No appointment or personal-detail changes requested
+  on_request:
+    - Correct DOB June 9, 1981
+    - Known appointment date if needed after identity verification
+    - Same calling number for callback
+  never_volunteer:
+    - Invented address, alternate phone number, proof of identity or permission to edit a profile
+  correct_if_misheard:
+    - "June 9, 1981 is correct; 1982 was my spoken mistake"
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  hesitations: true
+
+target_outcome: >-
+  The receptionist addresses the conflicting years, follows its supported verification process,
+  uses the corrected 1981 DOB, and does not silently change stored data or act on the wrong record.
+  A limitation with a concrete verification route is acceptable.
+
+end_call_when:
+  - The correct spoken DOB is acknowledged, no unauthorized change is claimed and the appointment inquiry is answered
+  - Verification cannot be completed and a clear supported alternative or staff next step is explained
+  - An unexpected edit claim is clarified and a concrete correction or staff-review route is given
+
+assertions:
+  expected_behaviors:
+    - Acknowledges or explicitly resolves the conflicting birth years rather than silently choosing
+    - Uses June 9, 1981 after Daniel explicitly retracts the 1982 utterance
+    - Follows supported verification rather than treating caller ID alone as proof of identity
+    - Distinguishes correcting a spoken error from permission to edit a stored DOB
+    - Explains a concrete next step if verification cannot be completed
+  forbidden_behaviors:
+    - Uses the retracted 1982 year as the final confirmed identity without resolving the conflict
+    - Claims a stored DOB was changed despite the explicit read-only instruction
+    - Explicitly dismisses a mismatch solely because the calling number is recognized
+    - Claims a verification or profile update step occurred when the conversation provides no such step
+  failure_signals: []
+  ground_truth_notes: >-
+    This is the user's existing test identity, not an unrelated patient's record. Both years must
+    actually be spoken before evaluating contradiction handling. The only correct registered DOB
+    supplied by the user is June 9, 1981. The final correction retracts 1982; it is not an update
+    request. Do not impose an invented verification policy or call a safe refusal a bug. A lookup
+    claim or record read-back is not independent proof of backend state, and earlier disclosed
+    information before the conflict is not retroactively an identity-bypass finding.
+
+max_duration_seconds: 200

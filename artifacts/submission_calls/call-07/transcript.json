@@ -1,0 +1,159 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 14,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 15.5,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "patient",
+      "start": 15.5,
+      "end": 17.906,
+      "timestamp": "00:15.500",
+      "text": "Hello, this is",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 17.906,
+      "end": 22.39,
+      "timestamp": "00:17.906",
+      "text": "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 22.39,
+      "end": 29.422,
+      "timestamp": "00:22.390",
+      "text": "Hi, this is Daniel Okafor. I need some help with a refill, but I don't have the bottle and can't remember the full medicine name.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 29.422,
+      "end": 35.625,
+      "timestamp": "00:29.422",
+      "text": "Please provide your date of birth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "patient",
+      "start": 35.625,
+      "end": 38.14,
+      "timestamp": "00:35.625",
+      "text": "It's June 9th, 1981.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start": 38.14,
+      "end": 52.937,
+      "timestamp": "00:38.140",
+      "text": "I don't see any medications on your chart that can be refilled right now. If you think there's a mistake or need more help, I can connect you to our patient support team. Would you like to speak with someone?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "patient",
+      "start": 52.937,
+      "end": 65.172,
+      "timestamp": "00:52.937",
+      "text": "I think the name of the medicine might start with gab or gaba, and it was a capsule taken at night. Could you check if anything like that appears in my record?\nCan you tell me if you found that in the records or is that just a guess?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 65.172,
+      "end": 79.969,
+      "timestamp": "01:05.172",
+      "text": "But there are no medications listed that can be refilled, including anything starting with GABA. If you need more help, I can connect you to our patient support team. Would you like to speak with someone?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 79.969,
+      "end": 87.219,
+      "timestamp": "01:19.969",
+      "text": "I'd like to know if the clinic can check the current medication list for anything like that before I get the bottle label. Is that possible?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 87.219,
+      "end": 103.125,
+      "timestamp": "01:27.219",
+      "text": "I've documented your request for the clinic to review your medication list for anything like DABA, The support team will get back to you as soon as they can. There anything else I can help you with today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "patient",
+      "start": 103.125,
+      "end": 110.203,
+      "timestamp": "01:43.125",
+      "text": "Thanks. Can you confirm that the review won't send a refill or change the medication record until the drug is fully confirmed with me?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 110.203,
+      "end": 120.234,
+      "timestamp": "01:50.203",
+      "text": "The clinic team will review your medication list, but will not send a refill or make changes until they confirm everything with you directly.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 120.234,
+      "end": 124.515,
+      "timestamp": "02:00.234",
+      "text": "If you have any concerns, you can discuss them with the team when they follow-up.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "1781186390e57300629b34c5702b1413e48a47f88aa693bbf65b3bd062add9e0",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

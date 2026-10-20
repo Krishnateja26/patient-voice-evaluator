@@ -1,0 +1,441 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 12.360000000000582,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452765.2895343,
+      "stopped_speaking_at": 1792452768.6073437,
+      "transcription_delay": 0.10891389846801758,
+      "end_of_turn_delay": 0.3318142890930176,
+      "on_user_turn_completed_delay": 0.00010549999569775537
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling Pivot Point Orthopaedics.",
+    "interrupted": false,
+    "elapsed_seconds": 17.67199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452769.092376,
+      "stopped_speaking_at": 1792452773.7537084,
+      "transcription_delay": 0.47153186798095703,
+      "end_of_turn_delay": 0.4735400676727295,
+      "on_user_turn_completed_delay": 0.00012879999849246815
+    }
+  },
+  {
+    "role": "user",
+    "text": "Part of Pretty Good AI.",
+    "interrupted": false,
+    "elapsed_seconds": 19.312999999994645,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452774.2418525,
+      "stopped_speaking_at": 1792452775.5002022,
+      "transcription_delay": 0.1718461513519287,
+      "end_of_turn_delay": 0.37458062171936035,
+      "on_user_turn_completed_delay": 0.00015300000086426735
+    }
+  },
+  {
+    "role": "user",
+    "text": "How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 20.656999999999243,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452775.8424659,
+      "stopped_speaking_at": 1792452776.85691,
+      "transcription_delay": 0.20197391510009766,
+      "end_of_turn_delay": 0.3762366771697998,
+      "on_user_turn_completed_delay": 0.00011369999992894009
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. I'd like to move my existing appointment, but please keep it until we've agreed on a replacement.",
+    "interrupted": false,
+    "elapsed_seconds": 27.437999999994645,
+    "metrics": {
+      "started_speaking_at": 1792452778.1773224,
+      "stopped_speaking_at": 1792452784.0139859,
+      "llm_node_ttft": 0.4233072999995784,
+      "llm_node_tps": 217.36555940897426,
+      "llm_node_ttfs": 0.5323454000026686,
+      "tts_node_ttfb": 0.40769749999890337,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.3204123973846436,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Please provide your date of birth.",
+    "interrupted": false,
+    "elapsed_seconds": 32.640999999995984,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452787.48927,
+      "stopped_speaking_at": 1792452788.853053,
+      "transcription_delay": 0.20336246490478516,
+      "end_of_turn_delay": 0.36852502822875977,
+      "on_user_turn_completed_delay": 0.00010509999992791563
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "It's June ninth, nineteen eighty-one.",
+    "interrupted": false,
+    "elapsed_seconds": 35.0,
+    "metrics": {
+      "started_speaking_at": 1792452789.6403797,
+      "stopped_speaking_at": 1792452791.5838416,
+      "llm_node_ttft": 0.3384504999994533,
+      "llm_node_tps": 389.0949650107205,
+      "llm_node_ttfs": 0.4035153000004357,
+      "tts_node_ttfb": 0.1748860000006971,
+      "playback_latency": 0.0,
+      "e2e_latency": 0.7873265743255615,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "You have an appointment on Tuesday, October twenty seventh at noon with doctor Judy Hauser at Pivot Point Orthopedics.",
+    "interrupted": false,
+    "elapsed_seconds": 46.890999999995984,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452796.8908675,
+      "stopped_speaking_at": 1792452803.100129,
+      "transcription_delay": 0.3280344009399414,
+      "end_of_turn_delay": 0.36451292037963867,
+      "on_user_turn_completed_delay": 0.00015430000348715112
+    }
+  },
+  {
+    "role": "user",
+    "text": "Is this the appointment you wanna reschedule?",
+    "interrupted": false,
+    "elapsed_seconds": 49.578999999997905,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452803.6945596,
+      "stopped_speaking_at": 1792452805.7485511,
+      "transcription_delay": 0.26357102394104004,
+      "end_of_turn_delay": 0.39111781120300293,
+      "on_user_turn_completed_delay": 9.709999721962959e-05
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Yes, that's the one. I want to move it to Wednesday, October twenty eighth, if possible. After 3 PM would be ideal.",
+    "interrupted": false,
+    "elapsed_seconds": 57.203999999997905,
+    "metrics": {
+      "started_speaking_at": 1792452806.7437563,
+      "stopped_speaking_at": 1792452813.7816865,
+      "llm_node_ttft": 0.3851169000045047,
+      "llm_node_tps": 201.30121103313266,
+      "llm_node_ttfs": 0.40213370000128634,
+      "tts_node_ttfb": 0.19597529999737162,
+      "playback_latency": 0.0,
+      "e2e_latency": 0.9952051639556885,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "There are no openings after three PM on Wednesday. October twenty eighth or Thursday, October twenty ninth.",
+    "interrupted": false,
+    "elapsed_seconds": 66.79699999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452816.5907063,
+      "stopped_speaking_at": 1792452823.0007663,
+      "transcription_delay": 0.3471674919128418,
+      "end_of_turn_delay": 0.369370698928833,
+      "on_user_turn_completed_delay": 0.00011309999536024407
+    }
+  },
+  {
+    "role": "user",
+    "text": "Would you like to try a different day, or is there another time that can work for you?",
+    "interrupted": false,
+    "elapsed_seconds": 70.78199999999924,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452823.6902108,
+      "stopped_speaking_at": 1792452826.9464757,
+      "transcription_delay": 0.20924091339111328,
+      "end_of_turn_delay": 0.39343881607055664,
+      "on_user_turn_completed_delay": 0.00013640000543091446
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Actually, I need to correct that. I can't get there before 4:30 PM on Wednesday, October twenty eighth. Please don't book any earlier time; I need 4:30 or later that Wednesday. Is there any slot available with the same doctor at that time or later?",
+    "interrupted": false,
+    "elapsed_seconds": 84.61000000000058,
+    "metrics": {
+      "started_speaking_at": 1792452827.9600203,
+      "stopped_speaking_at": 1792452841.1889799,
+      "llm_node_ttft": 0.3940878000066732,
+      "llm_node_tps": 156.94578188234658,
+      "llm_node_ttfs": 0.4317618000059156,
+      "tts_node_ttfb": 0.18183529999805614,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.0135445594787598,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "There are no Wednesday afternoon openings with doctor Duji Hao between October twenty eighth and November twenty eighth.",
+    "interrupted": false,
+    "elapsed_seconds": 93.42199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452844.088996,
+      "stopped_speaking_at": 1792452849.598545,
+      "transcription_delay": 0.20305967330932617,
+      "end_of_turn_delay": 0.3994255065917969,
+      "on_user_turn_completed_delay": 0.00022259999968810007
+    }
+  },
+  {
+    "role": "user",
+    "text": "Would you like to try a different day, or should I transfer you to someone at the clinic for more help?",
+    "interrupted": false,
+    "elapsed_seconds": 98.42199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452850.2926774,
+      "stopped_speaking_at": 1792452854.5465393,
+      "transcription_delay": 0.19565224647521973,
+      "end_of_turn_delay": 0.4318699836730957,
+      "on_user_turn_completed_delay": 0.00010760000441223383
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Would there be another appropriate doctor at your practice with a Wednesday opening at 4:30 PM or later? I'd prefer to keep it on that day if possible.",
+    "interrupted": false,
+    "elapsed_seconds": 105.96899999999732,
+    "metrics": {
+      "started_speaking_at": 1792452855.7265258,
+      "stopped_speaking_at": 1792452862.5408416,
+      "llm_node_ttft": 0.3990992999970331,
+      "llm_node_tps": 143.27233162712164,
+      "llm_node_ttfs": 0.5411189000005834,
+      "tts_node_ttfb": 0.20229669999389444,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.1799864768981934,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "There are no Wednesday afternoon openings with any provider between twenty eight and November twenty eight.",
+    "interrupted": false,
+    "elapsed_seconds": 115.53199999999924,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452866.8368566,
+      "stopped_speaking_at": 1792452871.6636457,
+      "transcription_delay": 0.22629714012145996,
+      "end_of_turn_delay": 0.4384574890136719,
+      "on_user_turn_completed_delay": 0.00012689999857684597
+    }
+  },
+  {
+    "role": "user",
+    "text": "Would you like to try a different day or should I transfer you to someone at the clinic who can help further?",
+    "interrupted": false,
+    "elapsed_seconds": 120.34399999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452872.3389895,
+      "stopped_speaking_at": 1792452876.4468951,
+      "transcription_delay": 0.20845508575439453,
+      "end_of_turn_delay": 0.45328617095947266,
+      "on_user_turn_completed_delay": 0.00010279999696649611
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "No, thanks. Please leave the original Tuesday noon appointment as it is. Can you confirm that it is still booked?",
+    "interrupted": false,
+    "elapsed_seconds": 127.01599999999598,
+    "metrics": {
+      "started_speaking_at": 1792452877.6533961,
+      "stopped_speaking_at": 1792452883.587716,
+      "llm_node_ttft": 0.4271680999954697,
+      "llm_node_tps": 124.12824732108156,
+      "llm_node_ttfs": 0.564917499999865,
+      "tts_node_ttfb": 0.18273059999773977,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.2065010070800781,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Your appointment for Tuesday, October twenty seventh at noon with doctor Duttihauser is still booked and unchanged.",
+    "interrupted": false,
+    "elapsed_seconds": 136.31299999999464,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452886.4846306,
+      "stopped_speaking_at": 1792452892.4438238,
+      "transcription_delay": 0.07552576065063477,
+      "end_of_turn_delay": 0.4435300827026367,
+      "on_user_turn_completed_delay": 0.00024729999859118834
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Great, thanks. One more thing, can you send a text confirmation of that original appointment to this number?",
+    "interrupted": false,
+    "elapsed_seconds": 141.375,
+    "metrics": {
+      "started_speaking_at": 1792452893.4032989,
+      "stopped_speaking_at": 1792452897.9524672,
+      "llm_node_ttft": 0.4902197999981581,
+      "llm_node_tps": 164.83059714897175,
+      "llm_node_ttfs": 0.6956826000023284,
+      "tts_node_ttfb": 0.18486029999621678,
+      "playback_latency": 0.0,
+      "e2e_latency": 0.959475040435791,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "You should get a text confirmation of your upcoming appointment soon at this number.",
+    "interrupted": false,
+    "elapsed_seconds": 150.46899999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452903.0347145,
+      "stopped_speaking_at": 1792452906.5941818,
+      "transcription_delay": 0.17552685737609863,
+      "end_of_turn_delay": 0.4522514343261719,
+      "on_user_turn_completed_delay": 0.00011020000238204375
+    }
+  },
+  {
+    "role": "user",
+    "text": "Let me know if you need anything else.",
+    "interrupted": false,
+    "elapsed_seconds": 152.2039999999979,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792452907.1833072,
+      "stopped_speaking_at": 1792452908.444062,
+      "transcription_delay": 0.3263113498687744,
+      "end_of_turn_delay": 0.3387880325317383
+    }
+  }
+]

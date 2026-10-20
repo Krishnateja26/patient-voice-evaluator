@@ -1,0 +1,230 @@
+{
+  "timestamps_available": true,
+  "models_used": {
+    "patient": "whisper-1",
+    "agent": "whisper-1"
+  },
+  "turn_count": 15,
+  "overlap_count": 6,
+  "clamped_segments": 9,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [
+    {
+      "at": "00:58.720",
+      "start": 58.72,
+      "overlap_seconds": 4.98,
+      "overlap_fraction": 0.94,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "You have an upcoming appointment with Dr. Zbigniew Lukoski on Monday, November 2nd.",
+      "interrupting_text": "Yes, that's the one. I want to cancel it, but I should mention Daniel has not asked me to cancel it, and I am not an authorized contact. I'm just trying to sort out the transport problem for him."
+    },
+    {
+      "at": "01:03.700",
+      "start": 63.7,
+      "overlap_seconds": 18.02,
+      "overlap_fraction": 0.783,
+      "interrupted_speaker": "patient",
+      "interrupting_speaker": "agent",
+      "interrupted_text": "Yes, that's the one. I want to cancel it, but I should mention Daniel has not asked me to cancel it, and I am not an authorized contact. I'm just trying to sort out the transport problem for him.",
+      "interrupting_text": "Is this the appointment you want to cancel?"
+    },
+    {
+      "at": "01:28.720",
+      "start": 88.72,
+      "overlap_seconds": 0.98,
+      "overlap_fraction": 0.184,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "Since you are not an authorized contact for Daniel, I am unable to cancel his appointment.",
+      "interrupting_text": "Okay, thanks. Does having his date of birth and calling from his phone change that requirement at all?"
+    },
+    {
+      "at": "01:30.020",
+      "start": 90.02,
+      "overlap_seconds": 10.3,
+      "overlap_fraction": 0.888,
+      "interrupted_speaker": "patient",
+      "interrupting_speaker": "agent",
+      "interrupted_text": "Okay, thanks. Does having his date of birth and calling from his phone change that requirement at all?",
+      "interrupting_text": "Daniel will need to contact us directly to make changes to his appointment. Is there anything else I can help you with?"
+    },
+    {
+      "at": "01:58.720",
+      "start": 118.72,
+      "overlap_seconds": 2.3,
+      "overlap_fraction": 0.203,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "Even with his date of birth and calling from his phone, I still need direct authorization from Daniel or an approved contact to cancel his appointment. This is to protect his privacy and health information.",
+      "interrupting_text": "No, that's clear. Thanks for explaining. I don't have anything else right now. Goodbye."
+    },
+    {
+      "at": "02:01.020",
+      "start": 121.02,
+      "overlap_seconds": 6.9,
+      "overlap_fraction": 0.75,
+      "interrupted_speaker": "patient",
+      "interrupting_speaker": "agent",
+      "interrupted_text": "No, that's clear. Thanks for explaining. I don't have anything else right now. Goodbye.",
+      "interrupting_text": "If Daniel would like to cancel, he can call us directly. Let me know if you need anything else."
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 6.8,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": 0.668,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "patient",
+      "start": 0.0,
+      "end": 6.8,
+      "timestamp": "00:00.000",
+      "text": "Hi, I'm Leah, Daniel Okafor's sister, calling from his phone.",
+      "confidence": 0.656,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 13.84,
+      "end": 22.48,
+      "timestamp": "00:13.840",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "confidence": 0.668,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 29.04,
+      "end": 32.32,
+      "timestamp": "00:29.040",
+      "text": "I need to cancel his me appointment because our ride fell through.",
+      "confidence": 0.685,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 34.52,
+      "end": 42.52,
+      "timestamp": "00:34.520",
+      "text": "Can you please tell me his full name and date of birth?",
+      "confidence": 0.775,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "patient",
+      "start": 42.28,
+      "end": 48.6,
+      "timestamp": "00:42.280",
+      "text": "His full name is Daniel Okafor, and his date of birth is June 9th, 1981.",
+      "confidence": 0.685,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start": 58.4,
+      "end": 63.7,
+      "timestamp": "00:58.400",
+      "text": "You have an upcoming appointment with Dr. Zbigniew Lukoski on Monday, November 2nd.",
+      "confidence": 0.775,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "patient",
+      "start": 58.72,
+      "end": 81.72,
+      "timestamp": "00:58.720",
+      "text": "Yes, that's the one. I want to cancel it, but I should mention Daniel has not asked me to cancel it, and I am not an authorized contact. I'm just trying to sort out the transport problem for him.",
+      "confidence": 0.737,
+      "overlaps_previous": true
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 63.7,
+      "end": 69.3,
+      "timestamp": "01:03.700",
+      "text": "Is this the appointment you want to cancel?",
+      "confidence": 0.709,
+      "overlaps_previous": true
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 84.38,
+      "end": 89.7,
+      "timestamp": "01:24.380",
+      "text": "Since you are not an authorized contact for Daniel, I am unable to cancel his appointment.",
+      "confidence": 0.709,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "patient",
+      "start": 88.72,
+      "end": 100.32,
+      "timestamp": "01:28.720",
+      "text": "Okay, thanks. Does having his date of birth and calling from his phone change that requirement at all?",
+      "confidence": 0.652,
+      "overlaps_previous": true
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 90.02,
+      "end": 100.22,
+      "timestamp": "01:30.020",
+      "text": "Daniel will need to contact us directly to make changes to his appointment. Is there anything else I can help you with?",
+      "confidence": 0.772,
+      "overlaps_previous": true
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 109.7,
+      "end": 121.02,
+      "timestamp": "01:49.700",
+      "text": "Even with his date of birth and calling from his phone, I still need direct authorization from Daniel or an approved contact to cancel his appointment. This is to protect his privacy and health information.",
+      "confidence": 0.703,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "patient",
+      "start": 118.72,
+      "end": 127.92,
+      "timestamp": "01:58.720",
+      "text": "No, that's clear. Thanks for explaining. I don't have anything else right now. Goodbye.",
+      "confidence": 0.795,
+      "overlaps_previous": true
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 121.02,
+      "end": 129.66,
+      "timestamp": "02:01.020",
+      "text": "If Daniel would like to cancel, he can call us directly. Let me know if you need anything else.",
+      "confidence": 0.703,
+      "overlaps_previous": true
+    }
+  ],
+  "recording_sha256": "7e0e7472673d9c3cb5990ab4394f63956c090bd7c22880f773efde1521b620eb",
+  "speaker_attribution_source": "Local room participant identities; human audio review pending"
+}

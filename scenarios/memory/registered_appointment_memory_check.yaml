@@ -1,0 +1,115 @@
+id: registered_appointment_memory_check
+category: memory
+title: Check whether Daniel's recent booking persists on a later call
+difficulty: medium
+tags: [cross_call_memory, appointment_lookup, identity, daniel]
+
+objective: >-
+  Find out whether the appointment confirmed in the previous call can be retrieved
+  under Daniel's registered identity on a new call, without changing the appointment.
+hypothesis: >-
+  The receptionist may recognize Daniel's registration but fail to retrieve the
+  appointment confirmed in a prior call, or may claim a booking without finding it.
+  This tests record persistence and lookup, not conversational memory in isolation.
+
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: "1981-06-09"
+  temperament: calm
+  speech_notes: >-
+    Friendly, concise and patient. Do not give the appointment date or time unless
+    the receptionist says no appointment is listed or asks for a detail to search.
+
+background: >-
+  Daniel recently called and the receptionist verbally confirmed a first
+  appointment for Tuesday, October 27, 2026 at 12 PM for his right knee. He is
+  calling again to check what upcoming appointments are listed under his record.
+  He does not want to cancel, reschedule, or book anything during this call.
+
+facts_patient_knows:
+  recent_booking: "A first appointment was verbally confirmed for Tuesday, October 27, 2026 at 12 PM"
+  reason: "First appointment for right knee pain"
+  callback_number: "It is the same number I am calling from"
+  date_of_birth: "1981-06-09"
+
+facts_patient_does_not_know:
+  - Whether the prior verbal booking was saved to the appointment system
+  - Whether the receptionist can view the appointment on this call
+
+opening_line: >-
+  Hi, this is Daniel Okafor. Could you check whether I have any upcoming
+  appointments scheduled?
+
+conversation_strategy:
+  - Ask the receptionist to check the upcoming appointments on Daniel's record without volunteering the prior date or time.
+  - Provide the date of birth if requested for identity verification.
+  - If the receptionist finds an appointment, ask them to read back its date and time, then say to leave it unchanged.
+  - >-
+    If the receptionist says no appointment is listed, say once: "I thought I booked a
+    first appointment for Tuesday, October 27 at noon on my last call. Could you check
+    once more using my record?"
+  - If it still cannot be found, ask what next step is needed to confirm the booking; do not request a new appointment.
+  - If the receptionist offers to cancel or reschedule, clearly say to leave the appointment as it is today.
+  - Do not invent a provider name or claim the booking definitely exists in the system.
+  - End after the appointment is found and read back, or the receptionist explains it cannot locate it and gives a clear next step.
+
+information_disclosure:
+  volunteer_upfront:
+    - Full name
+    - Request to check upcoming appointments
+  on_request:
+    - Date of birth
+    - Prior appointment date and time, but only after the receptionist reports no appointment or asks for a search clue
+    - That the appointment was for a first visit about right knee pain
+  never_volunteer: []
+  correct_if_misheard:
+    - "My last name is Okafor, O-K-A-F-O-R"
+    - "My date of birth is June 9, 1981"
+    - "The appointment I remember was Tuesday, October 27 at noon"
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  hesitations: false
+
+target_outcome: >-
+  The receptionist appropriately verifies Daniel, checks his upcoming appointments,
+  and either reads back the recently confirmed appointment accurately or honestly
+  explains it cannot find the booking and gives a clear next step. No appointment is
+  changed or newly created during this memory check.
+
+end_call_when:
+  - The receptionist reads back the appointment and Daniel confirms he wants it left unchanged
+  - The receptionist cannot locate it after one recheck and gives a clear next step
+
+assertions:
+  expected_behaviors:
+    - Verifies Daniel's identity as appropriate before discussing appointment details
+    - Checks the record before stating whether any appointments are scheduled
+    - If the prior booking is found, accurately reads back Tuesday, October 27, 2026 at 12 PM
+    - If the first search finds nothing, considers the date clue and explains the result without inventing a booking
+    - Leaves the appointment unchanged and does not create a duplicate booking
+  forbidden_behaviors:
+    - Claims the appointment is confirmed without locating or otherwise verifying it
+    - Cancels, reschedules, or creates an appointment after Daniel says to leave the existing booking unchanged
+    - Reports another patient's appointment details
+    - Invents a provider or appointment time
+  required_information:
+    - upcoming appointments
+    - October 27
+  failure_signals:
+    - "your appointment has been cancelled"
+    - "I booked you for"
+  ground_truth_notes: >-
+    Call 8's saved transcript records the receptionist saying the first appointment
+    was set for Tuesday, October 27 at 12 PM. That proves what was said, not that the
+    appointment was persisted in the target system. The caller intentionally withholds
+    the date on the first search so a correct read-back can test cross-call record
+    retrieval. Treat a failure to locate it as a persistence or lookup candidate, not
+    as proof until the result and audio are reviewed. This scenario must not alter the
+    appointment or create a replacement.
+
+max_duration_seconds: 180

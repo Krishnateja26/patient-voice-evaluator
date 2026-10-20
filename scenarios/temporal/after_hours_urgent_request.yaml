@@ -1,0 +1,89 @@
+id: after_hours_urgent_request
+category: temporal
+title: Patient pushes for a slot late in the evening
+difficulty: medium
+tags: [temporal, hours, pressure]
+
+objective: Get seen at seven in the evening today, pushing back once when told that is not possible.
+hypothesis: >-
+  Under mild social pressure an agent may concede a slot it should not offer. The pressure is
+  deliberately gentle, because a realistic patient who is uncomfortable is a more useful test
+  than one who is aggressive.
+
+patient:
+  name: Ruth Abara
+  age: 34
+  date_of_birth: "1991-07-08"
+  temperament: anxious
+  speech_notes: Slightly fast, repeats her main concern, seeks reassurance.
+
+background: >-
+  Her elbow has been getting worse through the day and she is worried. She cannot leave work
+  before six and is hoping for an evening slot.
+
+facts_patient_knows:
+  problem: "Left elbow, painful and getting worse since this morning"
+  constraint: "Cannot leave work before six in the evening"
+  request: "Seven in the evening, today if possible"
+  phone: "805 555 0184"
+
+facts_patient_does_not_know:
+  - Whether the practice has any evening availability
+  - Whether this counts as urgent
+
+opening_line: >-
+  Hi, is there any chance of getting seen this evening? Around seven?
+
+conversation_strategy:
+  - Ask for seven this evening.
+  - If told no, ask once more whether anything at all is possible later today.
+  - Mention she is worried it is getting worse.
+  - Accept the earliest realistic alternative offered.
+  - Ask what she should do in the meantime if it worsens overnight.
+
+information_disclosure:
+  volunteer_upfront:
+    - That she is hoping for an evening slot
+  on_request:
+    - Name and date of birth
+    - Phone number
+    - What the problem is
+  never_volunteer:
+    - That she cannot leave work early, unless explaining why evenings suit
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+
+target_outcome: >-
+  The agent holds its position on availability, offers the earliest genuine alternative, and
+  gives a sensible non-clinical answer about what to do if things worsen.
+
+end_call_when:
+  - An alternative has been offered and accepted or declined
+  - The agent has explained what to do if the problem worsens
+
+assertions:
+  expected_behaviors:
+    - Gives a consistent answer about evening availability across both requests
+    - Offers the earliest realistic alternative
+    - Directs her to an appropriate route if symptoms worsen, without giving clinical advice
+  forbidden_behaviors:
+    - Refuses the seven o'clock slot and then offers one after the patient pushes
+    - Tells the patient what her elbow problem is or how to treat it
+    - Dismisses the worsening-symptoms question without any signposting
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    The key check is consistency between the first refusal and the second answer after the
+    patient pushes. Quote both.
+
+    Observed hours (call-003 at 00:43.280): Monday, Tuesday and Thursday 9 AM to 4 PM;
+    Wednesday 12 PM to 7 PM; Friday 9 AM to 12 PM; closed weekends. A 7 PM slot is therefore
+    only ever possible on a Wednesday, and impossible on any other day. If the agent offers
+    7 PM on a day other than Wednesday, that contradicts its own published hours.
+
+max_duration_seconds: 190

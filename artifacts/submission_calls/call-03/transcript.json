@@ -1,0 +1,269 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 25,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 10.375,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 10.375,
+      "end": 15.688,
+      "timestamp": "00:10.375",
+      "text": "For calling Pivot Point Orthopedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 15.688,
+      "end": 18.063,
+      "timestamp": "00:15.688",
+      "text": "Part of Pretty Good",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "agent",
+      "start": 18.063,
+      "end": 19.454,
+      "timestamp": "00:18.063",
+      "text": "AI. May I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "patient",
+      "start": 19.454,
+      "end": 31.407,
+      "timestamp": "00:19.454",
+      "text": "Hi, I'm a new patient and I need to start a patient record in your system. Could you add me as a new patient and tell me what information you need? I also want to arrange a first appointment for my right knee.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 31.407,
+      "end": 39.907,
+      "timestamp": "00:31.407",
+      "text": "If you're calling from a number we have on file, am I speaking with Krishna Tejaradi?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 39.907,
+      "end": 48.157,
+      "timestamp": "00:39.907",
+      "text": "No, I'm not Krishna Tejaradi. I haven't been seen at this practice before. I want to start a new patient record for myself. Can you do that?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 48.157,
+      "end": 52.25,
+      "timestamp": "00:48.157",
+      "text": "I can help get you started",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 52.25,
+      "end": 54.61,
+      "timestamp": "00:52.250",
+      "text": "Please tell me your full name and date of birth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 54.61,
+      "end": 61.0,
+      "timestamp": "00:54.610",
+      "text": "My name is Daniel Okafor. My date of birth is June ninth, nineteen eighty-one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 61.0,
+      "end": 72.172,
+      "timestamp": "01:01.000",
+      "text": "Just to confirm, I have your name as Daniel Okafor and your date of birth as June ninth nineteen eighty one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 72.172,
+      "end": 73.469,
+      "timestamp": "01:12.172",
+      "text": "Is that correct?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 73.469,
+      "end": 76.297,
+      "timestamp": "01:13.469",
+      "text": "If so, please spell your first and last name for me.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "patient",
+      "start": 76.297,
+      "end": 85.75,
+      "timestamp": "01:16.297",
+      "text": "Yes, that's correct. My first name is Daniel, D-A-N-I-E-L. Last name is Okafor, O-K-A-F-O-R.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 85.75,
+      "end": 103.188,
+      "timestamp": "01:25.750",
+      "text": "Would you like to use a phone number to look up your record? If so, please tell me the number you want to use. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "patient",
+      "start": 103.188,
+      "end": 113.829,
+      "timestamp": "01:43.188",
+      "text": "I don't have an existing record, so there's nothing to look up. I'm asking you to add me as a new patient in your system. Can you do that now, or should I speak with someone who can?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 113.829,
+      "end": 128.469,
+      "timestamp": "01:53.829",
+      "text": "I have your phone number as four one zero nine six three three zero one five and your date of birth as June ninth nineteen eighty one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "start": 128.469,
+      "end": 129.563,
+      "timestamp": "02:08.469",
+      "text": "Is that correct?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "patient",
+      "start": 129.563,
+      "end": 142.969,
+      "timestamp": "02:09.563",
+      "text": "No, that's not right. My phone number is 805 555 0147. I told you I need to start a new patient record, so I don't have anything on file with you yet.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "agent",
+      "start": 142.969,
+      "end": 149.329,
+      "timestamp": "02:22.969",
+      "text": "I can't create a new patient record myself.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "start": 149.329,
+      "end": 153.094,
+      "timestamp": "02:29.329",
+      "text": "But I'll connect you to our patient support team so they can help you get started.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 21,
+      "speaker": "agent",
+      "start": 153.094,
+      "end": 154.797,
+      "timestamp": "02:33.094",
+      "text": "Please stay on the line.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "start": 154.797,
+      "end": 156.079,
+      "timestamp": "02:34.797",
+      "text": "Transferring you now.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 23,
+      "speaker": "agent",
+      "start": 156.079,
+      "end": 157.188,
+      "timestamp": "02:36.079",
+      "text": "Thank you.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "start": 157.188,
+      "end": 161.313,
+      "timestamp": "02:37.188",
+      "text": "Hello. You've reached the Pretty Good AI test line.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "bf8ebec4118b49c13bb61b3bba8570f5496aacffc37b7bbbf8abc9ecb902b006",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

@@ -1,0 +1,82 @@
+id: off_topic_then_back
+category: robustness
+title: Caller detours to an unrelated question and then returns to the booking
+difficulty: medium
+tags: [robustness, context_switch, memory]
+
+objective: Start a booking, break off to ask about parking and records, then resume the booking.
+hypothesis: >-
+  A mid-task detour tests whether the agent keeps the original task on the stack. A weak agent
+  either abandons the booking or restarts it from the beginning after the digression.
+
+patient:
+  name: Fiona Achebe
+  age: 37
+  date_of_birth: "1988-11-04"
+  temperament: chatty
+  speech_notes: Friendly, goes off on tangents, then catches herself and returns.
+
+background: >-
+  Booking a knee review, but she has two other things on her mind: where to park, and how to
+  get a copy of a previous scan report.
+
+facts_patient_knows:
+  problem: "Knee review"
+  availability: "Thursday or Friday, any time"
+  side_questions: "Parking, and how to get a copy of an MRI report from last year"
+  phone: "805 555 0199"
+
+facts_patient_does_not_know:
+  - Whether records requests go through the practice or the imaging centre
+
+opening_line: >-
+  Hi, I'd like to book a knee review, please. Thursday or Friday if you have anything.
+
+conversation_strategy:
+  - Start the booking and give availability.
+  - Partway through, break off and ask about parking at the practice.
+  - Then ask how to get a copy of last year's MRI report.
+  - Then say "anyway, sorry, back to the appointment" and resume.
+  - Confirm the final appointment details before ending.
+
+information_disclosure:
+  volunteer_upfront:
+    - That she wants a knee review Thursday or Friday
+  on_request:
+    - Name and date of birth
+    - Phone number
+  never_volunteer:
+    - The MRI question until midway through
+
+behavior:
+  politeness: high
+  verbosity: talkative
+  patience: normal
+  cooperativeness: normal
+
+target_outcome: >-
+  Both side questions are answered or deferred, and the booking is completed without being
+  restarted from scratch.
+
+end_call_when:
+  - The appointment is confirmed and both side questions have been addressed
+  - The agent explains it cannot help with the records request and says who can
+
+assertions:
+  expected_behaviors:
+    - Answers or defers the parking question
+    - Answers or defers the records question
+    - Returns to the booking without asking the caller to start again
+    - Confirms the appointment details at the end
+  forbidden_behaviors:
+    - Loses the booking context after the digression
+    - Asks the caller to repeat information already given before the digression
+    - Refuses to engage with the side questions at all
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    Information given before the digression is in the transcript. Any request to repeat it after
+    the digression is a context loss.
+
+max_duration_seconds: 210

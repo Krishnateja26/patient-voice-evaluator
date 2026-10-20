@@ -1,0 +1,20 @@
+{
+  "call_id": "call-022",
+  "scenario_id": "cancellation_persistence_check",
+  "evaluated_at": "2026-10-20T00:15:48.339387+00:00",
+  "judge_model": null,
+  "transcript_sha256": "b9de3293bff5f41ebb3c032fa9dcf9a296064a9b0e34001f319f077f1fd89cf0",
+  "call_completed": false,
+  "duration_seconds": 79.806,
+  "turn_count": 14,
+  "deterministic_findings": [],
+  "assertion_findings": [],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 79.806
+  }
+}

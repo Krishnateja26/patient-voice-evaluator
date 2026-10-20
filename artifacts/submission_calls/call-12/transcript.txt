@@ -1,0 +1,39 @@
+Call 19 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:12.359]
+Thanks for calling Pivot Point Orthopedics.
+
+[AGENT 00:17.562]
+Part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:20.937]
+Hi, this is Daniel Okafor. Can you explain how I would change my callback number? Please don't update anything while I ask.
+My date of birth is June ninth, nineteen eighty-one. And I'm calling from the same number. What is the process you have for changing the callback number?
+
+[AGENT 00:36.187]
+To update your callback number, I'll first need to confirm your identity. Once verified, I can assist with updating your contact details. May I have your full name including your last name to continue?
+
+[PATIENT 00:50.328]
+My full name is Daniel Okafor.
+
+[AGENT 00:53.578]
+Once your identity is confirmed, I can update your callback number on file The process is simple. After verification, I'll ask for your new number and update it in your record.
+
+[AGENT 01:07.453]
+Would you like to continue with this update now?
+
+[PATIENT 01:09.969]
+Actually, leave everything as it is. Keep the same number I am calling from. I am not requesting any contact change.
+Can you confirm if anything was changed or was it only discussed?
+
+[AGENT 01:21.625]
+Nothing has been changed.
+
+[AGENT 01:28.094]
+We only discussed the process, and your contact information remains the same. Let me know if you need help with anything else.
+
+[PATIENT 01:33.500]
+Thanks, that's all for now. Goodbye.

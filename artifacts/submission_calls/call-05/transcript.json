@@ -1,0 +1,209 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 19,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 11.344,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 11.344,
+      "end": 16.844,
+      "timestamp": "00:11.344",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 16.844,
+      "end": 20.11,
+      "timestamp": "00:16.844",
+      "text": "Part of Pretty Good AI. How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 20.11,
+      "end": 31.61,
+      "timestamp": "00:20.110",
+      "text": "Hi, this is Daniel Okafor. Could you tell me what appointment I currently have, and whether there might be a Thursday or Friday afternoon option? I'm only checking for now, so please don't change anything.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 31.61,
+      "end": 36.25,
+      "timestamp": "00:31.610",
+      "text": "Can you please provide your date of birth?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 36.25,
+      "end": 38.5,
+      "timestamp": "00:36.250",
+      "text": "I needed to look up your information.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 38.5,
+      "end": 42.094,
+      "timestamp": "00:38.500",
+      "text": "Sure, my date of birth is June 9, 1981.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 42.094,
+      "end": 59.188,
+      "timestamp": "00:42.094",
+      "text": "You have an appointment on Tuesday, October twenty seventh at noon with doctor Doobie Hauser at Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 59.188,
+      "end": 68.594,
+      "timestamp": "00:59.188",
+      "text": "Two two zero Athens Way, Would you like to see if there are Thursday or Friday afternoon options for this appointment?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 68.594,
+      "end": 76.235,
+      "timestamp": "01:08.594",
+      "text": "Yes, please check if there are any available Thursday or Friday afternoon options, but do not change anything yet. I just want to know my options.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 76.235,
+      "end": 87.297,
+      "timestamp": "01:16.235",
+      "text": "Let me check for Thursday or Friday afternoon options for you. I will only share what's available and won't make any changes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 87.297,
+      "end": 91.485,
+      "timestamp": "01:27.297",
+      "text": "There are Thursday afternoon options at Pivot Point Orthopedics,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 91.485,
+      "end": 109.594,
+      "timestamp": "01:31.485",
+      "text": "with doctor Dugi Hauser, The next opening is Thursday, October twenty second at one thirty PM. There are also slots at two fifteen PM. And three PM that day. Your current appointment on Tuesday, October twenty seventh at noon is still on the schedule.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 109.594,
+      "end": 112.75,
+      "timestamp": "01:49.594",
+      "text": "Would you like to keep looking or do you have any other questions?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 112.75,
+      "end": 118.766,
+      "timestamp": "01:52.750",
+      "text": "Here are your Thursday afternoon options with doctor Dugge Hauser at Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 118.766,
+      "end": 134.469,
+      "timestamp": "01:58.766",
+      "text": "The next opening is Thursday, October twenty second at one thirty PM. There are also auctions at two fifteen PM and three PM that same day. Would you like to keep your current appointment, or are you interested in one of these times? No changes will be made unless you ask.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "patient",
+      "start": 134.469,
+      "end": 146.657,
+      "timestamp": "02:14.469",
+      "text": "Thanks for the info. Just to be clear, I want to keep my original appointment on Tuesday, October 27 at noon. I'm not making any changes now. Could you also check if there are any Friday afternoon options?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "start": 146.657,
+      "end": 166.172,
+      "timestamp": "02:26.657",
+      "text": "There are no Friday afternoon openings with Doctor. Dugie Hauser between October twenty three and November twenty three. Would you like to check other days or times, or do you want to keep your current appointment on Tuesday, October twenty seventh at noon?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "patient",
+      "start": 166.172,
+      "end": 175.375,
+      "timestamp": "02:46.172",
+      "text": "Okay, please keep my current appointment on Tuesday, October 27 at noon as it is. I’m just gathering information today. Thanks for your help, goodbye.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "da573916e025f0d4dd7f89add418824b5dc7aebd17a6acce91497300182483d0",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

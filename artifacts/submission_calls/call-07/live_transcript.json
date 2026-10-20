@@ -1,0 +1,281 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 15.5,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447574.897987,
+      "stopped_speaking_at": 1792447580.615559,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.4073460102081299,
+      "on_user_turn_completed_delay": 0.00020940000104019418
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hello, this is",
+    "interrupted": true,
+    "elapsed_seconds": 17.906000000002678,
+    "metrics": {
+      "started_speaking_at": 1792447581.2531788,
+      "stopped_speaking_at": 1792447583.4460626,
+      "llm_node_ttft": 0.7080663999986427,
+      "llm_node_tps": 246.71902249945484,
+      "llm_node_ttfs": 2.730723399999988,
+      "tts_node_ttfb": 0.17533980000007432,
+      "playback_latency": 0.0016486644744873047,
+      "e2e_latency": 0.6376197338104248,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 22.389999999999418,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447581.7720966,
+      "stopped_speaking_at": 1792447587.5086923,
+      "transcription_delay": 0.271587610244751,
+      "end_of_turn_delay": 0.41637229919433594,
+      "on_user_turn_completed_delay": 0.00030760000299778767
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. I need some help with a refill, but I don't have the bottle and can't remember the full medicine name.",
+    "interrupted": false,
+    "elapsed_seconds": 29.4220000000023,
+    "metrics": {
+      "started_speaking_at": 1792447588.4663267,
+      "stopped_speaking_at": 1792447594.9653423,
+      "llm_node_ttft": 0.4222845000003872,
+      "llm_node_tps": 167.92487880328116,
+      "llm_node_ttfs": 0.47803840000051423,
+      "tts_node_ttfb": 0.18913379999867175,
+      "playback_latency": 0.0,
+      "e2e_latency": 0.957634449005127,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Please provide your date of birth.",
+    "interrupted": false,
+    "elapsed_seconds": 35.625,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447599.3480237,
+      "stopped_speaking_at": 1792447600.659745,
+      "transcription_delay": 0.441448450088501,
+      "end_of_turn_delay": 0.47324061393737793,
+      "on_user_turn_completed_delay": 0.00035800000114249997
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "It's June 9th, 1981.",
+    "interrupted": false,
+    "elapsed_seconds": 38.13999999999942,
+    "metrics": {
+      "started_speaking_at": 1792447601.8397186,
+      "stopped_speaking_at": 1792447603.674863,
+      "llm_node_ttft": 0.393379899996944,
+      "llm_node_tps": 172.886385354878,
+      "llm_node_ttfs": 0.52962320000006,
+      "tts_node_ttfb": 0.19967389999874285,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.1799736022949219,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I don't see any medications on your chart that can be refilled right now. If you think there's a mistake or need more help, I can connect you to our patient support team. Would you like to speak with someone?",
+    "interrupted": false,
+    "elapsed_seconds": 52.93700000000172,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447608.146967,
+      "stopped_speaking_at": 1792447618.0160577,
+      "transcription_delay": 0.20486044883728027,
+      "end_of_turn_delay": 0.4141390323638916,
+      "on_user_turn_completed_delay": 0.00013100000069243833
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "I think the name of the medicine might start with gab or gaba, and it was a capsule taken at night. Could you check if anything like that appears in my record?\nCan you tell me if you found that in the records or is that just a guess?",
+    "interrupted": false,
+    "elapsed_seconds": 65.1720000000023,
+    "metrics": {
+      "started_speaking_at": 1792447619.1706357,
+      "stopped_speaking_at": 1792447630.7078004,
+      "llm_node_ttft": 0.38165419999859296,
+      "llm_node_tps": 111.53116677650354,
+      "llm_node_ttfs": 0.5491490999993403,
+      "tts_node_ttfb": 0.17615270000169403,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.1545779705047607,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "But there are no medications listed that can be refilled, including anything starting with GABA. If you need more help, I can connect you to our patient support team. Would you like to speak with someone?",
+    "interrupted": false,
+    "elapsed_seconds": 79.96900000000096,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447634.6437738,
+      "stopped_speaking_at": 1792447645.056145,
+      "transcription_delay": 0.2832529544830322,
+      "end_of_turn_delay": 0.41594672203063965,
+      "on_user_turn_completed_delay": 0.0003059999980905559
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "I'd like to know if the clinic can check the current medication list for anything like that before I get the bottle label. Is that possible?",
+    "interrupted": false,
+    "elapsed_seconds": 87.21900000000096,
+    "metrics": {
+      "started_speaking_at": 1792447646.2515428,
+      "stopped_speaking_at": 1792447652.7651753,
+      "llm_node_ttft": 0.4601661000015156,
+      "llm_node_tps": 214.25204610843585,
+      "llm_node_ttfs": 0.5907646000014211,
+      "tts_node_ttfb": 0.178969299999153,
+      "playback_latency": 0.0037703514099121094,
+      "e2e_latency": 1.1953978538513184,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I've documented your request for the clinic to review your medication list for anything like DABA, The support team will get back to you as soon as they can. There anything else I can help you with today?",
+    "interrupted": false,
+    "elapsed_seconds": 103.125,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447658.551118,
+      "stopped_speaking_at": 1792447668.2214015,
+      "transcription_delay": 0.26374316215515137,
+      "end_of_turn_delay": 0.40883922576904297,
+      "on_user_turn_completed_delay": 0.0003894000001309905
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Thanks. Can you confirm that the review won't send a refill or change the medication record until the drug is fully confirmed with me?",
+    "interrupted": false,
+    "elapsed_seconds": 110.20300000000134,
+    "metrics": {
+      "started_speaking_at": 1792447669.490587,
+      "stopped_speaking_at": 1792447675.7357295,
+      "llm_node_ttft": 0.47696670000004815,
+      "llm_node_tps": 192.0714334975955,
+      "llm_node_ttfs": 0.6570071000023745,
+      "tts_node_ttfb": 0.19001619999835384,
+      "playback_latency": 0.0020613670349121094,
+      "e2e_latency": 1.2691855430603027,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "The clinic team will review your medication list, but will not send a refill or make changes until they confirm everything with you directly.",
+    "interrupted": false,
+    "elapsed_seconds": 120.23400000000038,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447678.6510332,
+      "stopped_speaking_at": 1792447685.3492982,
+      "transcription_delay": 0.0839681625366211,
+      "end_of_turn_delay": 0.4161217212677002,
+      "on_user_turn_completed_delay": 0.00041060000148718245
+    }
+  },
+  {
+    "role": "user",
+    "text": "If you have any concerns, you can discuss them with the team when they follow-up.",
+    "interrupted": false,
+    "elapsed_seconds": 124.51499999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792447685.7035615,
+      "stopped_speaking_at": 1792447689.6464791,
+      "transcription_delay": 0.23617839813232422,
+      "end_of_turn_delay": 0.40871262550354004
+    }
+  }
+]

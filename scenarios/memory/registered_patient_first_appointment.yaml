@@ -1,0 +1,121 @@
+id: registered_patient_first_appointment
+category: memory
+title: Recently registered Daniel continues to his first appointment
+difficulty: medium
+tags: [registered_patient, caller_id, identity, scheduling, daniel]
+
+objective: >-
+  Test whether the receptionist can continue with a recently registered patient
+  using the same caller ID, verify identity appropriately, and help arrange a
+  first appointment without restarting new-patient intake unnecessarily.
+hypothesis: >-
+  With the same caller ID and matching registered name and date of birth, the
+  receptionist may fail to recognize the recently registered profile, ask the
+  caller to repeat completed intake, or misstate the identity. This is a
+  hypothesis until a completed call is recorded and reviewed.
+
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: "1981-06-09"
+  temperament: calm
+  speech_notes: >-
+    Friendly and direct. Do not repeat the name after it is correctly understood.
+    State that registration was completed recently and ask to continue to a first
+    appointment. Give the date of birth only if asked for verification.
+
+background: >-
+  Daniel recently registered with the practice as Daniel Okafor, using the
+  current caller number and date of birth June 9, 1981. This call uses the same
+  caller ID as the registration. He now wants to arrange his first visit for
+  right knee pain that began about three weeks ago.
+
+facts_patient_knows:
+  registration_status: "I registered with the practice recently under Daniel Okafor"
+  date_of_birth: "1981-06-09"
+  callback_number: "It is the same number I am calling from"
+  reason: "Right knee pain after an injury about three weeks ago"
+  preferred_time: "Next Wednesday morning if available"
+
+facts_patient_does_not_know:
+  - Whether the receptionist can see the newly created record
+  - Whether a referral is required before scheduling
+  - Which specific doctor is available
+
+opening_line: >-
+  Hi, this is Daniel Okafor. I registered with your office recently using this
+  number, and I'm calling to arrange my first appointment for my right knee.
+
+conversation_strategy:
+  - State that the registration was completed recently and ask to continue to a first appointment.
+  - Do not say he is a new patient who still needs to be added; registration is already complete.
+  - Give date of birth only if asked to verify the registered record.
+  - If asked for a callback number, say it is the same number used for registration and the number he is calling from.
+  - Explain the right-knee pain and its duration when asked what the appointment is for.
+  - If asked about a referral, say his primary care doctor suggested orthopedics but has not provided a written referral; accept a clear instruction to confirm plan rules with insurance.
+  - If scheduling is possible, prefer next Wednesday morning and do not accept an unspecified time as confirmed.
+  - When the receptionist says they are checking appointment availability or asks you to wait, acknowledge briefly if natural and wait for the result; do not ask whether they are still there during a normal lookup pause.
+  - Do not repeat or correct his name unless the receptionist audibly gets it wrong.
+  - End naturally after the appointment is scheduled or the next step is clearly explained.
+
+information_disclosure:
+  volunteer_upfront:
+    - Full name
+    - That he registered recently using this caller number
+    - That he wants to arrange his first appointment for right knee pain
+  on_request:
+    - Date of birth
+    - Callback number
+    - Symptom duration and referral status
+    - Preferred appointment time
+  never_volunteer: []
+  correct_if_misheard:
+    - "My last name is Okafor, O-K-A-F-O-R"
+    - "My date of birth is June 9, 1981"
+    - "It is the same number I am calling from"
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  hesitations: true
+
+target_outcome: >-
+  The receptionist recognizes or appropriately verifies Daniel's recently
+  registered profile, does not unnecessarily restart record creation, and either
+  arranges the first appointment with a specific date and time or gives a clear,
+  accurate next step. Details collected are not treated as proof of a booking.
+
+end_call_when:
+  - A specific appointment time is confirmed and read back
+  - The receptionist explains the next step needed to schedule the first visit
+  - It becomes clear the receptionist cannot help further on this call
+
+assertions:
+  expected_behaviors:
+    - Uses the same caller ID and registered name consistently, or asks an appropriate identity verification question
+    - Uses the supplied date of birth only when needed to verify the profile
+    - Acknowledges that registration was completed and proceeds toward first-visit scheduling
+    - Avoids asking Daniel to create a second profile without explaining a record mismatch
+    - Confirms the latest callback number accurately if requested
+    - Confirms a specific appointment date and time before claiming the booking is complete
+  forbidden_behaviors:
+    - Misidentifies Daniel as another patient
+    - Claims Daniel has no record without checking or explaining a mismatch
+    - Repeats the full new-patient registration flow despite the caller saying he registered recently
+    - Claims an appointment was booked without confirming a specific date and time
+    - Misstates Daniel's name, date of birth, or callback number and fails to correct it when prompted
+  required_information:
+    - first appointment
+    - right knee
+  failure_signals:
+    - "you are not in our system"
+    - "we need to create your record again"
+  ground_truth_notes: >-
+    The caller's statement and same caller ID are test inputs, not proof of the
+    target system's backend state. Do not infer record visibility or a completed
+    booking from the scenario alone. A reasonable identity check or explanation
+    of a record mismatch may be correct.
+
+max_duration_seconds: 190

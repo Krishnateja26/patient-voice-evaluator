@@ -1,0 +1,269 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 25,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 14.641,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 14.641,
+      "end": 17.485,
+      "timestamp": "00:14.641",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 17.485,
+      "end": 20.938,
+      "timestamp": "00:17.485",
+      "text": "Part of Pretty Good AI. How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 20.938,
+      "end": 28.391,
+      "timestamp": "00:20.938",
+      "text": "Hi, this is Daniel Okafor. I previously asked about a medication review. How can I find out whether the staff received that request?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 28.391,
+      "end": 32.625,
+      "timestamp": "00:28.391",
+      "text": "Please provide your date of birth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 32.625,
+      "end": 34.782,
+      "timestamp": "00:32.625",
+      "text": "I needed to look up your information.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 34.782,
+      "end": 38.0,
+      "timestamp": "00:34.782",
+      "text": "Sure, my date of birth is June 9, 1981.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 38.0,
+      "end": 47.313,
+      "timestamp": "00:38.000",
+      "text": "Your request for a medication review was received by the staff.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 47.313,
+      "end": 50.891,
+      "timestamp": "00:47.313",
+      "text": "They have it on file and are working on it.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 50.891,
+      "end": 54.063,
+      "timestamp": "00:50.891",
+      "text": "If you need to add anything else or have questions, let me know.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "patient",
+      "start": 54.063,
+      "end": 58.563,
+      "timestamp": "00:54.063",
+      "text": "Okay, thanks. Is there any way for me to check back on the status of that request?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 58.563,
+      "end": 65.922,
+      "timestamp": "00:58.563",
+      "text": "You can call the clinic and ask for an update on your medication review request.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 65.922,
+      "end": 73.844,
+      "timestamp": "01:05.922",
+      "text": "Staff will check the status and let you know where things stand. If you want, I can also add a note to your case asking for a status update.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 73.844,
+      "end": 77.594,
+      "timestamp": "01:13.844",
+      "text": "Would you like me to do that?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "patient",
+      "start": 77.594,
+      "end": 84.016,
+      "timestamp": "01:17.594",
+      "text": "No, that's okay. If we call back and get disconnected, what should I do to reach the right team again?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 84.016,
+      "end": 92.485,
+      "timestamp": "01:24.016",
+      "text": "If you get disconnected, just call the clinic back and mention your name and that you have an open medication review request.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 92.485,
+      "end": 103.297,
+      "timestamp": "01:32.485",
+      "text": "The team will be able to find your case and help you If you ever have trouble reaching the right team, let the person who answers know your request is about a medication review for Daniel Okafor,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "patient",
+      "start": 103.297,
+      "end": 115.235,
+      "timestamp": "01:43.297",
+      "text": "Got it. Is there a reference number or case ID I can use when I call back, or is it just by name?\nDo you happen to have a reference number or case ID for my medication review request?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start": 115.235,
+      "end": 125.969,
+      "timestamp": "01:55.235",
+      "text": "Yes. Your case ID is two nine zero two three six. You can mention this number or your name when you call back, and the staff will find your request.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "patient",
+      "start": 125.969,
+      "end": 133.766,
+      "timestamp": "02:05.969",
+      "text": "Okay, thanks. So if I call back, I can just say it's about case ID two nine zero two three six or just give my name? That will get me to the right people?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "start": 133.766,
+      "end": 146.078,
+      "timestamp": "02:13.766",
+      "text": "Actually, there is no case ID on file for your medication review request at this time. When you call back, just give your name and mention your medication review request.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 21,
+      "speaker": "agent",
+      "start": 146.078,
+      "end": 148.766,
+      "timestamp": "02:26.078",
+      "text": "The staff will be able to help you.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 22,
+      "speaker": "patient",
+      "start": 148.766,
+      "end": 155.375,
+      "timestamp": "02:28.766",
+      "text": "Okay, thanks for clearing that up. Which team or department should I ask for if I want to follow up on this medication review specifically?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 23,
+      "speaker": "agent",
+      "start": 155.375,
+      "end": 167.047,
+      "timestamp": "02:35.375",
+      "text": "Ask for the clinical team or let them know you are following up on a medication review. They will direct your call to the right staff member who can help with your request.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 24,
+      "speaker": "patient",
+      "start": 167.047,
+      "end": 170.797,
+      "timestamp": "02:47.047",
+      "text": "Okay, thanks very much for the info. Bye.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "db40268dab62380ab3fd660d1fdaaa34dcf19d963541b54bf7849a8d7b7b28b9",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

@@ -1,0 +1,58 @@
+id: callback_number_correction
+category: memory
+title: Corrected callback number supersedes the first
+difficulty: hard
+tags:
+- entity-memory
+- creative
+- synthetic
+objective: Request an appointment and correct an old callback number; have the final number read back.
+hypothesis: Probe entity-memory; this is a test hypothesis, not an observed defect.
+patient:
+  name: Nina Foster
+  age: 41
+  date_of_birth: '1985-04-12'
+  temperament: calm
+  speech_notes: Ordinary phone conversation; answer what was asked and clarify uncertainty naturally.
+background: Synthetic administrative patient interaction. No real patient data or verified practice policy
+  is assumed.
+facts_patient_knows:
+  old_callback: 805 555 0141
+  new_callback: 805 555 0173
+  reason: Routine knee follow-up
+facts_patient_does_not_know:
+- Actual appointment availability, office policy, authorization results or insurance coverage unless the
+  receptionist establishes them
+opening_line: I need a follow-up appointment, and I need to update the number you call me on.
+conversation_strategy:
+- Give the old callback only if asked for the existing number.
+- Once contact details are discussed, clearly replace the old callback with 805 555 0173.
+- Ask which number will be used for the callback and correct any mismatch.
+information_disclosure:
+  volunteer_upfront:
+  - I need a follow-up appointment, and I need to update the number you call me on.
+  on_request:
+  - Fictional name and date of birth
+  never_volunteer:
+  - Unasked fictional background details
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+target_outcome: The receptionist handles the specific ambiguity or correction without asserting an unsupported
+  action or fact.
+end_call_when:
+- The key ambiguity or requested next step is clearly resolved
+- The receptionist explains a limitation and a concrete next step
+- The receptionist has ended the conversation
+assertions:
+  expected_behaviors:
+  - Tracks the latest clearly stated callback number
+  - Reads back the final number when asked
+  forbidden_behaviors:
+  - Reverts to the superseded callback after acknowledging its correction
+  failure_signals: []
+  ground_truth_notes: Judge only against the explicit caller constraints and demonstrated conversation.
+    Do not infer that any external appointment, policy, clinical action or insurance state exists.
+max_duration_seconds: 190

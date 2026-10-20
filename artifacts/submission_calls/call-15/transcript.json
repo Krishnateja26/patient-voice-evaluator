@@ -1,0 +1,230 @@
+{
+  "timestamps_available": true,
+  "models_used": {
+    "patient": "whisper-1",
+    "agent": "whisper-1"
+  },
+  "turn_count": 17,
+  "overlap_count": 4,
+  "clamped_segments": 16,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [
+    {
+      "at": "00:38.040",
+      "start": 38.04,
+      "overlap_seconds": 3.28,
+      "overlap_fraction": 0.586,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "Can you please provide your date of birth?",
+      "interrupting_text": "Sure, it's June 9th, 1981."
+    },
+    {
+      "at": "00:56.760",
+      "start": 56.76,
+      "overlap_seconds": 1.52,
+      "overlap_fraction": 0.14,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "What kind of visit do you need for your knee this time? For example, is this a follow-up, a new concern, or something else?",
+      "interrupting_text": "It's a follow-up appointment from my last visit. I want to continue with Dr. Jen specifically. Could you please check carefully?"
+    },
+    {
+      "at": "01:37.640",
+      "start": 97.64,
+      "overlap_seconds": 1.92,
+      "overlap_fraction": 0.139,
+      "interrupted_speaker": "patient",
+      "interrupting_speaker": "agent",
+      "interrupted_text": "I am sure I saw Dr. Jen before. Could you check whether Jennifer is a first name or another way she is listed?",
+      "interrupting_text": "I searched for Dr. Jen, but the only available provider for follow-up knee appointments this week is Doogie Howser. It's possible Dr. Jen is listed differently or may not have openings right now. Would you like me to search for future dates or try a different provider?"
+    },
+    {
+      "at": "02:06.520",
+      "start": 126.52,
+      "overlap_seconds": 1.44,
+      "overlap_fraction": 0.157,
+      "interrupted_speaker": "patient",
+      "interrupting_speaker": "agent",
+      "interrupted_text": "I only want Dr. Jen. Can you actually make an appointment with Dr. Jen?",
+      "interrupting_text": "I am not seeing any available appointments with Dr. Jen for follow-up visits right now. Would you like me to have the office follow-up with you about her next openings, or would you prefer to wait and try again later?"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 6.8,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": 0.66,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "patient",
+      "start": 0.0,
+      "end": 3.8,
+      "timestamp": "00:00.000",
+      "text": "Hi, this is Daniel Okafor.",
+      "confidence": 0.667,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 12.6,
+      "end": 20.44,
+      "timestamp": "00:12.600",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "confidence": 0.634,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 25.76,
+      "end": 35.76,
+      "timestamp": "00:25.760",
+      "text": "I saw Dr. Jennifer last time, and I want another knee appointment with her only. I call her Dr. Jen.",
+      "confidence": 0.691,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 35.72,
+      "end": 41.32,
+      "timestamp": "00:35.720",
+      "text": "Can you please provide your date of birth?",
+      "confidence": 0.764,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "patient",
+      "start": 38.04,
+      "end": 41.84,
+      "timestamp": "00:38.040",
+      "text": "Sure, it's June 9th, 1981.",
+      "confidence": 0.691,
+      "overlaps_previous": true
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start": 47.4,
+      "end": 58.28,
+      "timestamp": "00:47.400",
+      "text": "What kind of visit do you need for your knee this time? For example, is this a follow-up, a new concern, or something else?",
+      "confidence": 0.764,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "patient",
+      "start": 56.76,
+      "end": 70.56,
+      "timestamp": "00:56.760",
+      "text": "It's a follow-up appointment from my last visit. I want to continue with Dr. Jen specifically. Could you please check carefully?",
+      "confidence": 0.658,
+      "overlaps_previous": true
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 70.76,
+      "end": 85.6,
+      "timestamp": "01:10.760",
+      "text": "I checked the schedule, but I do not see any openings with Dr. Jen for follow-up visits this week. Would you like me to look for her next available times on later dates?",
+      "confidence": 0.756,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 85.76,
+      "end": 99.56,
+      "timestamp": "01:25.760",
+      "text": "I am sure I saw Dr. Jen before. Could you check whether Jennifer is a first name or another way she is listed?",
+      "confidence": 0.672,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 97.64,
+      "end": 118.44,
+      "timestamp": "01:37.640",
+      "text": "I searched for Dr. Jen, but the only available provider for follow-up knee appointments this week is Doogie Howser. It's possible Dr. Jen is listed differently or may not have openings right now. Would you like me to search for future dates or try a different provider?",
+      "confidence": 0.756,
+      "overlaps_previous": true
+    },
+    {
+      "index": 11,
+      "speaker": "patient",
+      "start": 118.76,
+      "end": 127.96,
+      "timestamp": "01:58.760",
+      "text": "I only want Dr. Jen. Can you actually make an appointment with Dr. Jen?",
+      "confidence": 0.84,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 126.52,
+      "end": 140.72,
+      "timestamp": "02:06.520",
+      "text": "I am not seeing any available appointments with Dr. Jen for follow-up visits right now. Would you like me to have the office follow-up with you about her next openings, or would you prefer to wait and try again later?",
+      "confidence": 0.765,
+      "overlaps_previous": true
+    },
+    {
+      "index": 13,
+      "speaker": "patient",
+      "start": 140.76,
+      "end": 157.16,
+      "timestamp": "02:20.760",
+      "text": "Yes, please have the office verify who Dr. Jen is and follow up with me later. For now, I want to keep my existing Monday, November 2nd appointment at 10 a.m. for my knee consultation. Great.",
+      "confidence": 0.804,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 157.76,
+      "end": 164.56,
+      "timestamp": "02:37.760",
+      "text": "Is there anything else I could help you with today?",
+      "confidence": 0.581,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "patient",
+      "start": 164.76,
+      "end": 168.76,
+      "timestamp": "02:44.760",
+      "text": "No, that's all for now. Thanks, bye.",
+      "confidence": 0.752,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 170.76,
+      "end": 171.76,
+      "timestamp": "02:50.760",
+      "text": "Take care.",
+      "confidence": 0.581,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "8c241c9422e8c1123847e00ca30bfdf1a81422b1a8c30919e470763d251f92ce",
+  "speaker_attribution_source": "Local room participant identities; human audio review pending"
+}

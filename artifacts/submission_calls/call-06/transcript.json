@@ -1,0 +1,299 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 28,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 13.234,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 13.234,
+      "end": 20.125,
+      "timestamp": "00:13.234",
+      "text": "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 20.125,
+      "end": 21.906,
+      "timestamp": "00:20.125",
+      "text": "How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 21.906,
+      "end": 29.437,
+      "timestamp": "00:21.906",
+      "text": "Hi, this is Daniel Okafor. Before my knee visit, could you tell me whether you accept Aetna PPO?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 29.437,
+      "end": 32.89,
+      "timestamp": "00:29.437",
+      "text": "Hope of that.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 32.89,
+      "end": 35.218,
+      "timestamp": "00:32.890",
+      "text": "First, can you please provide your date of birth?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 35.218,
+      "end": 39.828,
+      "timestamp": "00:35.218",
+      "text": "Sure, it's June ninth, nineteen eighty-one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 39.828,
+      "end": 47.765,
+      "timestamp": "00:39.828",
+      "text": "Thanks, Daniel. Pivot Point Orthopaedics accepts most insurance plans.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 47.765,
+      "end": 50.422,
+      "timestamp": "00:47.765",
+      "text": "Including many Aetna PPO plans.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 50.422,
+      "end": 52.734,
+      "timestamp": "00:50.422",
+      "text": "To confirm your specific coverage,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 52.734,
+      "end": 56.343,
+      "timestamp": "00:52.734",
+      "text": "would you like to update or check your insurance details on file?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "patient",
+      "start": 56.343,
+      "end": 68.828,
+      "timestamp": "00:56.343",
+      "text": "Thanks, but I'd prefer not to update or check insurance now. The new plan starts November first, but my appointment is October twenty-seventh. Does accepting the plan mean that visit would be covered?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 68.828,
+      "end": 85.89,
+      "timestamp": "01:08.828",
+      "text": "Accepting the plan means we work with Aetna TPO. But coverage for your October twenty seventh visit depends on your plan's start date. Since your new plan starts November first, your October appointment likely won't be covered by Aetna PPO.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 85.89,
+      "end": 89.031,
+      "timestamp": "01:25.890",
+      "text": "You may wanna check with your current insurance for that visit.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "patient",
+      "start": 89.031,
+      "end": 97.203,
+      "timestamp": "01:29.031",
+      "text": "Okay, so was eligibility verified for the October twenty-seventh visit, or is that just general acceptance of the insurer?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 97.203,
+      "end": 102.328,
+      "timestamp": "01:37.203",
+      "text": "That's just general acceptance of the insurer.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 102.328,
+      "end": 108.937,
+      "timestamp": "01:42.328",
+      "text": "Eligibility for your October twenty seventh visit would be checked based on the insurance you have on file for that date.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "start": 108.937,
+      "end": 113.328,
+      "timestamp": "01:48.937",
+      "text": "If you want, I can help you review or update your insurance details for that appointment.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "patient",
+      "start": 113.328,
+      "end": 123.375,
+      "timestamp": "01:53.328",
+      "text": "No, not right now. Could I pay myself on October twenty-seventh and claim it back after the plan starts, or would the insurer need to check that first?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "agent",
+      "start": 123.375,
+      "end": 134.093,
+      "timestamp": "02:03.375",
+      "text": "You can usually pay out of pocket on October twenty seventh, but whether you",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "start": 134.093,
+      "end": 138.75,
+      "timestamp": "02:14.093",
+      "text": "can claim it back from Aetna PPO after your plan starts depends on their policies. Most insurers only cover services received after your plan start date.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 21,
+      "speaker": "agent",
+      "start": 138.75,
+      "end": 145.062,
+      "timestamp": "02:18.750",
+      "text": "It's best to check directly with Aetna PPO to see if they allow reimbursement for visits before your coverage begins.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 22,
+      "speaker": "patient",
+      "start": 145.062,
+      "end": 154.297,
+      "timestamp": "02:25.062",
+      "text": "Got it. If I need more details on paying myself or claiming later, should I talk to your billing department or contact Aetna PPO directly?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 23,
+      "speaker": "agent",
+      "start": 154.297,
+      "end": 159.047,
+      "timestamp": "02:34.297",
+      "text": "For details about paying yourself,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "start": 159.047,
+      "end": 161.031,
+      "timestamp": "02:39.047",
+      "text": "our billing department can help.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 25,
+      "speaker": "agent",
+      "start": 161.031,
+      "end": 164.203,
+      "timestamp": "02:41.031",
+      "text": "For questions about claiming reimbursement or coverage rules,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "start": 164.203,
+      "end": 167.515,
+      "timestamp": "02:44.203",
+      "text": "it's best to contact Aetna PPO directly.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 27,
+      "speaker": "agent",
+      "start": 167.515,
+      "end": 171.031,
+      "timestamp": "02:47.515",
+      "text": "Would you like the clinic's billing contact information?",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "13e5c661aa8c167ef34c6f3123ba5fcd5a7e5ed2ad59315966b44a959d2435fb",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

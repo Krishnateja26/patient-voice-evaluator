@@ -1,0 +1,249 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 23,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 12.36,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 12.36,
+      "end": 17.672,
+      "timestamp": "00:12.360",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 17.672,
+      "end": 19.313,
+      "timestamp": "00:17.672",
+      "text": "Part of Pretty Good AI.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "agent",
+      "start": 19.313,
+      "end": 20.657,
+      "timestamp": "00:19.313",
+      "text": "How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "patient",
+      "start": 20.657,
+      "end": 27.438,
+      "timestamp": "00:20.657",
+      "text": "Hi, this is Daniel Okafor. I'd like to move my existing appointment, but please keep it until we've agreed on a replacement.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 27.438,
+      "end": 32.641,
+      "timestamp": "00:27.438",
+      "text": "Please provide your date of birth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 32.641,
+      "end": 35.0,
+      "timestamp": "00:32.641",
+      "text": "It's June ninth, nineteen eighty-one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 35.0,
+      "end": 46.891,
+      "timestamp": "00:35.000",
+      "text": "You have an appointment on Tuesday, October twenty seventh at noon with doctor Judy Hauser at Pivot Point Orthopedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 46.891,
+      "end": 49.579,
+      "timestamp": "00:46.891",
+      "text": "Is this the appointment you wanna reschedule?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 49.579,
+      "end": 57.204,
+      "timestamp": "00:49.579",
+      "text": "Yes, that's the one. I want to move it to Wednesday, October twenty eighth, if possible. After 3 PM would be ideal.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 57.204,
+      "end": 66.797,
+      "timestamp": "00:57.204",
+      "text": "There are no openings after three PM on Wednesday. October twenty eighth or Thursday, October twenty ninth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 66.797,
+      "end": 70.782,
+      "timestamp": "01:06.797",
+      "text": "Would you like to try a different day, or is there another time that can work for you?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "patient",
+      "start": 70.782,
+      "end": 84.61,
+      "timestamp": "01:10.782",
+      "text": "Actually, I need to correct that. I can't get there before 4:30 PM on Wednesday, October twenty eighth. Please don't book any earlier time; I need 4:30 or later that Wednesday. Is there any slot available with the same doctor at that time or later?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 84.61,
+      "end": 93.422,
+      "timestamp": "01:24.610",
+      "text": "There are no Wednesday afternoon openings with doctor Duji Hao between October twenty eighth and November twenty eighth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 93.422,
+      "end": 98.422,
+      "timestamp": "01:33.422",
+      "text": "Would you like to try a different day, or should I transfer you to someone at the clinic for more help?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "patient",
+      "start": 98.422,
+      "end": 105.969,
+      "timestamp": "01:38.422",
+      "text": "Would there be another appropriate doctor at your practice with a Wednesday opening at 4:30 PM or later? I'd prefer to keep it on that day if possible.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 105.969,
+      "end": 115.532,
+      "timestamp": "01:45.969",
+      "text": "There are no Wednesday afternoon openings with any provider between twenty eight and November twenty eight.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "start": 115.532,
+      "end": 120.344,
+      "timestamp": "01:55.532",
+      "text": "Would you like to try a different day or should I transfer you to someone at the clinic who can help further?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "patient",
+      "start": 120.344,
+      "end": 127.016,
+      "timestamp": "02:00.344",
+      "text": "No, thanks. Please leave the original Tuesday noon appointment as it is. Can you confirm that it is still booked?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "agent",
+      "start": 127.016,
+      "end": 136.313,
+      "timestamp": "02:07.016",
+      "text": "Your appointment for Tuesday, October twenty seventh at noon with doctor Duttihauser is still booked and unchanged.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 20,
+      "speaker": "patient",
+      "start": 136.313,
+      "end": 141.375,
+      "timestamp": "02:16.313",
+      "text": "Great, thanks. One more thing, can you send a text confirmation of that original appointment to this number?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 21,
+      "speaker": "agent",
+      "start": 141.375,
+      "end": 150.469,
+      "timestamp": "02:21.375",
+      "text": "You should get a text confirmation of your upcoming appointment soon at this number.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "start": 150.469,
+      "end": 152.204,
+      "timestamp": "02:30.469",
+      "text": "Let me know if you need anything else.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "734e82d25199981d8322cbc49ff939574de9dbeb9fa58d7ad3bab5653beac2b5",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

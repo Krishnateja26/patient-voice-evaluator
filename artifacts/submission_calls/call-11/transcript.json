@@ -1,0 +1,219 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 20,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 13.828,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "patient",
+      "start": 13.828,
+      "end": 16.703,
+      "timestamp": "00:13.828",
+      "text": "Hello, this is",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 16.703,
+      "end": 20.234,
+      "timestamp": "00:16.703",
+      "text": "For calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 20.234,
+      "end": 29.078,
+      "timestamp": "00:20.234",
+      "text": "Hi, this is Daniel Okafor. I have a question about cancelling my appointment, but please don't cancel it yet. Is there a cancellation fee or notice requirement?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 29.078,
+      "end": 33.297,
+      "timestamp": "00:29.078",
+      "text": "Can you please provide your date of birth?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 33.297,
+      "end": 35.531,
+      "timestamp": "00:33.297",
+      "text": "I needed to look up your information.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 35.531,
+      "end": 39.328,
+      "timestamp": "00:35.531",
+      "text": "Sure, it's June ninth, nineteen eighty-one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 39.328,
+      "end": 44.125,
+      "timestamp": "00:39.328",
+      "text": "Thanks, Daniel.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 44.125,
+      "end": 48.0,
+      "timestamp": "00:44.125",
+      "text": "Let me check your appointment details and cancellation policy for you.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 48.0,
+      "end": 64.563,
+      "timestamp": "00:48.000",
+      "text": "You have an appointment scheduled for Tuesday, October twenty seventh at twelve PM. Pivot Point Orthopaedics does not charge a cancellation fee but we do ask for as much notice as possible if you need to cancel or reschedule. Would you like to cancel this appointment?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "patient",
+      "start": 64.563,
+      "end": 71.656,
+      "timestamp": "01:04.563",
+      "text": "Yes, please cancel that Tuesday, October twenty-seventh noon appointment now. I do not want a replacement booking.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 71.656,
+      "end": 82.781,
+      "timestamp": "01:11.656",
+      "text": "Understood. Just to confirm, you want to cancel your appointment with",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 82.781,
+      "end": 83.922,
+      "timestamp": "01:22.781",
+      "text": "doctor Dugi Hauser on Tuesday, October twenty seventh. Is that correct?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "patient",
+      "start": 83.922,
+      "end": 88.438,
+      "timestamp": "01:23.922",
+      "text": "Yes, that's correct. Please go ahead and cancel it.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 88.438,
+      "end": 96.078,
+      "timestamp": "01:28.438",
+      "text": "Your appointment with doctor Judy Hauser on Tuesday, October twenty seventh at noon has been canceled.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 96.078,
+      "end": 98.625,
+      "timestamp": "01:36.078",
+      "text": "Is there anything else I can help you with today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "patient",
+      "start": 98.625,
+      "end": 103.766,
+      "timestamp": "01:38.625",
+      "text": "Can you confirm if the cancellation is fully completed now or if it's just a request sent?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "start": 103.766,
+      "end": 111.531,
+      "timestamp": "01:43.766",
+      "text": "The cancellation is fully completed. Your appointment has been removed from the schedule.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start": 111.531,
+      "end": 113.422,
+      "timestamp": "01:51.531",
+      "text": "Let me know if you need anything else.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "patient",
+      "start": 113.422,
+      "end": 117.5,
+      "timestamp": "01:53.422",
+      "text": "Great, thanks very much. Goodbye.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "1abfc5035607c918da89e83813a120d6a2f89b3d68108bf14ac98348c7e4ba4e",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

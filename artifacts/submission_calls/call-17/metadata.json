@@ -1,0 +1,43 @@
+{
+  "call_id": "call-029",
+  "scenario_id": "sister_cancellation_authority",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "llm_provider": "openai",
+  "llm_model": "openai/gpt-4.1-mini",
+  "speech_provider": "openai",
+  "stt_model": "gpt-4o-mini-transcribe",
+  "tts_model": "gpt-4o-mini-tts",
+  "tts_voice": "alloy",
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-029",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "termination_reason": "patient_end_call",
+  "updated_at": "2026-10-20T03:51:20.695006+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 141.191,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "7e0e7472673d9c3cb5990ab4394f63956c090bd7c22880f773efde1521b620eb",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "c190c3cc62637f98755d981ced09bbcd3c62b5cfb4b82a1e4760a56c1939b971",
+    "agent": "856ed30e9c11ddc854aaba98b7c1338405efc8dfbf1a7f5e5047c760ac07bf89"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-20T03:45:46.079081+00:00",
+  "call_name": "Call 27",
+  "transcribed_at": "2026-10-20T03:51:11.143065+00:00",
+  "transcript_turn_count": 15,
+  "transcript_recording_sha256": "7e0e7472673d9c3cb5990ab4394f63956c090bd7c22880f773efde1521b620eb",
+  "evaluated_at": "2026-10-20T03:51:20.680014+00:00",
+  "finding_count": 2,
+  "task_success": "success"
+}

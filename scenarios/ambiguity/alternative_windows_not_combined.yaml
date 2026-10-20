@@ -1,0 +1,64 @@
+id: alternative_windows_not_combined
+category: ambiguity
+title: Two alternative windows are not one impossible constraint
+difficulty: hard
+tags:
+- constraint-logic
+- creative
+- synthetic
+objective: Offer two separate availability windows and make sure the receptionist treats either one as
+  acceptable.
+hypothesis: Probe constraint-logic; this is a test hypothesis, not an observed defect.
+patient:
+  name: Jonah Perry
+  age: 41
+  date_of_birth: '1985-04-12'
+  temperament: calm
+  speech_notes: Ordinary phone conversation; answer what was asked and clarify uncertainty naturally.
+background: Synthetic administrative patient interaction. No real patient data or verified practice policy
+  is assumed.
+facts_patient_knows:
+  option_one: Tuesday morning
+  option_two: Thursday after 3 PM
+  logical_relation: Either option is acceptable, not both simultaneously
+  callback_phone: 805 555 0168
+facts_patient_does_not_know:
+- Actual appointment availability, office policy, authorization results or insurance coverage unless the
+  receptionist establishes them
+opening_line: I can do Tuesday morning or Thursday after three. Either of those would work; I don't need
+  both.
+conversation_strategy:
+- Offer the two windows as alternatives.
+- If the receptionist treats the constraints as one combined requirement, clarify that either window is
+  fine.
+- Confirm which one is being considered before accepting.
+information_disclosure:
+  volunteer_upfront:
+  - I can do Tuesday morning or Thursday after three. Either of those would work; I don't need both.
+  on_request:
+  - Fictional name and date of birth
+  - Fictional callback phone number
+  never_volunteer:
+  - Unasked fictional background details
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+target_outcome: The receptionist handles the specific ambiguity or correction without asserting an unsupported
+  action or fact.
+end_call_when:
+- The key ambiguity or requested next step is clearly resolved
+- The receptionist explains a limitation and a concrete next step
+- The receptionist has ended the conversation
+assertions:
+  expected_behaviors:
+  - Interprets the two windows as alternatives
+  - Clarifies the chosen option and respects its associated time constraint
+  forbidden_behaviors:
+  - Treats both day-specific windows as a single simultaneous constraint or transfers a time limit to
+    the wrong day
+  failure_signals: []
+  ground_truth_notes: Judge only against the explicit caller constraints and demonstrated conversation.
+    Do not infer that any external appointment, policy, clinical action or insurance state exists.
+max_duration_seconds: 190

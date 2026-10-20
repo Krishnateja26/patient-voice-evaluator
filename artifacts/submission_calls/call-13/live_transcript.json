@@ -1,0 +1,483 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 14.640999999995984,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455036.6185453,
+      "stopped_speaking_at": 1792455042.3304644,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.4775557518005371,
+      "on_user_turn_completed_delay": 0.00030809999589109793
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling Pivot Point Orthopaedics.",
+    "interrupted": false,
+    "elapsed_seconds": 17.485000000000582,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455042.9717193,
+      "stopped_speaking_at": 1792455045.181043,
+      "transcription_delay": 0.3653600215911865,
+      "end_of_turn_delay": 0.4261810779571533,
+      "on_user_turn_completed_delay": 0.00023189999774331227
+    }
+  },
+  {
+    "role": "user",
+    "text": "Part of Pretty Good AI. How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 20.93800000000192,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455045.6180394,
+      "stopped_speaking_at": 1792455048.6865354,
+      "transcription_delay": 0.18025660514831543,
+      "end_of_turn_delay": 0.42007017135620117,
+      "on_user_turn_completed_delay": 0.0002747000035014935
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. I previously asked about a medication review. How can I find out whether the staff received that request?",
+    "interrupted": false,
+    "elapsed_seconds": 28.390999999995984,
+    "metrics": {
+      "started_speaking_at": 1792455049.5138655,
+      "stopped_speaking_at": 1792455056.5597897,
+      "llm_node_ttft": 0.35000489999947604,
+      "llm_node_tps": 133.13640978995568,
+      "llm_node_ttfs": 0.4359478000042145,
+      "tts_node_ttfb": 0.1941688999941107,
+      "playback_latency": 0.0019903182983398438,
+      "e2e_latency": 0.8273301124572754,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Please provide your date of birth.",
+    "interrupted": false,
+    "elapsed_seconds": 32.625,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455058.8160791,
+      "stopped_speaking_at": 1792455060.3334801,
+      "transcription_delay": 0.31218862533569336,
+      "end_of_turn_delay": 0.4463350772857666,
+      "on_user_turn_completed_delay": 0.00035829999978886917
+    }
+  },
+  {
+    "role": "user",
+    "text": "I needed to look up your information.",
+    "interrupted": false,
+    "elapsed_seconds": 34.78199999999924,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455060.918669,
+      "stopped_speaking_at": 1792455062.4978633,
+      "transcription_delay": 0.19762396812438965,
+      "end_of_turn_delay": 0.4165463447570801,
+      "on_user_turn_completed_delay": 0.00033519999851705506
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Sure, my date of birth is June 9, 1981.",
+    "interrupted": false,
+    "elapsed_seconds": 38.0,
+    "metrics": {
+      "started_speaking_at": 1792455063.6225345,
+      "stopped_speaking_at": 1792455066.1701272,
+      "llm_node_ttft": 0.34348529999988386,
+      "llm_node_tps": 192.66129060842113,
+      "llm_node_ttfs": 0.4796091000025626,
+      "tts_node_ttfb": 0.21469689999503316,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.124671220779419,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Your request for a medication review was received by the staff.",
+    "interrupted": false,
+    "elapsed_seconds": 47.31300000000192,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455072.1251593,
+      "stopped_speaking_at": 1792455075.039527,
+      "transcription_delay": 0.34998655319213867,
+      "end_of_turn_delay": 0.43939971923828125,
+      "on_user_turn_completed_delay": 0.0003868000057991594
+    }
+  },
+  {
+    "role": "user",
+    "text": "They have it on file and are working on it.",
+    "interrupted": false,
+    "elapsed_seconds": 50.890999999995984,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455075.456319,
+      "stopped_speaking_at": 1792455078.602029,
+      "transcription_delay": 0.14051151275634766,
+      "end_of_turn_delay": 0.4582827091217041,
+      "on_user_turn_completed_delay": 0.00030449999758275226
+    }
+  },
+  {
+    "role": "user",
+    "text": "If you need to add anything else or have questions, let me know.",
+    "interrupted": false,
+    "elapsed_seconds": 54.06300000000192,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455079.0317576,
+      "stopped_speaking_at": 1792455081.7352903,
+      "transcription_delay": 0.1718590259552002,
+      "end_of_turn_delay": 0.4568789005279541,
+      "on_user_turn_completed_delay": 0.00044350000098347664
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Okay, thanks. Is there any way for me to check back on the status of that request?",
+    "interrupted": false,
+    "elapsed_seconds": 58.56300000000192,
+    "metrics": {
+      "started_speaking_at": 1792455083.3937762,
+      "stopped_speaking_at": 1792455086.733539,
+      "llm_node_ttft": 0.4859890000006999,
+      "llm_node_tps": 55.06545840770221,
+      "llm_node_ttfs": 0.9917850000056205,
+      "tts_node_ttfb": 0.19433729999582283,
+      "playback_latency": 0.001226663589477539,
+      "e2e_latency": 1.6584858894348145,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "You can call the clinic and ask for an update on your medication review request.",
+    "interrupted": false,
+    "elapsed_seconds": 65.92199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455089.5206704,
+      "stopped_speaking_at": 1792455093.6273472,
+      "transcription_delay": 0.3828444480895996,
+      "end_of_turn_delay": 0.43981075286865234,
+      "on_user_turn_completed_delay": 0.00035859999479725957
+    }
+  },
+  {
+    "role": "user",
+    "text": "Staff will check the status and let you know where things stand. If you want, I can also add a note to your case asking for a status update.",
+    "interrupted": false,
+    "elapsed_seconds": 73.84399999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455094.1166747,
+      "stopped_speaking_at": 1792455101.5869262,
+      "transcription_delay": 0.16038751602172852,
+      "end_of_turn_delay": 0.4198145866394043,
+      "on_user_turn_completed_delay": 0.0002997999981744215
+    }
+  },
+  {
+    "role": "user",
+    "text": "Would you like me to do that?",
+    "interrupted": false,
+    "elapsed_seconds": 77.59399999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455102.0156472,
+      "stopped_speaking_at": 1792455103.2298143,
+      "transcription_delay": 0.24953079223632812,
+      "end_of_turn_delay": 2.483691930770874,
+      "on_user_turn_completed_delay": 0.00034530000266386196
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "No, that's okay. If we call back and get disconnected, what should I do to reach the right team again?",
+    "interrupted": false,
+    "elapsed_seconds": 84.01599999999598,
+    "metrics": {
+      "started_speaking_at": 1792455106.8575122,
+      "stopped_speaking_at": 1792455112.1860065,
+      "llm_node_ttft": 0.4144646000058856,
+      "llm_node_tps": 164.3179065105216,
+      "llm_node_ttfs": 0.7133423000050243,
+      "tts_node_ttfb": 0.4151096999994479,
+      "playback_latency": 0.0,
+      "e2e_latency": 3.6276979446411133,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "If you get disconnected, just call the clinic back and mention your name and that you have an open medication review request.",
+    "interrupted": false,
+    "elapsed_seconds": 92.48500000000058,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455114.9168167,
+      "stopped_speaking_at": 1792455120.2377162,
+      "transcription_delay": 0.16283011436462402,
+      "end_of_turn_delay": 0.41677069664001465,
+      "on_user_turn_completed_delay": 0.00021500000002561137
+    }
+  },
+  {
+    "role": "user",
+    "text": "The team will be able to find your case and help you If you ever have trouble reaching the right team, let the person who answers know your request is about a medication review for Daniel Okafor,",
+    "interrupted": false,
+    "elapsed_seconds": 103.29699999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455120.7163584,
+      "stopped_speaking_at": 1792455131.0326324,
+      "transcription_delay": 0.1090388298034668,
+      "end_of_turn_delay": 0.4262394905090332,
+      "on_user_turn_completed_delay": 0.00035859999479725957
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Got it. Is there a reference number or case ID I can use when I call back, or is it just by name?\nDo you happen to have a reference number or case ID for my medication review request?",
+    "interrupted": false,
+    "elapsed_seconds": 115.23500000000058,
+    "metrics": {
+      "started_speaking_at": 1792455132.5302677,
+      "stopped_speaking_at": 1792455143.404591,
+      "llm_node_ttft": 0.6868624999988242,
+      "llm_node_tps": 59.88528375013059,
+      "llm_node_ttfs": 1.1713871999963885,
+      "tts_node_ttfb": 0.20416629999817815,
+      "playback_latency": 0.0018341541290283203,
+      "e2e_latency": 1.4976353645324707,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Yes. Your case ID is two nine zero two three six. You can mention this number or your name when you call back, and the staff will find your request.",
+    "interrupted": false,
+    "elapsed_seconds": 125.96899999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455145.76335,
+      "stopped_speaking_at": 1792455153.6787212,
+      "transcription_delay": 0.36441469192504883,
+      "end_of_turn_delay": 0.4269556999206543,
+      "on_user_turn_completed_delay": 0.00020429999858606607
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Okay, thanks. So if I call back, I can just say it's about case ID two nine zero two three six or just give my name? That will get me to the right people?",
+    "interrupted": false,
+    "elapsed_seconds": 133.76599999999598,
+    "metrics": {
+      "started_speaking_at": 1792455155.0699587,
+      "stopped_speaking_at": 1792455161.9377882,
+      "llm_node_ttft": 0.574606499998481,
+      "llm_node_tps": 153.74450507883188,
+      "llm_node_ttfs": 0.8157747000004747,
+      "tts_node_ttfb": 0.19180290000076639,
+      "playback_latency": 0.0006794929504394531,
+      "e2e_latency": 1.391237497329712,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Actually, there is no case ID on file for your medication review request at this time. When you call back, just give your name and mention your medication review request.",
+    "interrupted": false,
+    "elapsed_seconds": 146.07800000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455164.2146573,
+      "stopped_speaking_at": 1792455173.775933,
+      "transcription_delay": 0.3193364143371582,
+      "end_of_turn_delay": 0.4662778377532959,
+      "on_user_turn_completed_delay": 0.0002227000004495494
+    }
+  },
+  {
+    "role": "user",
+    "text": "The staff will be able to help you.",
+    "interrupted": false,
+    "elapsed_seconds": 148.76599999999598,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455174.2675738,
+      "stopped_speaking_at": 1792455176.436124,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.4442017078399658,
+      "on_user_turn_completed_delay": 0.0002234999992651865
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Okay, thanks for clearing that up. Which team or department should I ask for if I want to follow up on this medication review specifically?",
+    "interrupted": false,
+    "elapsed_seconds": 155.375,
+    "metrics": {
+      "started_speaking_at": 1792455177.6400115,
+      "stopped_speaking_at": 1792455183.5439365,
+      "llm_node_ttft": 0.45900450000044657,
+      "llm_node_tps": 166.38114132619438,
+      "llm_node_ttfs": 0.5537621999974363,
+      "tts_node_ttfb": 0.1877851000026567,
+      "playback_latency": 0.00037169456481933594,
+      "e2e_latency": 1.2038874626159668,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Ask for the clinical team or let them know you are following up on a medication review. They will direct your call to the right staff member who can help with your request.",
+    "interrupted": false,
+    "elapsed_seconds": 167.04699999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792455186.6631353,
+      "stopped_speaking_at": 1792455194.7759364,
+      "transcription_delay": 0.3331167697906494,
+      "end_of_turn_delay": 0.4331960678100586,
+      "on_user_turn_completed_delay": 0.0002714000002015382
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Okay, thanks very much for the info. Bye.",
+    "interrupted": false,
+    "elapsed_seconds": 170.79699999999866,
+    "metrics": {
+      "started_speaking_at": 1792455195.8081956,
+      "stopped_speaking_at": 1792455198.9637325,
+      "llm_node_ttft": 0.4659752000006847,
+      "llm_node_tps": 635.8528520848432,
+      "llm_node_ttfs": 0.5021053000018583,
+      "tts_node_ttfb": 0.1827661999996053,
+      "playback_latency": 0.0007956027984619141,
+      "e2e_latency": 1.032259225845337,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  }
+]

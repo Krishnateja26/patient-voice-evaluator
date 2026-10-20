@@ -1,0 +1,109 @@
+Call 8 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:10.000]
+Thanks for calling Pivot Point Orthopaedics.
+
+[AGENT 00:15.359]
+Part of Pretty Good AI.
+
+[AGENT 00:16.875]
+How may I help you today?
+
+[PATIENT 00:18.344]
+Hi, this is Daniel Okafor. I registered with your office recently using this number, and I'm calling to arrange my first appointment for my right knee.
+
+[AGENT 00:26.625]
+Please provide your date of birth.
+
+[PATIENT 00:30.640]
+Sure, my date of birth is June 9, 1981.
+
+[AGENT 00:34.562]
+Thanks, Daniel.
+
+[AGENT 00:40.484]
+Since this is your first appointment, would you like to schedule a new patient consultation for your right knee?
+
+[PATIENT 00:45.672]
+Yes, that's exactly what I need. It's for right knee pain that started about three weeks ago after an injury.
+
+[AGENT 00:52.000]
+Do you have a specific provider you'd like to see, or are you open to the next available appointment?
+
+[PATIENT 00:58.890]
+I'm open to the next available appointment. If possible, I would prefer next Wednesday morning.
+
+[AGENT 01:03.640]
+Let me check for available appointments on Wednesday morning for you.
+
+[AGENT 01:09.859]
+One moment.
+
+[PATIENT 01:10.937]
+Okay, thank you.
+
+[AGENT 01:13.703]
+There are no opening The soonest available appointments are on Thursday, October twenty second with Dooviehauser. The earliest slot is at one thirty PM. Would you like to book that? Or hear later times?
+
+[PATIENT 01:26.672]
+Thursday at 1:30 PM is not ideal. Do you have anything earlier that day or possibly the morning after on Friday?
+
+[AGENT 01:33.406]
+Are no morning appointments available on Thursday, and I do not see any openings for Friday yet.
+
+[AGENT 01:42.015]
+Would you like to hear the next available times on Thursday afternoon?
+
+[AGENT 01:45.531]
+Or should I check for openings the following week
+
+[PATIENT 01:48.250]
+Please check for openings the following week, thanks.
+
+[AGENT 01:51.687]
+Let me check for available appointments the week after October twenty second.
+
+[AGENT 01:59.625]
+One moment.
+
+[PATIENT 02:00.609]
+Okay, I
+
+[AGENT 02:02.890]
+The next week,
+
+[PATIENT 02:03.078]
+Hello? Are you still
+
+[AGENT 02:05.172]
+your
+
+[PATIENT 02:05.422]
+Yes, I'm here. Could you please check for openings the week after October twenty-second again?
+
+[AGENT 02:10.640]
+I found openings on Tuesday, October twenty seventh, with
+
+[AGENT 02:17.625]
+Dube Hauser. Earliest slot is at twelve PM.
+
+[AGENT 02:21.609]
+Would you like to book that time or hear other options for that day?
+
+[PATIENT 02:24.875]
+I would prefer next Wednesday morning if available, if not, Tuesday at 12 PM on the twenty-seventh will work.
+
+[AGENT 02:31.125]
+There are no Wednesday morning openings that week. Would you like to book Tuesday, October twenty seventh at twelve PM with Doobie Hauser?
+
+[PATIENT 02:41.359]
+Yes, please book me for Tuesday, October twenty-seventh at twelve PM with Doobie Hauser.
+
+[AGENT 02:46.781]
+Your appointment is set for Tuesday, October twenty seventh at twelve PM with Doobie Hauser at Pivot Point Orthopedics.
+
+[AGENT 02:57.906]
+Please bring your photo ID, insurance card, a list of

@@ -1,0 +1,85 @@
+Call 11 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:13.234]
+Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI.
+
+[AGENT 00:20.125]
+How may I help you today?
+
+[PATIENT 00:21.906]
+Hi, this is Daniel Okafor. Before my knee visit, could you tell me whether you accept Aetna PPO?
+
+[AGENT 00:29.437]
+Hope of that.
+
+[AGENT 00:32.890]
+First, can you please provide your date of birth?
+
+[PATIENT 00:35.218]
+Sure, it's June ninth, nineteen eighty-one.
+
+[AGENT 00:39.828]
+Thanks, Daniel. Pivot Point Orthopaedics accepts most insurance plans.
+
+[AGENT 00:47.765]
+Including many Aetna PPO plans.
+
+[AGENT 00:50.422]
+To confirm your specific coverage,
+
+[AGENT 00:52.734]
+would you like to update or check your insurance details on file?
+
+[PATIENT 00:56.343]
+Thanks, but I'd prefer not to update or check insurance now. The new plan starts November first, but my appointment is October twenty-seventh. Does accepting the plan mean that visit would be covered?
+
+[AGENT 01:08.828]
+Accepting the plan means we work with Aetna TPO. But coverage for your October twenty seventh visit depends on your plan's start date. Since your new plan starts November first, your October appointment likely won't be covered by Aetna PPO.
+
+[AGENT 01:25.890]
+You may wanna check with your current insurance for that visit.
+
+[PATIENT 01:29.031]
+Okay, so was eligibility verified for the October twenty-seventh visit, or is that just general acceptance of the insurer?
+
+[AGENT 01:37.203]
+That's just general acceptance of the insurer.
+
+[AGENT 01:42.328]
+Eligibility for your October twenty seventh visit would be checked based on the insurance you have on file for that date.
+
+[AGENT 01:48.937]
+If you want, I can help you review or update your insurance details for that appointment.
+
+[PATIENT 01:53.328]
+No, not right now. Could I pay myself on October twenty-seventh and claim it back after the plan starts, or would the insurer need to check that first?
+
+[AGENT 02:03.375]
+You can usually pay out of pocket on October twenty seventh, but whether you
+
+[AGENT 02:14.093]
+can claim it back from Aetna PPO after your plan starts depends on their policies. Most insurers only cover services received after your plan start date.
+
+[AGENT 02:18.750]
+It's best to check directly with Aetna PPO to see if they allow reimbursement for visits before your coverage begins.
+
+[PATIENT 02:25.062]
+Got it. If I need more details on paying myself or claiming later, should I talk to your billing department or contact Aetna PPO directly?
+
+[AGENT 02:34.297]
+For details about paying yourself,
+
+[AGENT 02:39.047]
+our billing department can help.
+
+[AGENT 02:41.031]
+For questions about claiming reimbursement or coverage rules,
+
+[AGENT 02:44.203]
+it's best to contact Aetna PPO directly.
+
+[AGENT 02:47.515]
+Would you like the clinic's billing contact information?

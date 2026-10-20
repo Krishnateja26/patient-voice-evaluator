@@ -1,0 +1,36 @@
+{
+  "call_id": "call-015",
+  "scenario_id": "contradictory_statement",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-015",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "termination_reason": "patient_end_call",
+  "updated_at": "2026-10-19T23:54:56.500291+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 88.61,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "345a9c0799ee613f15ad04291ab0fa849b37e50a3776867ed89fad22958c74e3",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "c31f4f229cc81d158f5ebbe23cfbbc2933946ef9e0aab443c1bf3a96e4a8dd42",
+    "agent": "52fe86f5ca3c7349207c796d8634c975e94a0d0c10faefb236743b6af03faf55"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-19T23:54:56.196821+00:00",
+  "call_name": "Call 14",
+  "transcript_recording_sha256": "345a9c0799ee613f15ad04291ab0fa849b37e50a3776867ed89fad22958c74e3",
+  "transcript_turn_count": 20,
+  "evaluated_at": "2026-10-19T23:54:56.492260+00:00",
+  "finding_count": 1,
+  "task_success": null
+}

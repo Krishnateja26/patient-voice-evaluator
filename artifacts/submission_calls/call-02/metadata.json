@@ -1,0 +1,35 @@
+{
+  "call_id": "call-005",
+  "scenario_id": "schedule_new_patient_knee",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-005",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "updated_at": "2026-10-19T18:44:10.979599+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 117.033,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "6d0f433a368aa2cf195acee43eeec1611f2f88b023c5cd2ec66dc2c3ff88d0a7",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "07e2119539e74217d70174bcae558a0dbdacd2c09cacb4020d38146e9f574e62",
+    "agent": "97b64217186e6e9e619c1f778a20cf1d5fe0b3e87ba4703a0bea09aeb25ced16"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-19T18:44:10.830428+00:00",
+  "call_name": "Call 5",
+  "transcript_recording_sha256": "6d0f433a368aa2cf195acee43eeec1611f2f88b023c5cd2ec66dc2c3ff88d0a7",
+  "transcript_turn_count": 21,
+  "evaluated_at": "2026-10-19T18:44:10.973597+00:00",
+  "finding_count": 0,
+  "task_success": null
+}

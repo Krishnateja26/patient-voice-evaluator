@@ -1,0 +1,20 @@
+{
+  "call_id": "call-009",
+  "scenario_id": "registered_patient_first_appointment",
+  "evaluated_at": "2026-10-19T19:35:26.177682+00:00",
+  "judge_model": null,
+  "transcript_sha256": "6f79ade463ac85c43567ed4cf22c67be2a911f706f17be78c3e6ddb3c13c59b5",
+  "call_completed": false,
+  "duration_seconds": 182.621,
+  "turn_count": 36,
+  "deterministic_findings": [],
+  "assertion_findings": [],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 182.621
+  }
+}

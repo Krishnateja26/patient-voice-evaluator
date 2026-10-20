@@ -1,0 +1,61 @@
+Call: call-030; audio: recording.mp3
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[PATIENT 00:00.000]
+Hi, this is Daniel Okafor.
+
+[AGENT 00:15.000]
+Thanks for calling Kivet Point Orthopedics, part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:28.360]
+Can you check whether my knee appointment is still booked? I haven't asked anyone to change it, and I haven't received a message about a cancellation. My date of birth is June 9, 1981.
+
+[AGENT 00:45.000]
+Thanks for providing your date of birth. Can you please confirm your full name, including your last name?
+
+[PATIENT 00:50.360]  <-- possible overlapping speech
+Sure, it's Daniel Okafor.
+
+[AGENT 01:01.000]
+Your knee appointment is still booked for Monday, November 2nd at 10 a.m. Would you like to reschedule this appointment to a different day or time?
+
+[PATIENT 01:13.360]
+No thanks. I want to keep the appointment as is. Could you tell me if there's any record of an attempted cancellation request, or who might have requested it?
+
+[AGENT 01:25.000]
+I do not see any record of a cancellation request for your appointment. Your booking for Monday, November 2nd at 10 a.m. is still active. If you have any other questions or concerns, let me know.
+
+[PATIENT 01:42.480]
+Thanks for confirming that. Can you tell me whether any actual cancellation notice was sent, or if you only know the usual policy about notifications? I haven't received any message myself.
+
+[AGENT 01:57.000]
+There is no record of a cancellation notice being sent for your appointment. Your booking is still active. If you would like, I can send you a text message with your upcoming appointment details.
+
+[PATIENT 02:04.400]  <-- possible overlapping speech
+No, that's okay for now.
+
+[AGENT 02:07.000]  <-- possible overlapping speech
+Would you like me to do that?
+
+[PATIENT 02:16.360]
+Just one more thing, what is the best way to prevent someone else from changing my booking from my phone?
+
+[AGENT 02:25.000]
+The best way to protect your appointment is to keep your personal information, like your date of birth and phone number, private. Only someone who can verify your details can make changes. If you ever suspect unauthorized changes, contact the clinic right away.
+
+[PATIENT 02:34.400]  <-- possible overlapping speech
+Great, thanks very much, bye.
+
+[AGENT 02:47.000]
+You're welcome.
+
+------------------------------------------------------------
+Overlapping speech:
+  00:50.360  patient cut across agent for 4.04s
+  02:04.400  patient cut across agent for 2.6s
+  02:07.000  agent cut across patient for 1.2s
+  02:34.400  patient cut across agent for 7.0s
+
+Note: 14 segment end time(s) were trimmed to a plausible speaking rate.

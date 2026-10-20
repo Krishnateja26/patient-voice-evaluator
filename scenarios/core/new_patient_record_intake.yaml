@@ -1,0 +1,118 @@
+id: new_patient_record_intake
+category: core
+title: New patient asks to start a record and book a first visit
+difficulty: medium
+tags: [new_patient, records, intake, follow_up]
+
+objective: Ask the practice to start a new-patient record using the caller's details and arrange the next step toward a first appointment.
+hypothesis: >-
+  After the caller says they are new, the receptionist may keep searching for an
+  existing chart or transfer without acknowledging the request to begin intake.
+  Test whether it gathers the details it can, clearly explains any limitation,
+  and gives a concrete next step without claiming a record was created unless
+  that action is confirmed.
+
+patient:
+  name: Daniel Okafor
+  age: 44
+  date_of_birth: "1981-06-09"
+  temperament: calm
+  speech_notes: Friendly and direct; gives one detail at a time when asked.
+
+background: >-
+  Daniel has never been seen at this practice. His right knee has hurt since a
+  football injury about three weeks ago. He wants to become a patient and arrange
+  an appointment. Use the same fictional identity and callback number as the
+  baseline calls so the new-patient handling can be compared across recordings.
+
+facts_patient_knows:
+  new_patient: "Yes, first time with this practice"
+  request: "Please start a new-patient record for me"
+  problem: "Right knee, painful since an injury about three weeks ago"
+  phone: "805 555 0147"
+  date_of_birth: "1981-06-09"
+  insurance: "Blue Shield PPO"
+
+facts_patient_does_not_know:
+  - Whether the receptionist can directly create a patient record
+  - Whether the practice can book the appointment before completing intake
+  - Which specific doctor he should see
+
+opening_line: >-
+  Hi, I'm a new patient and I need to start a patient record in your system.
+  Could you add me as a new patient and tell me what information you need? I
+  also want to arrange a first appointment for my right knee.
+
+conversation_strategy:
+  - Clearly say he has never been seen at the practice and directly ask for a new patient record to be created in its system.
+  - Give his full name and date of birth when asked as part of intake; give insurance and symptom details when relevant.
+  - Do not provide his phone number as a lookup key or imply it is already on file. If asked for the number on an existing record, say he has never had a record there and restate that he wants to start a new one.
+  - Give his callback number only if the receptionist specifically asks for a contact number as part of creating the new record or arranging its intake follow-up.
+  - >-
+    If the receptionist asks for details only to search for an existing record,
+    wait until they finish, then clarify once: "I don't have an existing record.
+    I'm asking you to add me as a new patient in your system. Can you do that
+    now, or should I speak with someone who can?"
+  - If the receptionist cannot create a record or complete scheduling, ask what the next step is and whether the details can be passed to the intake team.
+  - Accept a clear handoff or callback plan; do not claim that a record or appointment exists unless the receptionist confirms it.
+  - Do not repeat or correct the surname if it is pronounced correctly; only correct a clear audible mispronunciation.
+
+information_disclosure:
+  volunteer_upfront:
+    - That he is a new patient
+    - That he is explicitly asking to start a new-patient record in the system
+    - That he wants a first appointment for his right knee
+  on_request:
+    - Full name and date of birth
+    - Callback number when requested as a new-patient registration or intake-contact field
+    - Insurance carrier
+    - When the knee pain began
+  never_volunteer: []
+  correct_if_misheard:
+    - His name is Daniel Okafor
+    - His callback number is 805 555 0147
+    - It is the right knee, not the left
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+
+target_outcome: >-
+  The receptionist recognizes that Daniel is a new patient, collects or confirms
+  relevant intake details, and either explains a supported intake/scheduling
+  path or gives a clear handoff or callback next step. The receptionist does not
+  represent an unconfirmed record creation or appointment as complete.
+
+end_call_when:
+  - The receptionist confirms a supported intake or appointment next step and reads back any callback details it collected
+  - The receptionist explains it cannot start intake and provides a clear handoff or callback next step
+  - It becomes clear the receptionist cannot help further on this call
+
+assertions:
+  expected_behaviors:
+    - Acknowledges the direct request to create a new-patient record in the system and explains whether it can do that
+    - Collects or confirms enough identifying details for the next step, including full name and date of birth when appropriate
+    - Explains whether it can start intake or complete booking; if not, gives a clear handoff or callback next step
+    - Asks for a callback number only as a registration or intake-contact detail, and accurately reads it back if provided
+    - Distinguishes information collected or passed along from a record or appointment actually confirmed
+  forbidden_behaviors:
+    - Continues searching for an existing record after the caller directly requests a new one, without acknowledging the request or explaining why the search must continue
+    - Treats the caller's number as proof that an existing record is present or requires the caller to supply an on-file number before explaining the new-patient intake path
+    - Claims a record was created or an appointment booked without confirmation
+    - Gives no next step after saying it cannot add the patient or book an appointment
+    - Misstates the caller's name, date of birth, or callback number and fails to correct it when prompted
+  required_information:
+    - next_step
+  failure_signals:
+    - Ignores the direct request to create a new record and continues asking for information only to locate an existing one
+    - Transfers or ends the call before acknowledging the direct request or explaining the intake next step
+    - Says the patient has been added without confirming that a record-creation action succeeded
+  ground_truth_notes: >-
+    This scenario does not assume the practice's registration workflow or that
+    the receptionist has write access to a patient system. A clear, accurate
+    limitation and specific next step can be a correct outcome. Judge only what
+    the receptionist actually says and does; do not infer backend record creation.
+
+max_duration_seconds: 180

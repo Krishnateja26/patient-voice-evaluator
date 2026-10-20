@@ -1,0 +1,36 @@
+{
+  "call_id": "call-022",
+  "scenario_id": "cancellation_persistence_check",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-022",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "termination_reason": "patient_end_call",
+  "updated_at": "2026-10-20T00:15:48.356478+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 79.806,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "369e33557137e866f965ab9532eb7d459d4d49d8e0c9e2ad403cc71ffee6c272",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "0809c949d91734e5f77e4c30c2ff4be52e58c3ff40f7fe014e8aa390c56d2347",
+    "agent": "2b8da705a038b4365c73e2b09f7777104fbdf4c0d7bdc38dcddab06056897a74"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-20T00:15:47.892959+00:00",
+  "call_name": "Call 21",
+  "transcript_recording_sha256": "369e33557137e866f965ab9532eb7d459d4d49d8e0c9e2ad403cc71ffee6c272",
+  "transcript_turn_count": 14,
+  "evaluated_at": "2026-10-20T00:15:48.339387+00:00",
+  "finding_count": 0,
+  "task_success": null
+}

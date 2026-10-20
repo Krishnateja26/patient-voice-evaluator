@@ -1,0 +1,318 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 15.578000000001339,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468053.4187381,
+      "stopped_speaking_at": 1792468059.2457569,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5926518440246582,
+      "on_user_turn_completed_delay": 0.000494399995659478
+    }
+  },
+  {
+    "role": "user",
+    "text": "Para español, oprima el dos.",
+    "interrupted": false,
+    "elapsed_seconds": 19.70300000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468060.2253685,
+      "stopped_speaking_at": 1792468063.6522152,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5912411212921143,
+      "on_user_turn_completed_delay": 0.0004059999992023222
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling to the Point Orthopedics, part of PrettyGoodAI.",
+    "interrupted": false,
+    "elapsed_seconds": 21.7809999999954,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468064.5072563,
+      "stopped_speaking_at": 1792468065.7443693,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5869472026824951,
+      "on_user_turn_completed_delay": 0.0001936999979079701
+    }
+  },
+  {
+    "role": "user",
+    "text": "How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 22.93699999999808,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "on_user_turn_completed_delay": 0.00020789999689441174
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. Can you check whether my knee appointment is still booked? I haven't asked anyone to change it, and I haven't received a message about a cancellation.\nMy date of birth is June 9th, 1981.",
+    "interrupted": false,
+    "elapsed_seconds": 41.625,
+    "metrics": {
+      "started_speaking_at": 1792468068.989384,
+      "stopped_speaking_at": 1792468086.2164829,
+      "llm_node_ttft": 0.574759000002814,
+      "llm_node_tps": 103.19984497135432,
+      "llm_node_ttfs": 0.6445915000003879,
+      "tts_node_ttfb": 0.8331983000025502,
+      "playback_latency": 0.0,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for providing your date of birth.",
+    "interrupted": false,
+    "elapsed_seconds": 51.43699999999808,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468090.762729,
+      "stopped_speaking_at": 1792468095.3943264,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5956625938415527,
+      "on_user_turn_completed_delay": 0.000295000005280599
+    }
+  },
+  {
+    "role": "user",
+    "text": "Can you please confirm your full name, including your last name?",
+    "interrupted": false,
+    "elapsed_seconds": 53.71800000000076,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "on_user_turn_completed_delay": 0.00033089999487856403
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Sure, it's Daniel Okafor.",
+    "interrupted": false,
+    "elapsed_seconds": 57.9059999999954,
+    "metrics": {
+      "started_speaking_at": 1792468099.7488565,
+      "stopped_speaking_at": 1792468102.4897184,
+      "llm_node_ttft": 0.6172748999961186,
+      "llm_node_tps": 162.6642230878378,
+      "llm_node_ttfs": 0.7207777000003261,
+      "tts_node_ttfb": 0.7431435999969835,
+      "playback_latency": 0.010655641555786133,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Your knee appointment is still booked for Monday, November 2nd at 10 a.m. Would you like to reschedule this appointment to a different day or time?",
+    "interrupted": false,
+    "elapsed_seconds": 71.5,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468106.8102708,
+      "stopped_speaking_at": 1792468114.1488612,
+      "transcription_delay": 1.891517162322998,
+      "end_of_turn_delay": 1.8925201892852783,
+      "on_user_turn_completed_delay": 0.00023290000535780564
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "No thanks, I want to keep the appointment as is. Could you tell me if there's any record of an attempted cancellation request or who might have requested it?",
+    "interrupted": false,
+    "elapsed_seconds": 83.60899999999674,
+    "metrics": {
+      "started_speaking_at": 1792468117.4065325,
+      "stopped_speaking_at": 1792468128.1932504,
+      "llm_node_ttft": 0.411804099996516,
+      "llm_node_tps": 181.11110013900748,
+      "llm_node_ttfs": 0.5130425000024843,
+      "tts_node_ttfb": 0.8324592999997549,
+      "playback_latency": 0.0049970149993896484,
+      "e2e_latency": 3.257671356201172,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "I do not see any record of a cancellation request for your appointment.",
+    "interrupted": false,
+    "elapsed_seconds": 97.20300000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468131.0530133,
+      "stopped_speaking_at": 1792468141.1484294,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.5909202098846436,
+      "on_user_turn_completed_delay": 0.00022149999858811498
+    }
+  },
+  {
+    "role": "user",
+    "text": "Your booking for Monday, November 2nd at 10 a.m. is still active. If you have any other questions or concerns, let me know.",
+    "interrupted": false,
+    "elapsed_seconds": 98.57800000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "on_user_turn_completed_delay": 0.00018360000103712082
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Thanks for confirming that. Can you tell me whether any actual cancellation notice was sent, or if you only know the usual policy about notifications? I haven't received any message myself.",
+    "interrupted": false,
+    "elapsed_seconds": 115.21800000000076,
+    "metrics": {
+      "started_speaking_at": 1792468144.9854736,
+      "stopped_speaking_at": 1792468159.8010275,
+      "llm_node_ttft": 0.772844899998745,
+      "llm_node_tps": 150.9144155971509,
+      "llm_node_ttfs": 0.8278658999988693,
+      "tts_node_ttfb": 1.0283163999993121,
+      "playback_latency": 0.0010023117065429688,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "There is no record of a cancellation notice being sent for your appointment. Your booking is still active. If you would like, I can send you a text message with your upcoming appointment details. Would you like me to do that?",
+    "interrupted": false,
+    "elapsed_seconds": 131.7809999999954,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468162.5569658,
+      "stopped_speaking_at": 1792468173.2494757,
+      "transcription_delay": 3.0344104766845703,
+      "end_of_turn_delay": 3.0367884635925293,
+      "on_user_turn_completed_delay": 0.000262100002146326
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "No, that's okay for now. Just one more thing—what is the best way to prevent someone else from changing my booking from my phone?",
+    "interrupted": false,
+    "elapsed_seconds": 142.57800000000134,
+    "metrics": {
+      "started_speaking_at": 1792468177.9623146,
+      "stopped_speaking_at": 1792468187.1689732,
+      "llm_node_ttft": 0.5443270999967353,
+      "llm_node_tps": 158.16836812303904,
+      "llm_node_ttfs": 0.6395628999962355,
+      "tts_node_ttfb": 1.0123058000026504,
+      "playback_latency": 0.005057811737060547,
+      "e2e_latency": 4.712838888168335,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "The best way to protect your appointment is to keep your personal information, like your date of birth and phone number, private. Only someone who can verify your details can make changes. If you ever suspect unauthorized changes, contact the clinic right away.",
+    "interrupted": false,
+    "elapsed_seconds": 159.96800000000076,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "gpt-4o-mini-transcribe",
+        "model_provider": "api.openai.com"
+      },
+      "started_speaking_at": 1792468190.2056487,
+      "stopped_speaking_at": 1792468202.8426368,
+      "transcription_delay": 1.6533987522125244,
+      "end_of_turn_delay": 1.6544914245605469,
+      "on_user_turn_completed_delay": 0.00026149999757763
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Great, thanks very much. Bye.",
+    "interrupted": false,
+    "elapsed_seconds": 165.68699999999808,
+    "metrics": {
+      "started_speaking_at": 1792468206.6534047,
+      "stopped_speaking_at": 1792468210.2785215,
+      "llm_node_ttft": 0.5290974999952596,
+      "llm_node_tps": 72.38224836851492,
+      "llm_node_ttfs": 0.792371199997433,
+      "tts_node_ttfb": 1.3379994999995688,
+      "playback_latency": 0.007898807525634766,
+      "e2e_latency": 3.810767889022827,
+      "llm_metadata": {
+        "model_name": "gpt-4.1-mini",
+        "model_provider": "api.openai.com"
+      },
+      "tts_metadata": {
+        "model_name": "gpt-4o-mini-tts",
+        "model_provider": "api.openai.com"
+      }
+    }
+  }
+]

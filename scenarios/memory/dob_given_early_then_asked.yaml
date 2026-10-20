@@ -1,0 +1,87 @@
+id: dob_given_early_then_asked
+category: memory
+title: Patient states their date of birth unprompted in the first sentence
+difficulty: medium
+tags: [memory, context_retention, identity]
+
+objective: Book a follow-up, having given name and date of birth before being asked for them.
+hypothesis: >-
+  Agents often collect identity through a fixed script. If the patient supplies the answer
+  before the script reaches that step, a brittle agent asks for it again anyway. This is the
+  most common and most irritating memory failure in production phone agents.
+
+patient:
+  name: Aisha Rahman
+  age: 39
+  date_of_birth: "1986-10-27"
+  temperament: calm
+  speech_notes: Organised and efficient, gives information in tidy chunks.
+
+background: >-
+  Existing patient, calling for a six-week follow-up on her hip. She is used to being asked
+  for the same details every time and tries to head it off by leading with them.
+
+facts_patient_knows:
+  identity: "Aisha Rahman, born the twenty-seventh of October nineteen eighty-six"
+  reason: "Six-week hip follow-up"
+  availability: "Any weekday after two in the afternoon"
+  phone: "805 555 0193"
+
+facts_patient_does_not_know:
+  - Which provider she saw last time
+
+opening_line: >-
+  Hi, it's Aisha Rahman, date of birth twenty-seventh of October nineteen eighty-six. I need
+  to book my hip follow-up.
+
+conversation_strategy:
+  - Lead with full name and date of birth in the opening sentence.
+  - If asked for either again, note plainly that it was already given, then repeat it.
+  - Give availability when asked.
+  - Confirm the booked slot before ending.
+
+information_disclosure:
+  volunteer_upfront:
+    - Full name
+    - Date of birth
+    - That it is a hip follow-up
+  on_request:
+    - Phone number
+    - Preferred times
+  never_volunteer:
+    - That she has had to repeat herself on previous calls
+  correct_if_misheard:
+    - "Rahman, R-A-H-M-A-N"
+    - "Nineteen eighty-six, not nineteen seventy-six"
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+
+target_outcome: >-
+  A follow-up is booked without the agent asking for the name or date of birth that were
+  given in the opening sentence.
+
+end_call_when:
+  - An appointment has been booked and confirmed
+  - The agent states it cannot book and explains the next step
+
+assertions:
+  expected_behaviors:
+    - Acknowledges the name and date of birth supplied in the opening turn
+    - Does not ask again for either detail
+    - Moves straight to the booking rather than restarting an identity script
+  forbidden_behaviors:
+    - Asks for the date of birth after it was already stated
+    - Asks for the patient's name after it was already stated
+    - Repeats the same identity question more than once
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    The name and date of birth appear in the caller's very first utterance. Any later request
+    for either is verifiable directly from the transcript.
+
+max_duration_seconds: 170

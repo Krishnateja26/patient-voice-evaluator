@@ -1,0 +1,20 @@
+{
+  "call_id": "call-021",
+  "scenario_id": "handoff_recovery_followup",
+  "evaluated_at": "2026-10-20T00:13:42.441788+00:00",
+  "judge_model": null,
+  "transcript_sha256": "5bd290ca35e79a0598fddfc10e42d376408d5e196b66b4ba0b56f34d7f341cc4",
+  "call_completed": false,
+  "duration_seconds": 171.915,
+  "turn_count": 25,
+  "deterministic_findings": [],
+  "assertion_findings": [],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 171.915
+  }
+}

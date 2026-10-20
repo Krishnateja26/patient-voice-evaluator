@@ -1,0 +1,53 @@
+Call 17 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[PATIENT 00:15.297]
+Hello, how can I help
+
+[AGENT 00:17.906]
+Thanks for calling Pivot Point Orthopaedics.
+
+[AGENT 00:18.078]
+Part of Pretty Good AI. May I help you today?
+
+[PATIENT 00:21.969]
+Hi, this is Daniel Okafor. Before changing anything, could I ask about availability on Friday, October 28, 2026? This is just an inquiry.
+
+[AGENT 00:33.156]
+Could you please provide your date of birth?
+
+[AGENT 00:37.719]
+I needed to look up availability for you.
+
+[PATIENT 00:40.375]
+Sure, my date of birth is June ninth, nineteen eighty-one.
+
+[AGENT 00:44.890]
+What type of visit are you interested in for Friday,
+
+[AGENT 00:53.906]
+October twenty eighth? For example, is this for a routine checkup a follow-up, a new patient consultation, or something else?
+
+[PATIENT 01:00.015]
+Actually, let me clarify: I mean October twenty-eighth, 2026, which I believe is a Wednesday, not Friday. Could you confirm which weekday that is? I want to be sure.
+Could you also tell me if there are any general knee appointment options that day, with any doctor?
+
+[AGENT 01:16.047]
+Let me check the calendar for you. One moment while I confirm which day of the week October twenty eighth twenty twenty six falls on and look into knee appointment options. October twenty eighth twenty twenty six is a Wednesday. For a general knee concern, would this be a routine office visit, a follow-up, or something else?
+
+[PATIENT 01:38.125]
+Thanks for confirming it's Wednesday. It's for a routine office visit for a knee concern.
+
+[AGENT 01:43.922]
+There are several routine office visit openings for a knee concern on Wednesday, October twenty eighth, You can see either doctor Zigniew Likoski or doctor Kelly Noble. Do you have a preference, or would you like to hear the earliest available time?
+
+[PATIENT 02:04.000]
+Thanks, but I'm not looking to book or change anything right now. I just wanted to check the availability. I have a current appointment for Tuesday, October twenty-seventh at noon that I want to keep. So no changes, please.
+
+[AGENT 02:16.125]
+No problem. Daniel. Your current appointment on Tuesday, October twenty seventh at noon is still set. And I haven't made any changes. If you need to reschedule or book in the future, just let me know.
+
+[PATIENT 02:30.453]
+Great, thanks very much. Bye.

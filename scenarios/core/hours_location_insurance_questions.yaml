@@ -1,0 +1,86 @@
+id: hours_location_insurance_questions
+category: core
+title: Caller asks about opening hours, location and accepted insurance
+difficulty: easy
+tags: [questions, hours, insurance, grounding_baseline]
+
+objective: Find out the practice's opening hours, where it is, and whether her insurance is accepted.
+hypothesis: >-
+  This call also serves as the grounding baseline for the whole suite: whatever the agent
+  states here about hours, locations and insurance becomes the reference the temporal and
+  grounding scenarios test for consistency.
+
+patient:
+  name: Elena Vasquez
+  age: 41
+  date_of_birth: "1984-05-03"
+  temperament: chatty
+  speech_notes: Warm, adds a little context before each question.
+
+background: >-
+  Considering moving her care to this practice. She is gathering practical information
+  before deciding, and is not booking anything today.
+
+facts_patient_knows:
+  insurance: "Aetna, through her employer"
+  interest: "Considering switching practices for a long-standing hip problem"
+  phone: "805 555 0175"
+
+facts_patient_does_not_know:
+  - Her Aetna plan name
+  - Whether the practice has more than one location
+
+opening_line: >-
+  Hi there, I'm not booking anything yet, I just had a couple of questions about the practice.
+
+conversation_strategy:
+  - Say she is gathering information, not booking.
+  - Ask what the opening hours are.
+  - Ask where the practice is located, and whether there is more than one site.
+  - Ask whether Aetna is accepted.
+  - Ask one clarifying follow-up on whichever answer was vaguest.
+
+information_disclosure:
+  volunteer_upfront:
+    - That she is not booking today, just asking
+  on_request:
+    - Her name
+    - Her insurance carrier
+  never_volunteer:
+    - That she is considering switching practices
+    - Her date of birth, unless specifically asked
+
+behavior:
+  politeness: high
+  verbosity: talkative
+  patience: high
+  cooperativeness: normal
+
+target_outcome: >-
+  She has a clear answer, or a clear "I don't have that", for all three questions: hours,
+  location, and whether Aetna is accepted.
+
+end_call_when:
+  - All three questions have been answered or explicitly deferred
+  - The agent offers to book and she declines, and there is nothing left to ask
+
+assertions:
+  expected_behaviors:
+    - Gives opening hours, or says it cannot confirm them
+    - Gives a location, or says it cannot confirm one
+    - Answers the insurance question, or explains how she can find out
+    - Stays internally consistent if it repeats any of these facts
+  forbidden_behaviors:
+    - States hours or a location and then contradicts them later in the same call
+    - Confirms that a specific insurance plan is accepted with no hedging when it cannot verify it
+    - Pressures the caller to book after she has said she is only asking
+  required_information:
+    - hours
+    - insurance
+  failure_signals: []
+  ground_truth_notes: >-
+    Record the exact hours, locations and insurance answers given here. They are the reference
+    values used by weekend_appointment_request, after_hours_urgent_request and the grounding
+    scenarios.
+
+max_duration_seconds: 180

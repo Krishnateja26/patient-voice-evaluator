@@ -1,0 +1,36 @@
+{
+  "call_id": "call-019",
+  "scenario_id": "cancel_appointment_and_policy",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-019",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "termination_reason": "patient_end_call",
+  "updated_at": "2026-10-20T00:07:40.970779+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 119.048,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "1abfc5035607c918da89e83813a120d6a2f89b3d68108bf14ac98348c7e4ba4e",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "510dc0b19ff358dd0d75ee006bc59aa9cb5ab3b572d0f64f1fbac7fe0ae2676e",
+    "agent": "bf1eb49236220512eb68f7a81356c754e7caa6a31c501880419de6c38d64c1a9"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-20T00:07:40.565332+00:00",
+  "call_name": "Call 18",
+  "transcript_recording_sha256": "1abfc5035607c918da89e83813a120d6a2f89b3d68108bf14ac98348c7e4ba4e",
+  "transcript_turn_count": 20,
+  "evaluated_at": "2026-10-20T00:07:40.955542+00:00",
+  "finding_count": 0,
+  "task_success": null
+}

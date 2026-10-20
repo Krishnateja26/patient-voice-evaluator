@@ -1,0 +1,45 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+# Local test identity may include a real phone number or date of birth.
+artifacts/caller_identity.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.pytest-tmp*/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# The full local archive stays on this machine. Only the curated submission set
+# under artifacts/submission_calls/ is included in the private repository.
+/artifacts/calls/
+/artifacts/compliance_review.json
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch
+scratch/
+tmp/
+*.log
+
+# Local agent instructions and source/reference attachments are not submission files.
+/AGENTS.md
+/docs/references/

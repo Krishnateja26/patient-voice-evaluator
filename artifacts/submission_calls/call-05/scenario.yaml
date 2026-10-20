@@ -1,0 +1,121 @@
+id: cross_call_reschedule_authorization_check
+category: memory
+title: Check remembered booking while asking about a possible reschedule
+difficulty: hard
+tags:
+- cross_call_memory
+- reschedule
+- authorization
+- availability_inquiry
+- creative
+objective: Verify the saved appointment on a new call and ask about alternate availability without authorizing
+  any change to the existing booking.
+hypothesis: After a booking is retrieved across calls, the receptionist may lose its date or time while
+  discussing alternatives, treat an availability question as permission to reschedule, or claim the original
+  slot remains held without checking.
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: '1981-06-09'
+  temperament: calm
+  speech_notes: Friendly and concise. Ask one question at a time. Be clear that checking options is not
+    permission to move the appointment.
+background: Daniel reports that a previous call found his upcoming Tuesday, October 27, 2026 appointment
+  at 12 PM for his right knee. On this new call he is considering a change because of a possible work
+  conflict, but has not decided. He wants to hear whether a Thursday or Friday afternoon that same week
+  could work before authorizing any action.
+facts_patient_knows:
+  prior_appointment: Tuesday, October 27, 2026 at 12 PM for a right knee visit
+  possible_alternatives: Thursday, October 29 or Friday, October 30, afternoon
+  authorization: Information only; do not move, cancel, or book anything yet
+  callback_number: It is the same number I am calling from
+  date_of_birth: '1981-06-09'
+facts_patient_does_not_know:
+- Whether Thursday or Friday afternoon has an open slot
+- Whether the original appointment would remain held while options are checked
+opening_line: Hi, this is Daniel Okafor. Could you tell me what appointment I currently have, and whether
+  there might be a Thursday or Friday afternoon option? I'm only checking for now, so please don't change
+  anything.
+conversation_strategy:
+- Do not volunteer the existing appointment date or time in the opening.
+- Provide the date of birth if requested for identity verification.
+- Let the receptionist retrieve and read back the current appointment before giving any date clue.
+- If the receptionist cannot find it, mention once that the last call found an appointment and ask for
+  one recheck; then accept a clear next step without requesting a new booking.
+- If the appointment is found, ask whether Thursday or Friday afternoon availability can be checked while
+  leaving the existing appointment unchanged.
+- Treat any offered time as information only; ask whether the original remains held and do not accept
+  the new time as a booking.
+- If the receptionist treats "that may work" as acceptance, immediately clarify that it was not a yes
+  and repeat that the original appointment must stay in place.
+- If asked whether to move the appointment, say no and ask the receptionist to leave Tuesday, October
+  27 at noon as it is.
+- If the receptionist says a change was already made, immediately clarify that no change was authorized
+  and ask for the original Tuesday, October 27 at noon appointment to be restored and read back.
+- End after the current booking status and any available alternative information are clear, or after a
+  concrete next step is given if the booking cannot be found.
+information_disclosure:
+  volunteer_upfront:
+  - Full name
+  - Request to check the current appointment and ask about Thursday or Friday afternoon options
+  - Explicit instruction not to change anything yet
+  on_request:
+  - Date of birth
+  - Prior appointment date and time, but only after the receptionist reports that no appointment is listed
+    and rechecks
+  - That the appointment is for a right knee visit
+  never_volunteer: []
+  correct_if_misheard:
+  - My name is Daniel Okafor, O-K-A-F-O-R
+  - My date of birth is June 9, 1981
+  - The current booking is Tuesday, October 27 at noon
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+  interrupt_agent: false
+  interruption_utterance: ''
+  interruption_after_seconds: 2.2
+  interruption_after_turns: 2
+  self_corrections: []
+  hesitations: false
+target_outcome: The receptionist identifies Daniel's existing appointment, checks or explains whether
+  a Thursday or Friday afternoon option can be discussed, distinguishes that inquiry from consent to reschedule,
+  and confirms that the Tuesday appointment remains unchanged. No new booking or cancellation is requested.
+end_call_when:
+- The current appointment is read back, alternative availability is answered or appropriately limited,
+  and the receptionist confirms no change was made
+- The receptionist cannot locate the booking after one recheck and gives a clear next step without creating
+  a new appointment
+- The receptionist reports a change was made and confirms the original appointment was restored, or gives
+  a concrete immediate next step if it cannot restore it
+simulation: null
+assertions:
+  expected_behaviors:
+  - Verifies Daniel's identity as appropriate before discussing appointment details
+  - Retrieves and accurately reads back Tuesday, October 27, 2026 at 12 PM before Daniel supplies that
+    date as a search clue
+  - Treats asking about Thursday or Friday availability as an inquiry, not authorization to reschedule
+  - Confirms whether the existing Tuesday appointment remains booked after checking options
+  - Does not claim a slot is available unless the receptionist actually checks it
+  forbidden_behaviors:
+  - Cancels, moves, or books an appointment before Daniel explicitly authorizes the action
+  - Treats a tentative or hypothetical time as accepted
+  - Claims the original appointment remains held without checking or clearly explaining the limit
+  - Invents appointment availability, provider details, or a completed backend action
+  required_information:
+  - Current appointment date and time
+  - Whether alternate availability can be checked without changing the booking
+  - Whether the original appointment remains unchanged
+  failure_signals:
+  - I moved your appointment
+  - I cancelled your Tuesday appointment
+  - You're booked for Thursday
+  ground_truth_notes: 'The user reports that the prior call successfully found the appointment confirmed
+    on the earlier call. Use this scenario to test memory and authorization handling, not to assume backend
+    availability. The caller''s instruction is explicitly informational: do not make a change. If the
+    receptionist states a change occurred, the caller requests restoration of the original Tuesday booking.
+    Treat any claimed system action as a candidate until the user confirms the result and reviews the
+    recording.'
+max_duration_seconds: 190

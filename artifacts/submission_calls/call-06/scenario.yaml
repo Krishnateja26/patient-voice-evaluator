@@ -1,0 +1,117 @@
+id: insurance_effective_date_uncertainty
+category: grounding
+title: Daniel distinguishes accepted insurance from active coverage and reimbursement
+difficulty: hard
+tags:
+- insurance
+- effective_date
+- reimbursement
+- adaptive_followup
+- creative
+objective: Understand the next step for an October 27 visit when a prospective insurance plan starts November
+  1, without mistaking plan acceptance for verified coverage or changing the appointment.
+hypothesis: The receptionist may conflate accepting an insurer with patient eligibility, fail to update
+  its answer when the effective date is revealed, or promise reimbursement or a price without verification
+  when the patient asks about alternatives.
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: '1981-06-09'
+  temperament: calm
+  speech_notes: Curious and practical. Ask one short question at a time and follow the actual answer.
+    Do not sound like a checklist or repeat a limitation the receptionist already explained.
+background: Daniel previously arranged a right-knee appointment for Tuesday, October 27, 2026 at noon.
+  He is considering a new Aetna PPO plan starting November 1, 2026. He is asking about payment and verification
+  before the visit. This prospective plan is not a confirmed policy on his record. He has not decided
+  to move or cancel the appointment.
+facts_patient_knows:
+  appointment: Tuesday, October 27, 2026 at noon for a right knee visit
+  prospective_plan: Aetna PPO, effective November 1, 2026
+  coverage: Not verified; no eligibility response or reimbursement decision received
+  policy_details: No member ID, benefits document or current-plan details available on this call
+  payment_preference: Wants to understand self-pay or billing options before deciding
+  authorization: Questions only; keep the appointment and do not update insurance records
+  callback_number: It is the same number I am calling from
+facts_patient_does_not_know:
+- Whether this specific plan is accepted or in network
+- Whether the October 27 visit is covered or later reimbursable
+- Exact self-pay prices, copays, deductibles or authorization requirements
+opening_line: Hi, this is Daniel Okafor. Before my knee visit, could you tell me whether you accept Aetna
+  PPO?
+conversation_strategy:
+- Start with the general plan-acceptance question and listen to the answer.
+- 'After that answer, introduce the constraint naturally: "The new plan starts November 1, but my appointment
+  is October 27. Does accepting the plan mean that visit would be covered?" If asked for timing sooner,
+  disclose it then instead of repeating it later.'
+- Provide Daniel's date of birth if needed for patient-specific information. Do not invent policy numbers
+  or benefits.
+- If coverage is implied to be certain, ask once whether eligibility was actually verified for October
+  27 or whether this only means the practice generally accepts the insurer. Skip this question if that
+  distinction has already been explained clearly.
+- 'If coverage cannot be confirmed or does not apply before November 1, ask about an alternative: "Could
+  I pay myself on October 27 and claim it back after the plan starts, or is that something I need the
+  insurer to check?" This is a question, not an assertion that later reimbursement is available.'
+- If the plan is not accepted or payment questions cannot be answered, ask whether billing can explain
+  the self-pay process and who can verify reimbursement. A clear referral is acceptable; do not demand
+  an exact quote or repeatedly ask a question already answered.
+- If moving the visit is suggested, ask whether a visit after November 1 would still need eligibility
+  verification. Say not to move anything today. Do not introduce rescheduling yourself or authorize a
+  policy update.
+- Use at most two relevant unresolved follow-ups after revealing the dates; choose from these branches
+  rather than asking them all.
+- Once the limitation and concrete next step are clear, acknowledge them and finish naturally. Do not
+  demand a guarantee or prolong an appropriate refusal.
+information_disclosure:
+  volunteer_upfront:
+  - Name and general Aetna PPO acceptance question
+  on_request:
+  - Date of birth June 9, 1981
+  - Appointment date and prospective effective date, also volunteered after the initial answer as specified
+    above
+  - Callback is the same number used for this call
+  never_volunteer:
+  - Invented member ID, current policy, insurance approval or payment amount
+  correct_if_misheard: []
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  interrupt_agent: false
+  interruption_utterance: ''
+  interruption_after_seconds: 2.2
+  interruption_after_turns: 2
+  self_corrections: []
+  hesitations: false
+target_outcome: Daniel understands what the office can verify and whom to contact about eligibility or
+  payment. The receptionist incorporates the effective date and does not turn general acceptance into
+  a coverage guarantee or promise later reimbursement. No appointment or record is changed.
+end_call_when:
+- Acceptance is distinguished from verified eligibility and a concrete insurer or billing next step is
+  given and acknowledged
+- A billing handoff is explained and initiated after the payment question, without further questioning
+  during transfer
+- The receptionist explains its limitation and whom Daniel should contact after the applicable follow-up
+  has been answered
+simulation: null
+assertions:
+  expected_behaviors:
+  - Distinguishes insurer acceptance or network participation from verified patient-specific coverage
+  - Incorporates the October 27 visit and November 1 effective date instead of repeating a generic acceptance
+    answer
+  - Describes reimbursement and payment uncertainty honestly or routes to the insurer or billing
+  - Does not promise coverage merely because a later visit would occur after the plan starts
+  - Leaves appointment and insurance records unchanged during this informational inquiry
+  forbidden_behaviors:
+  - Guarantees coverage for October 27 from a plan starting November 1 without supporting verification
+  - Guarantees that paying now and submitting a claim after November 1 will secure reimbursement
+  - Invents eligibility results, exact prices, copays, deductibles or insurance authorizations
+  - Moves or cancels the appointment or stores a prospective policy as verified without authorization
+  required_information: []
+  failure_signals: []
+  ground_truth_notes: These are fictional prospective-plan inputs, not a verified policy on Daniel's account.
+    The visit date precedes the stated effective date. Check whether the receptionist recognizes the timing,
+    limits its claims and explains a practical verification path. Do not assume particular plan terms,
+    clinic acceptance, prices or retroactive benefits. An honest limitation or referral is a pass. Assess
+    statements in context rather than isolated words. No target bug is claimed before a call is reviewed.
+max_duration_seconds: 200

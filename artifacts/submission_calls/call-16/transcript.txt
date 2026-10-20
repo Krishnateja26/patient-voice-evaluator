@@ -1,0 +1,80 @@
+Call: call-028; audio: recording.mp3
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[PATIENT 00:00.000]
+Hi, this is Daniel Okafor.
+
+[AGENT 00:13.840]
+Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:27.380]
+Can you add two text reminders for my appointment, one the day before, and another two hours before, to this phone?
+
+[AGENT 00:36.560]
+Can you please provide your date of birth?
+
+[PATIENT 00:38.460]  <-- possible overlapping speech
+Sure, it's June 9th, 1981.
+
+[AGENT 00:43.560]
+Daniel, I have your number as 410-963-3015, is that correct?
+
+[PATIENT 00:57.380]
+Yes, that's right.
+
+[PATIENT 01:03.820]
+Could you please check if you have my appointment on file?
+
+[AGENT 01:06.440]
+Thanks for confirming.
+
+[PATIENT 01:06.620]  <-- possible overlapping speech
+I would like to...
+
+[AGENT 01:07.440]
+I'll check your upcoming appointment and see what reminder options are available. One moment.
+
+[AGENT 01:15.400]
+Your appointment is scheduled for Monday, November 2nd at 10 a.m. I'll send you a text reminder the day before and another two hours before your appointment. Would you like to receive these reminders for future appointments as well or just this
+
+[PATIENT 01:27.380]  <-- possible overlapping speech
+Okay, that's good.
+
+[AGENT 01:28.160]  <-- possible overlapping speech
+one?
+
+[PATIENT 01:34.380]
+So the two reminders, one 24 hours and one two hours before, can both be set?
+
+[AGENT 01:43.080]
+I can send you a text reminder the day before your appointment. At this time, I can only send one reminder per appointment. Would you like the reminder the day before or two hours before your appointment?
+
+[PATIENT 01:58.380]  <-- possible overlapping speech
+Please set the reminder for the day before. Also, have you actually scheduled that reminder, or have you just noted my preference for staff?
+
+[AGENT 02:10.520]
+The reminder has been scheduled and you will receive a text the day before your appointment. No extra action from staff is needed.
+
+[PATIENT 02:22.380]
+Thanks, that helps clarify. Can you also save my preference for a two-hour reminder if the option becomes available later? If that option becomes available, yes, we can save your preference. Great, thanks very much.
+
+[AGENT 02:40.200]
+I've saved your preference for a two-hour reminder if that option becomes available in the future. The clinic team will have this noted on your record.
+
+[PATIENT 02:55.380]
+Bye.
+
+[AGENT 02:59.120]
+You're welcome.
+
+------------------------------------------------------------
+Overlapping speech:
+  00:38.460  patient cut across agent for 3.7s
+  01:06.620  patient cut across agent for 0.82s
+  01:27.380  patient cut across agent for 0.78s
+  01:28.160  agent cut across patient for 1.82s
+  01:58.380  patient cut across agent for 0.86s
+
+Note: 15 segment end time(s) were trimmed to a plausible speaking rate.

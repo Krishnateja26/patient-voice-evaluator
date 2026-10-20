@@ -1,0 +1,379 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 36,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 10.0,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 10.0,
+      "end": 15.359,
+      "timestamp": "00:10.000",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 15.359,
+      "end": 16.875,
+      "timestamp": "00:15.359",
+      "text": "Part of Pretty Good AI.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "agent",
+      "start": 16.875,
+      "end": 18.344,
+      "timestamp": "00:16.875",
+      "text": "How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "patient",
+      "start": 18.344,
+      "end": 26.625,
+      "timestamp": "00:18.344",
+      "text": "Hi, this is Daniel Okafor. I registered with your office recently using this number, and I'm calling to arrange my first appointment for my right knee.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 26.625,
+      "end": 30.64,
+      "timestamp": "00:26.625",
+      "text": "Please provide your date of birth.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 30.64,
+      "end": 34.562,
+      "timestamp": "00:30.640",
+      "text": "Sure, my date of birth is June 9, 1981.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 34.562,
+      "end": 40.484,
+      "timestamp": "00:34.562",
+      "text": "Thanks, Daniel.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 40.484,
+      "end": 45.672,
+      "timestamp": "00:40.484",
+      "text": "Since this is your first appointment, would you like to schedule a new patient consultation for your right knee?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 45.672,
+      "end": 52.0,
+      "timestamp": "00:45.672",
+      "text": "Yes, that's exactly what I need. It's for right knee pain that started about three weeks ago after an injury.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 52.0,
+      "end": 58.89,
+      "timestamp": "00:52.000",
+      "text": "Do you have a specific provider you'd like to see, or are you open to the next available appointment?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "patient",
+      "start": 58.89,
+      "end": 63.64,
+      "timestamp": "00:58.890",
+      "text": "I'm open to the next available appointment. If possible, I would prefer next Wednesday morning.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 63.64,
+      "end": 69.859,
+      "timestamp": "01:03.640",
+      "text": "Let me check for available appointments on Wednesday morning for you.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 69.859,
+      "end": 70.937,
+      "timestamp": "01:09.859",
+      "text": "One moment.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "patient",
+      "start": 70.937,
+      "end": 73.703,
+      "timestamp": "01:10.937",
+      "text": "Okay, thank you.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 73.703,
+      "end": 86.672,
+      "timestamp": "01:13.703",
+      "text": "There are no opening The soonest available appointments are on Thursday, October twenty second with Dooviehauser. The earliest slot is at one thirty PM. Would you like to book that? Or hear later times?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "patient",
+      "start": 86.672,
+      "end": 93.406,
+      "timestamp": "01:26.672",
+      "text": "Thursday at 1:30 PM is not ideal. Do you have anything earlier that day or possibly the morning after on Friday?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "agent",
+      "start": 93.406,
+      "end": 102.015,
+      "timestamp": "01:33.406",
+      "text": "Are no morning appointments available on Thursday, and I do not see any openings for Friday yet.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start": 102.015,
+      "end": 105.531,
+      "timestamp": "01:42.015",
+      "text": "Would you like to hear the next available times on Thursday afternoon?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "agent",
+      "start": 105.531,
+      "end": 108.25,
+      "timestamp": "01:45.531",
+      "text": "Or should I check for openings the following week",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 20,
+      "speaker": "patient",
+      "start": 108.25,
+      "end": 111.687,
+      "timestamp": "01:48.250",
+      "text": "Please check for openings the following week, thanks.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 21,
+      "speaker": "agent",
+      "start": 111.687,
+      "end": 119.625,
+      "timestamp": "01:51.687",
+      "text": "Let me check for available appointments the week after October twenty second.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "start": 119.625,
+      "end": 120.609,
+      "timestamp": "01:59.625",
+      "text": "One moment.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 23,
+      "speaker": "patient",
+      "start": 120.609,
+      "end": 122.89,
+      "timestamp": "02:00.609",
+      "text": "Okay, I",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 24,
+      "speaker": "agent",
+      "start": 122.89,
+      "end": 123.078,
+      "timestamp": "02:02.890",
+      "text": "The next week,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 25,
+      "speaker": "patient",
+      "start": 123.078,
+      "end": 125.172,
+      "timestamp": "02:03.078",
+      "text": "Hello? Are you still",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 26,
+      "speaker": "agent",
+      "start": 125.172,
+      "end": 125.422,
+      "timestamp": "02:05.172",
+      "text": "your",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 27,
+      "speaker": "patient",
+      "start": 125.422,
+      "end": 130.64,
+      "timestamp": "02:05.422",
+      "text": "Yes, I'm here. Could you please check for openings the week after October twenty-second again?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 28,
+      "speaker": "agent",
+      "start": 130.64,
+      "end": 137.625,
+      "timestamp": "02:10.640",
+      "text": "I found openings on Tuesday, October twenty seventh, with",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 29,
+      "speaker": "agent",
+      "start": 137.625,
+      "end": 141.609,
+      "timestamp": "02:17.625",
+      "text": "Dube Hauser. Earliest slot is at twelve PM.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 30,
+      "speaker": "agent",
+      "start": 141.609,
+      "end": 144.875,
+      "timestamp": "02:21.609",
+      "text": "Would you like to book that time or hear other options for that day?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 31,
+      "speaker": "patient",
+      "start": 144.875,
+      "end": 151.125,
+      "timestamp": "02:24.875",
+      "text": "I would prefer next Wednesday morning if available, if not, Tuesday at 12 PM on the twenty-seventh will work.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 32,
+      "speaker": "agent",
+      "start": 151.125,
+      "end": 161.359,
+      "timestamp": "02:31.125",
+      "text": "There are no Wednesday morning openings that week. Would you like to book Tuesday, October twenty seventh at twelve PM with Doobie Hauser?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 33,
+      "speaker": "patient",
+      "start": 161.359,
+      "end": 166.781,
+      "timestamp": "02:41.359",
+      "text": "Yes, please book me for Tuesday, October twenty-seventh at twelve PM with Doobie Hauser.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 34,
+      "speaker": "agent",
+      "start": 166.781,
+      "end": 177.906,
+      "timestamp": "02:46.781",
+      "text": "Your appointment is set for Tuesday, October twenty seventh at twelve PM with Doobie Hauser at Pivot Point Orthopedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 35,
+      "speaker": "agent",
+      "start": 177.906,
+      "end": 182.765,
+      "timestamp": "02:57.906",
+      "text": "Please bring your photo ID, insurance card, a list of",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "14874417601266e9c8c024c6627474fb5235b29cfc72d35544d26f6d45c28e8c",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

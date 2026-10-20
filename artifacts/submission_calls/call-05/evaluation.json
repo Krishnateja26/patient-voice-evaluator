@@ -1,0 +1,37 @@
+{
+  "call_id": "call-011",
+  "scenario_id": "cross_call_reschedule_authorization_check",
+  "evaluated_at": "2026-10-19T21:09:43.540253+00:00",
+  "judge_model": null,
+  "transcript_sha256": "57524a44e0b38dd29142eb174c3147dbaa921a1b66a71c88310bc62ddf3cc3b6",
+  "call_completed": false,
+  "duration_seconds": 178.594,
+  "turn_count": 19,
+  "deterministic_findings": [],
+  "assertion_findings": [
+    {
+      "id": "call-011-assert-missing-info",
+      "title": "Required information never came up in the call",
+      "severity": "medium",
+      "category": "memory",
+      "confidence": "medium",
+      "source": "assertion",
+      "expected": "Scenario 'cross_call_reschedule_authorization_check' requires the call to cover: Current appointment date and time; Whether alternate availability can be checked without changing the booking; Whether the original appointment remains unchanged",
+      "actual": "Never mentioned by either party: Current appointment date and time; Whether alternate availability can be checked without changing the booking; Whether the original appointment remains unchanged",
+      "why_it_matters": "The caller left the call without something the scenario says they needed, which means the task was not actually completed even if the agent sounded like it was.",
+      "evidence": [],
+      "reproduction": "Run: voice-evaluator call --scenario cross_call_reschedule_authorization_check",
+      "adjudication_verdict": "not_run",
+      "adjudication_reason": "",
+      "human_verified": false
+    }
+  ],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 178.594
+  }
+}

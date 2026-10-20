@@ -1,0 +1,296 @@
+[
+  {
+    "id": "C01",
+    "page": 1,
+    "category": "HARD REQUIREMENT",
+    "requirement": "Create a test account at pgai.us/athena to understand the patient experience.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C02",
+    "page": 1,
+    "category": "PROHIBITION",
+    "requirement": "Do not call the number on the account confirmation screen.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C03",
+    "page": 1,
+    "category": "SAFETY REQUIREMENT",
+    "requirement": "All assessment calls go only to +18054398008.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C04",
+    "page": 1,
+    "category": "HARD REQUIREMENT",
+    "requirement": "Simulate realistic patient scenarios and identify target bugs or quality issues.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C05",
+    "page": 1,
+    "category": "DELIVERABLE",
+    "requirement": "Record and transcribe conversations.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C06",
+    "page": 1,
+    "category": "RECOMMENDATION / OPTIONAL IMPROVEMENT",
+    "requirement": "Typical API/telephony cost is below $20; reimbursement is capped at $20 and requires receipts.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C07",
+    "page": 2,
+    "category": "HARD REQUIREMENT",
+    "requirement": "Use Python and LiveKit Agents in pipeline mode with separate STT, text LLM and TTS; provider choice is open.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C08",
+    "page": 2,
+    "category": "PROHIBITION",
+    "requirement": "Do not use realtime/speech-to-speech models, RealtimeModel plugins, Gemini Live or equivalent.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C09",
+    "page": 2,
+    "category": "PROHIBITION",
+    "requirement": "Do not use Vapi, Retell, Bland or hosted voice-agent platforms that replace the required pipeline.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C10",
+    "page": 2,
+    "category": "DELIVERABLE",
+    "requirement": "Include working Python code in the private GitHub repository.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C11",
+    "page": 2,
+    "category": "DOCUMENTATION REQUIREMENT",
+    "requirement": "README must explain setup and running; ideally one command after setup.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C12",
+    "page": 2,
+    "category": "DOCUMENTATION REQUIREMENT",
+    "requirement": "Formal architecture explanation is one to two paragraphs and explains design choices.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C13",
+    "page": 2,
+    "category": "TESTING REQUIREMENT",
+    "requirement": "Submit at least ten complete conversations, both sides recorded and transcribed; typically one to three minutes, not question-and-hang-up.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C14",
+    "page": 2,
+    "category": "DELIVERABLE",
+    "requirement": "Submit actual audio recordings in OGG or MP3 as well as transcripts.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C15",
+    "page": 2,
+    "category": "DELIVERABLE",
+    "requirement": "Bug report makes clear what happened, why it is a problem and where evidence can be found; example format is optional.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C16",
+    "page": 2,
+    "category": "DELIVERABLE",
+    "requirement": "Project walkthrough video is at most three minutes and communicates approach and reasoning.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C17",
+    "page": 2,
+    "category": "PROHIBITION",
+    "requirement": "Do not use Pretty Good AI or PGAI in Loom presentation language.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C18",
+    "page": 2,
+    "category": "SUBMISSION REQUIREMENT",
+    "requirement": "Use webcam/video and your own voice in the required videos.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C19",
+    "page": 2,
+    "category": "DELIVERABLE",
+    "requirement": "Provide a second screen recording showing genuine iterative AI prompting to debug/fix code and prompts used at each step.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C20",
+    "page": 3,
+    "category": "CODE QUALITY REQUIREMENT",
+    "requirement": "Keep code clean, readable and reasonably structured.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C21",
+    "page": 3,
+    "category": "CODE QUALITY REQUIREMENT",
+    "requirement": "Document needed API keys and environment variables; do not commit secrets.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C22",
+    "page": 3,
+    "category": "DELIVERABLE",
+    "requirement": "Include .env.example showing needed variables.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C23",
+    "page": 3,
+    "category": "PROHIBITION",
+    "requirement": "Do not use Pretty Good AI or PGAI in repository name, description or README title.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C24",
+    "page": 3,
+    "category": "SUBMISSION REQUIREMENT",
+    "requirement": "Keep the repository private after submission.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C25",
+    "page": 3,
+    "category": "TESTING REQUIREMENT",
+    "requirement": "Cover appointment scheduling, reschedule/cancel, refills, office hours/location/insurance and interruption/unclear/unusual cases.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C26",
+    "page": 3,
+    "category": "RECOMMENDATION / OPTIONAL IMPROVEMENT",
+    "requirement": "Expected project time is up to six hours; deeper useful analysis and creative edge cases can distinguish the submission.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C27",
+    "page": 3,
+    "category": "EVALUATION PRIORITY",
+    "requirement": "First review is call audio: coherent conversation is the highest priority and a rejection gate.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C28",
+    "page": 3,
+    "category": "EVALUATION PRIORITY",
+    "requirement": "Useful well-described bugs beat a long list of nitpicks.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C29",
+    "page": 3,
+    "category": "HARD REQUIREMENT",
+    "requirement": "Code must actually make real telephone calls.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C30",
+    "page": 3,
+    "category": "DOCUMENTATION REQUIREMENT",
+    "requirement": "Explain STT, LLM, TTS, turn detection, interruptions, phone connectivity, latency, alternatives and tradeoffs in architecture/Loom.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C31",
+    "page": 3,
+    "category": "EVALUATION PRIORITY",
+    "requirement": "Show improvements based on early call results.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C32",
+    "page": 3,
+    "category": "EVALUATION PRIORITY",
+    "requirement": "Follow all instructions rigorously and provide understandable code.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C33",
+    "page": 4,
+    "category": "RECOMMENDATION / OPTIONAL IMPROVEMENT",
+    "requirement": "Perfect code, overengineering, fancy diagrams, punctuation nitpicks, one-shot copy-paste and production infrastructure are not the goal.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C34",
+    "page": 4,
+    "category": "VOICE QUALITY REQUIREMENT",
+    "requirement": "Calls have natural conversational interaction and sensible turn taking except intentional barge-in tests.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C35",
+    "page": 4,
+    "category": "VOICE QUALITY REQUIREMENT",
+    "requirement": "Actively steer toward the scenario outcome while preserving realistic pacing and flow.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C36",
+    "page": 4,
+    "category": "VOICE QUALITY REQUIREMENT",
+    "requirement": "Audio is clear with minimal glitches, latency, unintended interruptions or awkward pauses; caller behaves like a real user.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C37",
+    "page": 4,
+    "category": "SUBMISSION REQUIREMENT",
+    "requirement": "Create a private GitHub repository and invite eng-challenge@prettygoodai.com as collaborator.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C38",
+    "page": 4,
+    "category": "SUBMISSION REQUIREMENT",
+    "requirement": "Complete the assessment submission form with private repository URL and reviewer access.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C39",
+    "page": 4,
+    "category": "SUBMISSION REQUIREMENT",
+    "requirement": "Include both videos; debugging video is viewable by anyone with the link.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C40",
+    "page": 4,
+    "category": "SAFETY REQUIREMENT",
+    "requirement": "Use one originating number for all calls and submit that exact number in E.164 format.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C41",
+    "page": 4,
+    "category": "RECOMMENDATION / OPTIONAL IMPROVEMENT",
+    "requirement": "No hard deadline; submissions are reviewed in arrival order.",
+    "source": "current-challenge.pdf"
+  },
+  {
+    "id": "C42",
+    "page": 4,
+    "category": "PROHIBITION",
+    "requirement": "Do not directly contact the team for support/clarification/feedback outside submission channels.",
+    "source": "current-challenge.pdf"
+  }
+]

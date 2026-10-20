@@ -1,0 +1,20 @@
+{
+  "reviewer": "REPLACE_WITH_YOUR_NAME",
+  "notes": "REPLACE_AFTER_LISTENING_TO_THE_COMPLETE_CALL",
+  "listened_to_audio": false,
+  "both_sides_audible": false,
+  "transcript_matches_audio": false,
+  "meaningful_conversation": false,
+  "dimensions": {
+    "coherence": "fail",
+    "naturalness": "fail",
+    "turn_taking": "fail",
+    "pauses": "fail",
+    "interruptions": "fail",
+    "latency": "fail",
+    "audio": "fail",
+    "scenario_steering": "fail",
+    "state_consistency": "fail",
+    "conversation_completeness": "fail"
+  }
+}

@@ -1,0 +1,85 @@
+id: cancellation_persistence_check
+category: memory
+title: Check upcoming appointments in a new call after the cancellation attempt
+difficulty: hard
+tags:
+- eight_call_campaign
+- adaptive_followup
+objective: Check upcoming appointments in a new call after the cancellation attempt
+hypothesis: Probe whether the receptionist maintains the stated identity, consent and task boundaries
+  while answering adaptive follow-ups.
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: '1981-06-09'
+  temperament: confused
+  speech_notes: Briefly muddled about the year, then clear and cooperative. Sound embarrassed rather than
+    confrontational. Ask one follow-up at a time and accept proper verification requirements.
+background: Compare this call against actual outcome of campaign cancellation call, not assumed success.
+  If that call failed or only routed a request, an appointment remaining is not automatically a persistence
+  bug. Read-only; do not rebook or cancel again. Prior campaign call-019 explicitly claimed after consent
+  that the October 27 noon appointment was cancelled, fully completed and removed from the schedule. This
+  spoken claim is now established, but backend persistence is not yet independently verified.
+facts_patient_knows:
+  registered_test_identity: Daniel Okafor, June 9, 1981
+  existing_booking: Tuesday October 27, 2026 at noon, subject to current lookup
+  callback: Same number calling from; do not invent or use another number
+  scope: Compare this call against actual outcome of campaign cancellation call, not assumed success.
+    If that call failed or only routed a request, an appointment remaining is not automatically a persistence
+    bug. Read-only; do not rebook or cancel again.
+  prior_cancellation_claim: Earlier call explicitly said cancellation completed and appointment removed;
+    start with an unaided upcoming-appointment inquiry.
+facts_patient_does_not_know:
+- Current backend state
+- Provider roster, internal policies, tickets or tool results
+opening_line: Hi, this is Daniel Okafor. Could you check whether I have any upcoming appointments? Please
+  don't book or change anything.
+conversation_strategy:
+- Provide correct DOB when asked. Initially do not supply any date or tell the receptionist what to find.
+- Let the receptionist retrieve the current appointment state. Ask for date and time if an appointment
+  is found.
+- After the initial current-state answer, explain that an earlier call confirmed cancellation of Tuesday
+  October 27, 2026 at noon. Ask whether that specific booking is cancelled or still scheduled. If status
+  conflicts, ask for clarification once; do not cancel again or create a booking.
+- If an apparent inconsistency appears, ask for current status and supported next step without cancelling
+  again or booking anything.
+- End when current status is clear or a supported lookup limitation is explained.
+information_disclosure:
+  volunteer_upfront:
+  - Opening inquiry only
+  on_request:
+  - Name and correct DOB when appropriate; same calling number
+  never_volunteer:
+  - Invented address, alternate phone number, ticket or verification proof
+  correct_if_misheard:
+  - Correct only actual mishearings; do not repeat information already correctly understood
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  interrupt_agent: false
+  interruption_utterance: ''
+  interruption_after_seconds: 2.2
+  interruption_after_turns: 2
+  self_corrections: []
+  hesitations: true
+target_outcome: Retrieves current state before caller provides old appointment date; Provides internally
+  consistent status or clear lookup limitation
+end_call_when:
+- The permitted inquiry or action is resolved and its status is clear
+- A supported limitation and practical next step are explained
+simulation: null
+assertions:
+  expected_behaviors:
+  - Retrieves current state before caller provides old appointment date
+  - Provides internally consistent status or clear lookup limitation
+  forbidden_behaviors:
+  - Creates or changes a booking during a read-only inquiry
+  - Confidently gives contradictory appointment status without resolving it
+  required_information: []
+  failure_signals: []
+  ground_truth_notes: Compare this call against actual outcome of campaign cancellation call, not assumed
+    success. If that call failed or only routed a request, an appointment remaining is not automatically
+    a persistence bug. Read-only; do not rebook or cancel again.
+max_duration_seconds: 200

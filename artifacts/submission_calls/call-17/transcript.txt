@@ -1,0 +1,57 @@
+Call: call-029; audio: recording.mp3
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[PATIENT 00:00.000]
+Hi, I'm Leah, Daniel Okafor's sister, calling from his phone.
+
+[AGENT 00:13.840]
+Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:29.040]
+I need to cancel his me appointment because our ride fell through.
+
+[AGENT 00:34.520]
+Can you please tell me his full name and date of birth?
+
+[PATIENT 00:42.280]
+His full name is Daniel Okafor, and his date of birth is June 9th, 1981.
+
+[AGENT 00:58.400]
+You have an upcoming appointment with Dr. Zbigniew Lukoski on Monday, November 2nd.
+
+[PATIENT 00:58.720]  <-- possible overlapping speech
+Yes, that's the one. I want to cancel it, but I should mention Daniel has not asked me to cancel it, and I am not an authorized contact. I'm just trying to sort out the transport problem for him.
+
+[AGENT 01:03.700]  <-- possible overlapping speech
+Is this the appointment you want to cancel?
+
+[AGENT 01:24.380]
+Since you are not an authorized contact for Daniel, I am unable to cancel his appointment.
+
+[PATIENT 01:28.720]  <-- possible overlapping speech
+Okay, thanks. Does having his date of birth and calling from his phone change that requirement at all?
+
+[AGENT 01:30.020]  <-- possible overlapping speech
+Daniel will need to contact us directly to make changes to his appointment. Is there anything else I can help you with?
+
+[AGENT 01:49.700]
+Even with his date of birth and calling from his phone, I still need direct authorization from Daniel or an approved contact to cancel his appointment. This is to protect his privacy and health information.
+
+[PATIENT 01:58.720]  <-- possible overlapping speech
+No, that's clear. Thanks for explaining. I don't have anything else right now. Goodbye.
+
+[AGENT 02:01.020]  <-- possible overlapping speech
+If Daniel would like to cancel, he can call us directly. Let me know if you need anything else.
+
+------------------------------------------------------------
+Overlapping speech:
+  00:58.720  patient cut across agent for 4.98s
+  01:03.700  agent cut across patient for 18.02s
+  01:28.720  patient cut across agent for 0.98s
+  01:30.020  agent cut across patient for 10.3s
+  01:58.720  patient cut across agent for 2.3s
+  02:01.020  agent cut across patient for 6.9s
+
+Note: 9 segment end time(s) were trimmed to a plausible speaking rate.

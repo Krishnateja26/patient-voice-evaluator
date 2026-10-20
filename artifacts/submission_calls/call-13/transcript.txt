@@ -1,0 +1,77 @@
+Call 20 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:14.641]
+Thanks for calling Pivot Point Orthopaedics.
+
+[AGENT 00:17.485]
+Part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:20.938]
+Hi, this is Daniel Okafor. I previously asked about a medication review. How can I find out whether the staff received that request?
+
+[AGENT 00:28.391]
+Please provide your date of birth.
+
+[AGENT 00:32.625]
+I needed to look up your information.
+
+[PATIENT 00:34.782]
+Sure, my date of birth is June 9, 1981.
+
+[AGENT 00:38.000]
+Your request for a medication review was received by the staff.
+
+[AGENT 00:47.313]
+They have it on file and are working on it.
+
+[AGENT 00:50.891]
+If you need to add anything else or have questions, let me know.
+
+[PATIENT 00:54.063]
+Okay, thanks. Is there any way for me to check back on the status of that request?
+
+[AGENT 00:58.563]
+You can call the clinic and ask for an update on your medication review request.
+
+[AGENT 01:05.922]
+Staff will check the status and let you know where things stand. If you want, I can also add a note to your case asking for a status update.
+
+[AGENT 01:13.844]
+Would you like me to do that?
+
+[PATIENT 01:17.594]
+No, that's okay. If we call back and get disconnected, what should I do to reach the right team again?
+
+[AGENT 01:24.016]
+If you get disconnected, just call the clinic back and mention your name and that you have an open medication review request.
+
+[AGENT 01:32.485]
+The team will be able to find your case and help you If you ever have trouble reaching the right team, let the person who answers know your request is about a medication review for Daniel Okafor,
+
+[PATIENT 01:43.297]
+Got it. Is there a reference number or case ID I can use when I call back, or is it just by name?
+Do you happen to have a reference number or case ID for my medication review request?
+
+[AGENT 01:55.235]
+Yes. Your case ID is two nine zero two three six. You can mention this number or your name when you call back, and the staff will find your request.
+
+[PATIENT 02:05.969]
+Okay, thanks. So if I call back, I can just say it's about case ID two nine zero two three six or just give my name? That will get me to the right people?
+
+[AGENT 02:13.766]
+Actually, there is no case ID on file for your medication review request at this time. When you call back, just give your name and mention your medication review request.
+
+[AGENT 02:26.078]
+The staff will be able to help you.
+
+[PATIENT 02:28.766]
+Okay, thanks for clearing that up. Which team or department should I ask for if I want to follow up on this medication review specifically?
+
+[AGENT 02:35.375]
+Ask for the clinical team or let them know you are following up on a medication review. They will direct your call to the right staff member who can help with your request.
+
+[PATIENT 02:47.047]
+Okay, thanks very much for the info. Bye.

@@ -1,0 +1,43 @@
+Call 21 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[PATIENT 00:13.610]
+Hello, this
+
+[AGENT 00:16.250]
+Thanks for calling Pivot Point Orthopaedics.
+
+[AGENT 00:16.422]
+Part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:19.688]
+Hi, this is Daniel Okafor. Could you check whether I have any upcoming appointments? Please don't book or change anything.
+
+[AGENT 00:26.766]
+I need your date of birth to look up your information.
+
+[AGENT 00:32.172]
+Could you please provide your date of birth?
+
+[PATIENT 00:34.391]
+Sure, it's June ninth, nineteen eighty-one.
+
+[AGENT 00:37.250]
+Daniel, you do not have any upcoming appointments scheduled.
+
+[AGENT 00:44.969]
+Would you like to book a new appointment?
+
+[PATIENT 00:47.485]
+Actually, I had a booking for Tuesday, October twenty-seventh, twenty twenty-six, at noon. I called earlier and was told it got cancelled. Could you check if that one is really cancelled or still showing up?
+
+[AGENT 00:58.735]
+That appointment is not showing up as scheduled.
+
+[AGENT 01:04.250]
+So it looks like it was canceled. Would you like to book a new appointment? Or need help with something else?
+
+[PATIENT 01:09.782]
+Okay, so that appointment was cancelled like I thought. Just wanted to confirm. No, I don't need a new booking right now. Thanks for checking. Bye.

@@ -1,0 +1,84 @@
+id: mid_confirmation_correction
+category: barge_in
+title: Patient corrects the date while the agent is reading back the confirmation
+difficulty: hard
+tags: [barge_in, correction, scheduling, repair]
+
+objective: Interrupt the final confirmation with a correction and check the correction actually lands.
+hypothesis: >-
+  A correction delivered during the read-back is the hardest kind to handle: the agent is
+  mid-commit. An agent that finishes the read-back and books the original value has produced a
+  wrong booking that the patient believes they fixed.
+
+patient:
+  name: Louise Tran
+  age: 42
+  date_of_birth: "1983-03-08"
+  temperament: calm
+  speech_notes: Polite but decisive, cuts in clearly when something is wrong.
+
+background: >-
+  Booking a follow-up. She will accept a Tuesday slot, then realise during the read-back that
+  she meant the following week, and will say so immediately.
+
+facts_patient_knows:
+  problem: "Wrist follow-up"
+  initial_acceptance: "Will accept whatever Tuesday is offered"
+  correction: "Actually needs the week after, not this coming week"
+  phone: "805 555 0134"
+
+facts_patient_does_not_know:
+  - What slots exist the following week
+
+opening_line: >-
+  Hi, I need to book a follow-up for my wrist, please.
+
+conversation_strategy:
+  - Book a follow-up and accept the first Tuesday offered.
+  - As soon as the agent starts reading the confirmation back, cut in with "sorry, actually, can we make that the week after?"
+  - Insist the correction is applied.
+  - Ask for the final date to be read back again, and confirm it is the later week.
+
+information_disclosure:
+  volunteer_upfront:
+    - That it is a wrist follow-up
+  on_request:
+    - Name and date of birth
+    - Phone number
+  never_volunteer:
+    - The reason for wanting the later week
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+  interrupt_agent: true
+  self_corrections:
+    - "Sorry, actually — can we make that the week after instead?"
+
+target_outcome: >-
+  The final booking is for the later week, and the agent reads that corrected date back
+  explicitly.
+
+end_call_when:
+  - The corrected date has been read back and confirmed
+  - The agent says the later week is unavailable and offers alternatives
+
+assertions:
+  expected_behaviors:
+    - Stops the read-back when interrupted
+    - Applies the correction to the booking
+    - Reads the corrected date back explicitly before ending
+  forbidden_behaviors:
+    - Completes the original confirmation and books the uncorrected date
+    - Acknowledges the correction verbally but confirms the original date
+    - Ends the call without restating the final date after a correction
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    The correction is spoken by the caller and is in the transcript with a timestamp. Compare the
+    final date the agent states against the date requested after the correction.
+
+max_duration_seconds: 200

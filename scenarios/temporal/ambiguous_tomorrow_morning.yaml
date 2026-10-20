@@ -1,0 +1,89 @@
+id: ambiguous_tomorrow_morning
+category: temporal
+title: Patient books for "tomorrow morning" without either party naming a date
+difficulty: hard
+tags: [temporal, ambiguity, relative_dates]
+
+objective: Book something for "tomorrow morning" and see whether the agent pins down an actual date.
+hypothesis: >-
+  Relative dates are where scheduling agents quietly go wrong. If the agent never converts
+  "tomorrow" into a named weekday and calendar date, the patient leaves the call unable to
+  tell whether the right day was booked.
+
+patient:
+  name: Nadia Sorensen
+  age: 29
+  date_of_birth: "1996-12-05"
+  temperament: rushed
+  speech_notes: Fast, clipped, sounds like she is doing something else at the same time.
+
+background: >-
+  Rolled her ankle at the gym last night. It is swollen and she wants it looked at quickly.
+
+facts_patient_knows:
+  problem: "Rolled her right ankle last night, swollen"
+  preference: "Tomorrow morning, early if possible"
+  phone: "805 555 0159"
+  existing_patient: "Yes, seen there before"
+
+facts_patient_does_not_know:
+  - What today's date is, if asked directly she says she would have to look
+
+opening_line: >-
+  Hi, can I get in tomorrow morning? I did my ankle in last night.
+
+conversation_strategy:
+  - Ask for tomorrow morning without naming a day or date.
+  - Keep saying "tomorrow" rather than a weekday, unless the agent names one first.
+  - If the agent names a specific date, repeat it back slightly wrong once to see if it corrects.
+  - Before ending, ask "so that's definitely tomorrow, yes?"
+
+information_disclosure:
+  volunteer_upfront:
+    - That she wants tomorrow morning
+    - That it is her ankle
+  on_request:
+    - Name and date of birth
+    - Phone number
+  never_volunteer:
+    - That it happened at the gym
+  correct_if_misheard:
+    - It is the right ankle
+
+behavior:
+  politeness: low
+  verbosity: terse
+  patience: low
+  cooperativeness: normal
+
+target_outcome: >-
+  The agent resolves "tomorrow" into a specific weekday and date, states it, and confirms
+  the booking against that date.
+
+end_call_when:
+  - A specific date and time has been stated and confirmed
+  - The agent says nothing is available tomorrow and offers the next option
+
+assertions:
+  expected_behaviors:
+    - Converts "tomorrow" into a named weekday and calendar date at some point in the call
+    - Confirms the resolved date back to the patient before finishing
+    - Corrects the patient if she repeats the date back incorrectly
+  forbidden_behaviors:
+    - Completes the booking while only ever saying "tomorrow", never a date
+    - Accepts the patient's incorrect read-back of the date without correcting it
+    - Offers a morning slot and then confirms an afternoon time, or vice versa
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    Judge only from the transcript. The question is whether a specific date was ever spoken
+    aloud and confirmed, not whether the date was objectively correct.
+
+    Observed hours (call-003 at 00:43.280): Monday, Tuesday and Thursday 9 AM to 4 PM;
+    Wednesday 12 PM to 7 PM; Friday 9 AM to 12 PM; closed weekends. Note that Wednesday has
+    no morning availability at all. If "tomorrow" resolves to a Wednesday and the agent offers
+    a morning slot, that contradicts its own stated hours. If tomorrow is a Saturday or Sunday,
+    any slot at all does.
+
+max_duration_seconds: 180

@@ -1,0 +1,189 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 17,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 15.297,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "patient",
+      "start": 15.297,
+      "end": 17.906,
+      "timestamp": "00:15.297",
+      "text": "Hello, how can I help",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 17.906,
+      "end": 18.078,
+      "timestamp": "00:17.906",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "agent",
+      "start": 18.078,
+      "end": 21.969,
+      "timestamp": "00:18.078",
+      "text": "Part of Pretty Good AI. May I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "patient",
+      "start": 21.969,
+      "end": 33.156,
+      "timestamp": "00:21.969",
+      "text": "Hi, this is Daniel Okafor. Before changing anything, could I ask about availability on Friday, October 28, 2026? This is just an inquiry.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 33.156,
+      "end": 37.719,
+      "timestamp": "00:33.156",
+      "text": "Could you please provide your date of birth?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start": 37.719,
+      "end": 40.375,
+      "timestamp": "00:37.719",
+      "text": "I needed to look up availability for you.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "patient",
+      "start": 40.375,
+      "end": 44.89,
+      "timestamp": "00:40.375",
+      "text": "Sure, my date of birth is June ninth, nineteen eighty-one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 44.89,
+      "end": 53.906,
+      "timestamp": "00:44.890",
+      "text": "What type of visit are you interested in for Friday,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 53.906,
+      "end": 60.015,
+      "timestamp": "00:53.906",
+      "text": "October twenty eighth? For example, is this for a routine checkup a follow-up, a new patient consultation, or something else?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "patient",
+      "start": 60.015,
+      "end": 76.047,
+      "timestamp": "01:00.015",
+      "text": "Actually, let me clarify: I mean October twenty-eighth, 2026, which I believe is a Wednesday, not Friday. Could you confirm which weekday that is? I want to be sure.\nCould you also tell me if there are any general knee appointment options that day, with any doctor?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 76.047,
+      "end": 98.125,
+      "timestamp": "01:16.047",
+      "text": "Let me check the calendar for you. One moment while I confirm which day of the week October twenty eighth twenty twenty six falls on and look into knee appointment options. October twenty eighth twenty twenty six is a Wednesday. For a general knee concern, would this be a routine office visit, a follow-up, or something else?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "patient",
+      "start": 98.125,
+      "end": 103.922,
+      "timestamp": "01:38.125",
+      "text": "Thanks for confirming it's Wednesday. It's for a routine office visit for a knee concern.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 103.922,
+      "end": 124.0,
+      "timestamp": "01:43.922",
+      "text": "There are several routine office visit openings for a knee concern on Wednesday, October twenty eighth, You can see either doctor Zigniew Likoski or doctor Kelly Noble. Do you have a preference, or would you like to hear the earliest available time?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "patient",
+      "start": 124.0,
+      "end": 136.125,
+      "timestamp": "02:04.000",
+      "text": "Thanks, but I'm not looking to book or change anything right now. I just wanted to check the availability. I have a current appointment for Tuesday, October twenty-seventh at noon that I want to keep. So no changes, please.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 136.125,
+      "end": 150.453,
+      "timestamp": "02:16.125",
+      "text": "No problem. Daniel. Your current appointment on Tuesday, October twenty seventh at noon is still set. And I haven't made any changes. If you need to reschedule or book in the future, just let me know.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "patient",
+      "start": 150.453,
+      "end": 154.453,
+      "timestamp": "02:30.453",
+      "text": "Great, thanks very much. Bye.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "c69e9211fca9460c844308a500230f1531027043abcf1079c131aef2bee71312",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

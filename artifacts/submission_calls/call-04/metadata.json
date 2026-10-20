@@ -1,0 +1,35 @@
+{
+  "call_id": "call-009",
+  "scenario_id": "registered_patient_first_appointment",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-009",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "updated_at": "2026-10-19T19:35:26.181205+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 182.621,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "14874417601266e9c8c024c6627474fb5235b29cfc72d35544d26f6d45c28e8c",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "558da5a7aa8d63b1b1cbaafd53e1b929b8e8b8200c8c09012d46d11a2de3bf85",
+    "agent": "31195d16449107c557a3e644c23dab94c2fd7f41358bcf1769d762cfa683c8b0"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-19T19:35:26.076352+00:00",
+  "call_name": "Call 8",
+  "transcript_recording_sha256": "14874417601266e9c8c024c6627474fb5235b29cfc72d35544d26f6d45c28e8c",
+  "transcript_turn_count": 36,
+  "evaluated_at": "2026-10-19T19:35:26.177682+00:00",
+  "finding_count": 0,
+  "task_success": null
+}

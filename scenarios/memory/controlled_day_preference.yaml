@@ -1,0 +1,116 @@
+id: controlled_day_preference
+category: memory
+title: 'Controlled state: two delivered preference corrections'
+difficulty: hard
+tags:
+- memory
+- correction
+- scheduling
+objective: Book an appointment after changing the preferred day twice, ending on Friday.
+hypothesis: Agents that track only the most recent utterance handle one correction
+  but not two. The second change tests whether the agent is updating a stored preference
+  or reacting to the last thing it heard.
+patient:
+  name: Colin Doyle
+  age: 45
+  date_of_birth: '1980-04-16'
+  temperament: chatty
+  speech_notes: Thinks out loud, revises himself as he talks through his week.
+background: Needs a shoulder review. His work rota keeps shifting and he realises
+  mid-call that the days he first suggested will not work.
+facts_patient_knows:
+  problem: Left shoulder review
+  first_preference: Tuesday
+  second_preference: Wednesday, after remembering a Tuesday meeting
+  final_preference: Friday, after remembering he is away midweek
+  phone: 805 555 0128
+facts_patient_does_not_know:
+- What times are available on any given day
+opening_line: Hi, I need to get my shoulder looked at again. Tuesday would suit me
+  best.
+conversation_strategy:
+- Ask for Tuesday first.
+- Once Tuesday options are being discussed, say Tuesday will not work and switch to
+  Wednesday.
+- Once Wednesday is being discussed, remember he is away midweek and switch to Friday.
+- Ask the agent to confirm which day is actually being booked.
+- Confirm the final day and time back before ending.
+information_disclosure:
+  volunteer_upfront:
+  - That it is a shoulder review
+  - The initial Tuesday preference
+  on_request:
+  - Name and date of birth
+  - Phone number
+  never_volunteer:
+  - The reasons behind each change, unless asked
+behavior:
+  politeness: normal
+  verbosity: talkative
+  patience: normal
+  cooperativeness: normal
+  self_corrections:
+  - Actually, Tuesday's no good, I've got a meeting. Can we say Wednesday?
+  - Sorry, scratch that, I'm away midweek. Friday would be better.
+target_outcome: A Friday appointment is booked, with the agent clearly tracking that
+  Friday superseded both earlier preferences.
+end_call_when:
+- A Friday appointment has been confirmed
+- The agent states nothing is available on Friday and offers alternatives
+assertions:
+  expected_behaviors:
+  - Follows both changes of preference without confusion
+  - Books against Friday, the final stated preference
+  - Confirms the final day and time back to the patient
+  forbidden_behaviors:
+  - Books Tuesday or Wednesday after Friday was requested
+  - Asks the patient to restate their preference from scratch after each change
+  - Confirms a day that was superseded earlier in the call
+  required_information:
+  - Friday
+  failure_signals: []
+  ground_truth_notes: The final requested day is Friday. Any confirmation of Tuesday
+    or Wednesday after the second correction is a clear defect visible in the transcript.
+max_duration_seconds: 200
+simulation:
+  goal: Arrange a shoulder review appointment. Respond to offered options and confirm
+    the final agreed day and time.
+  opening: Hi, I need my shoulder looked at again. Tuesday would suit me best.
+  facts:
+    reason:
+      value: Left shoulder review
+      disclosure: upfront
+    name:
+      value: Colin Doyle
+      disclosure: on_request
+      request_phrases:
+      - your name
+      - full name
+    dob:
+      value: '1980-04-16'
+      disclosure: on_request
+      request_phrases:
+      - date of birth
+      - birth date
+    phone:
+      value: 805 555 0128
+      disclosure: on_request
+      request_phrases:
+      - phone number
+      - contact number
+  initial_preferences:
+    appointment_day: Tuesday
+  changes:
+  - slot: appointment_day
+    value: Wednesday
+    target_mentions:
+    - Tuesday
+    utterance: Actually Tuesday will not work. Can we do Wednesday?
+    delivery_marker: Wednesday
+  - slot: appointment_day
+    value: Friday
+    target_mentions:
+    - Wednesday
+    utterance: Sorry, I need to change that again. Friday would work better.
+    delivery_marker: Friday
+  hesitation_probability: 0.2

@@ -1,0 +1,97 @@
+id: dob_given_early_then_asked_daniel
+category: memory
+title: Daniel states his date of birth unprompted in the first sentence
+difficulty: medium
+tags: [memory, context_retention, identity, caller_id_identity]
+
+objective: >-
+  Book a follow-up as Daniel Okafor, having given name and date of birth before being asked
+  for them.
+hypothesis: >-
+  The agent repeatedly associates this caller ID with Daniel before verification. This call
+  tests whether, when the caller really is Daniel and gives name and date of birth immediately,
+  the agent can use those details without restarting a rigid identity script or asking for
+  the same information again.
+
+patient:
+  name: Daniel Okafor
+  age: 44
+  date_of_birth: "1981-06-09"
+  temperament: calm
+  speech_notes: Organised and efficient, gives information in tidy chunks.
+
+background: >-
+  Existing patient, calling for a follow-up on his right knee. He is trying to make the call
+  efficient by giving his identity up front.
+
+facts_patient_knows:
+  identity: "Daniel Okafor, born June ninth nineteen eighty-one"
+  reason: "Right knee follow-up"
+  availability: "Any weekday morning before eleven, or any time Friday"
+  phone: "805 555 0147"
+
+facts_patient_does_not_know:
+  - Which provider he saw last time
+  - Whether the clinic will use the real caller ID or the phone number he states out loud
+
+opening_line: >-
+  Hi, it's Daniel Okafor, date of birth June ninth nineteen eighty-one. I need to book my
+  right knee follow-up.
+
+conversation_strategy:
+  - Lead with full name and date of birth in the opening sentence.
+  - If asked whether this is Daniel, say yes and point out that the name and date of birth were already given.
+  - If asked for either name or date of birth again, note plainly that it was already given, then repeat it.
+  - Give availability when asked.
+  - Confirm the booked slot before ending.
+
+information_disclosure:
+  volunteer_upfront:
+    - Full name
+    - Date of birth
+    - That it is a right knee follow-up
+  on_request:
+    - Phone number
+    - Preferred times
+  never_volunteer:
+    - That he is testing whether the system remembers details
+  correct_if_misheard:
+    - "Surname is Okafor: O-K-A-F-O-R"
+    - "June ninth nineteen eighty-one"
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+
+target_outcome: >-
+  A follow-up is booked without the agent asking for the name or date of birth that were
+  given in the opening sentence.
+
+end_call_when:
+  - An appointment has been booked and confirmed
+  - The agent states it cannot book and explains the next step
+  - The agent says it cannot complete the handoff or scheduling on this call
+
+assertions:
+  expected_behaviors:
+    - Acknowledges the name and date of birth supplied in the opening turn
+    - Does not ask again for either detail
+    - Moves straight to the booking rather than restarting an identity script
+    - Avoids relying on caller ID alone after the caller has supplied explicit identity details
+  forbidden_behaviors:
+    - Asks for the date of birth after it was already stated
+    - Asks for the patient's name after it was already stated
+    - Repeats the same identity question more than once
+    - Uses caller ID alone as proof that the caller is Daniel
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    The name and date of birth appear in the caller's very first utterance. Any later request
+    for either is verifiable directly from the transcript. This call intentionally uses Daniel
+    Okafor, whose name the agent has previously volunteered based on caller ID; the agent should
+    prefer the caller's explicit supplied identity over caller-ID assumptions.
+
+max_duration_seconds: 170

@@ -1,0 +1,93 @@
+id: weekend_appointment_request
+category: temporal
+title: Patient asks for a weekend slot after the agent has stated its weekday hours
+difficulty: hard
+tags: [temporal, hours, self_grounding, contradiction]
+
+objective: Get an appointment on Sunday morning, having first asked what the opening hours are.
+hypothesis: >-
+  This is the failure mode named in the challenge brief. The two-step structure makes it
+  provable: the agent states its own hours, and is then asked for a slot outside them. If it
+  agrees, the contradiction is with its own words earlier in the same call, so no external
+  facts are needed to call it a bug.
+
+patient:
+  name: Tom Whitaker
+  age: 52
+  date_of_birth: "1973-09-14"
+  temperament: calm
+  speech_notes: Relaxed, slightly apologetic when asking for something awkward.
+
+background: >-
+  Works weekdays and finds it hard to get away. He wants a weekend slot if one exists, and
+  will push a little before accepting a weekday alternative.
+
+facts_patient_knows:
+  problem: "Ongoing lower back pain, needs a review"
+  constraint: "Very hard to get time off during the week"
+  preference: "Sunday morning if at all possible"
+  phone: "805 555 0136"
+
+facts_patient_does_not_know:
+  - Whether the practice opens at weekends
+
+opening_line: >-
+  Hi, before I book anything, could you tell me what your opening hours are?
+
+conversation_strategy:
+  - Ask for the opening hours first, and listen to the answer carefully.
+  - Then ask for a Sunday morning appointment, around ten.
+  - If told they are closed, ask whether there is any Saturday cover.
+  - If offered a Sunday slot, accept it and ask them to confirm the day and date back.
+  - Only after that, settle for the best weekday alternative.
+
+information_disclosure:
+  volunteer_upfront:
+    - That he wants to know the hours before booking
+  on_request:
+    - Name and date of birth
+    - Phone number
+    - Reason for the visit
+  never_volunteer:
+    - That he works weekdays, unless explaining why a weekend suits better
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+
+target_outcome: >-
+  The agent states its hours, then declines the Sunday request consistently with those hours
+  and offers the nearest available alternative.
+
+end_call_when:
+  - A weekday alternative has been offered and either accepted or declined
+  - The agent has confirmed a specific appointment and read it back
+
+assertions:
+  expected_behaviors:
+    - States the opening hours when asked
+    - Declines or qualifies the Sunday request in a way consistent with the hours it just gave
+    - Offers the next available alternative rather than leaving the patient with nothing
+  forbidden_behaviors:
+    - Confirms a Sunday appointment after stating the practice is closed at weekends
+    - Books any slot that falls outside the hours it stated earlier in this call
+    - Gives two different sets of opening hours during the call
+  required_information:
+    - hours
+  failure_signals:
+    - "I've scheduled you for Sunday"
+    - "you're all set for Sunday"
+    - "booked you in for Sunday"
+  ground_truth_notes: >-
+    The ground truth for this call is whatever the agent itself said the hours were, earlier in
+    the same conversation. Quote both statements when judging.
+
+    Independently, on call-003 at 00:43.280 the agent stated: "We're open Monday through
+    Friday. Our hours are 9 AM to 4 PM on Monday, Tuesday, and Thursday, 12 PM to 7 PM on
+    Wednesday, and 9 AM to 12 PM on Friday. We're closed on weekends." Any Saturday or Sunday
+    booking contradicts that. If the hours given on this call differ from those, the
+    inconsistency between calls is itself a finding.
+
+max_duration_seconds: 200

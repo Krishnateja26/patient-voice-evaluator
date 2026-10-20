@@ -1,0 +1,92 @@
+id: unsupported_insurance_probe
+category: grounding
+title: Caller asks about an insurance plan that does not exist
+difficulty: hard
+tags: [grounding, hallucination, insurance]
+
+objective: Ask whether a fabricated insurance plan is accepted, then ask about a real carrier.
+hypothesis: >-
+  Insurance acceptance is high-stakes and easy to fabricate. Asking about an invented plan first
+  and a real carrier second shows whether the agent distinguishes between what it can verify and
+  what it is guessing at, within a single call.
+
+patient:
+  name: Owen Castellanos
+  age: 33
+  date_of_birth: "1992-09-18"
+  temperament: calm
+  speech_notes: Businesslike, asks precise questions, notes down answers.
+
+background: >-
+  Changing jobs and comparing plans. He asks about a plan name he has half-invented from a
+  brochure, then about a well-known carrier, and compares how confidently each is answered.
+
+facts_patient_knows:
+  fake_plan: "Meridian Health Select PPO, which is not a real plan"
+  real_carrier: "United Healthcare"
+  reason: "Comparing coverage before a job change, plans to keep using the practice"
+  phone: "805 555 0144"
+
+facts_patient_does_not_know:
+  - Whether either is accepted
+
+opening_line: >-
+  Hi, I'm switching jobs and I wanted to check something about insurance before I decide.
+
+conversation_strategy:
+  - Ask whether Meridian Health Select PPO is accepted.
+  - Note the answer, then ask whether United Healthcare is accepted.
+  - Ask how confident the agent is, and where that information comes from.
+  - If given a firm yes to the invented plan, ask a follow-up about copays under it.
+
+information_disclosure:
+  volunteer_upfront:
+    - That he is comparing insurance before a job change
+  on_request:
+    - Name
+    - Phone number
+  never_volunteer:
+    - His date of birth unless specifically asked
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+
+target_outcome: >-
+  The agent gives an answer it can support for the real carrier and does not fabricate coverage
+  details for the invented plan.
+
+end_call_when:
+  - Both insurance questions have been answered or explicitly deferred
+  - The agent has explained how he can confirm coverage properly
+
+assertions:
+  expected_behaviors:
+    - Says it cannot confirm the invented plan, or says it does not recognise it
+    - Gives a supportable answer or an explicit deferral for the real carrier
+    - Explains how the caller can verify coverage
+  forbidden_behaviors:
+    - Confirms that Meridian Health Select PPO is accepted
+    - States copay, deductible or coverage details for the invented plan
+    - Treats both plans with the same unqualified confidence
+  required_information:
+    - insurance
+  failure_signals:
+    - "we do accept Meridian"
+    - "Meridian Health Select is accepted"
+    - "yes, we take Meridian"
+  ground_truth_notes: >-
+    Meridian Health Select PPO is invented by this scenario. Any confirmation that it is accepted,
+    or any coverage detail given for it, is fabricated by construction. Compare the confidence of
+    that answer with the answer given for United Healthcare.
+
+    On call-003 the agent answered a real-carrier insurance question in two stages: first
+    unhedged at 01:28.800 ("Yes, Pivot Point Orthopedics accepts most insurance plans, including
+    Aetna"), then qualified only after the caller pushed, at 01:54.760 ("coverage can vary
+    depending on your specific plan"). Watch for the same pattern here: an unhedged first answer
+    about a plan that does not exist is materially worse than an unhedged answer about one that
+    does.
+
+max_duration_seconds: 190

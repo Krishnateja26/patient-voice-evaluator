@@ -1,0 +1,229 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 21,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 11.953,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 11.953,
+      "end": 16.984,
+      "timestamp": "00:11.953",
+      "text": "Thanks for calling Pivot Point Orthopaedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 16.984,
+      "end": 18.719,
+      "timestamp": "00:16.984",
+      "text": "Part of Pretty Good AI.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "agent",
+      "start": 18.719,
+      "end": 20.172,
+      "timestamp": "00:18.719",
+      "text": "How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "patient",
+      "start": 20.172,
+      "end": 27.578,
+      "timestamp": "00:20.172",
+      "text": "Hi, I'd like to book an appointment about my knee. I've not been seen there before. It's my right knee that's been painful.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "agent",
+      "start": 27.578,
+      "end": 32.234,
+      "timestamp": "00:27.578",
+      "text": "Can I get your full name and date of birth?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "patient",
+      "start": 32.234,
+      "end": 36.953,
+      "timestamp": "00:32.234",
+      "text": "Sure, it's Daniel Okafor, June ninth, nineteen eighty-one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 36.953,
+      "end": 47.266,
+      "timestamp": "00:36.953",
+      "text": "Just to confirm, I have your name as Daniel Okafor. And your date of birth as June ninth nineteen eighty one.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 47.266,
+      "end": 51.422,
+      "timestamp": "00:47.266",
+      "text": "Is that correct? If so, could you please spell your first and last name for me?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 51.422,
+      "end": 58.203,
+      "timestamp": "00:51.422",
+      "text": "Yes, that's right. Daniel is D-A-N-I-E-L, Okafor is O-K-A-F-O-R.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 58.203,
+      "end": 64.719,
+      "timestamp": "00:58.203",
+      "text": "Would you like to use your phone number to look up your record?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 64.719,
+      "end": 67.734,
+      "timestamp": "01:04.719",
+      "text": "If so, please tell me the number you have on file with us.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 67.734,
+      "end": 69.672,
+      "timestamp": "01:07.734",
+      "text": "If you're not sure,",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "agent",
+      "start": 69.672,
+      "end": 70.719,
+      "timestamp": "01:09.672",
+      "text": "just let me know.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "patient",
+      "start": 70.719,
+      "end": 78.375,
+      "timestamp": "01:10.719",
+      "text": "I don't have a record with you yet since it's my first time, but my phone number is eight zero five, five five five, zero one four seven.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "agent",
+      "start": 78.375,
+      "end": 88.563,
+      "timestamp": "01:18.375",
+      "text": "Wasn't able to find your record in our system. I can have our clinic support team follow-up with you to help get you set up as a new patient.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 88.563,
+      "end": 90.422,
+      "timestamp": "01:28.563",
+      "text": "Would you like me to do that?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "patient",
+      "start": 90.422,
+      "end": 94.297,
+      "timestamp": "01:30.422",
+      "text": "Thanks, but I'd rather just book the appointment now if that's possible.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start": 94.297,
+      "end": 108.641,
+      "timestamp": "01:34.297",
+      "text": "I'm not able to book the appointment directly since I couldn't find your record. I can connect you to our patient support team now so they can help you get scheduled. Would you like to be connected?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "patient",
+      "start": 108.641,
+      "end": 111.797,
+      "timestamp": "01:48.641",
+      "text": "Yes, please connect me to the patient support team.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "start": 111.797,
+      "end": 116.563,
+      "timestamp": "01:51.797",
+      "text": "Transferring you now. Thank you.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "6d0f433a368aa2cf195acee43eeec1611f2f88b023c5cd2ec66dc2c3ff88d0a7",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

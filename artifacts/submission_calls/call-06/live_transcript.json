@@ -1,0 +1,519 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 13.234000000000378,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446741.7896953,
+      "stopped_speaking_at": 1792446745.255039,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.42622923851013184,
+      "on_user_turn_completed_delay": 0.000248799999098992
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI.",
+    "interrupted": false,
+    "elapsed_seconds": 20.125,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446745.648974,
+      "stopped_speaking_at": 1792446752.1909032,
+      "transcription_delay": 0.19218921661376953,
+      "end_of_turn_delay": 0.3963494300842285,
+      "on_user_turn_completed_delay": 0.00021080000078654848
+    }
+  },
+  {
+    "role": "user",
+    "text": "How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 21.90599999999904,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446752.6417172,
+      "stopped_speaking_at": 1792446753.8208396,
+      "transcription_delay": 0.23742938041687012,
+      "end_of_turn_delay": 0.45855212211608887,
+      "on_user_turn_completed_delay": 0.00030020000122021884
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. Before my knee visit, could you tell me whether you accept Aetna PPO?",
+    "interrupted": false,
+    "elapsed_seconds": 29.43699999999808,
+    "metrics": {
+      "started_speaking_at": 1792446756.2940621,
+      "stopped_speaking_at": 1792446761.900952,
+      "llm_node_ttft": 1.5465144999980112,
+      "llm_node_tps": 53.721472348267376,
+      "llm_node_ttfs": 1.7637256999987585,
+      "tts_node_ttfb": 0.18835609999950975,
+      "playback_latency": 0.0,
+      "e2e_latency": 2.473222494125366,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Hope of that.",
+    "interrupted": false,
+    "elapsed_seconds": 32.88999999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446764.1896226,
+      "stopped_speaking_at": 1792446764.9096196,
+      "transcription_delay": 0.3645033836364746,
+      "end_of_turn_delay": 0.42110633850097656,
+      "on_user_turn_completed_delay": 0.00029690000155824237
+    }
+  },
+  {
+    "role": "user",
+    "text": "First, can you please provide your date of birth?",
+    "interrupted": false,
+    "elapsed_seconds": 35.21799999999712,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446765.3315418,
+      "stopped_speaking_at": 1792446767.2907398,
+      "transcription_delay": 0.37019991874694824,
+      "end_of_turn_delay": 0.37354254722595215,
+      "on_user_turn_completed_delay": 0.00012789999891538173
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Sure, it's June ninth, nineteen eighty-one.",
+    "interrupted": false,
+    "elapsed_seconds": 39.8279999999977,
+    "metrics": {
+      "started_speaking_at": 1792446769.981057,
+      "stopped_speaking_at": 1792446772.283989,
+      "llm_node_ttft": 1.4123026999986905,
+      "llm_node_tps": 17.592706767450657,
+      "llm_node_ttfs": 2.09434390000024,
+      "tts_node_ttfb": 0.21017719999872497,
+      "playback_latency": 0.0,
+      "e2e_latency": 2.690317153930664,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks, Daniel. Pivot Point Orthopaedics accepts most insurance plans.",
+    "interrupted": false,
+    "elapsed_seconds": 47.76499999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446775.8324566,
+      "stopped_speaking_at": 1792446779.8451777,
+      "transcription_delay": 0.21496987342834473,
+      "end_of_turn_delay": 0.37868261337280273,
+      "on_user_turn_completed_delay": 0.0001573999979882501
+    }
+  },
+  {
+    "role": "user",
+    "text": "Including many Aetna PPO plans.",
+    "interrupted": false,
+    "elapsed_seconds": 50.42199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446780.2877104,
+      "stopped_speaking_at": 1792446782.49208,
+      "transcription_delay": 0.33622145652770996,
+      "end_of_turn_delay": 0.38281869888305664,
+      "on_user_turn_completed_delay": 0.00013749999925494194
+    }
+  },
+  {
+    "role": "user",
+    "text": "To confirm your specific coverage,",
+    "interrupted": false,
+    "elapsed_seconds": 52.73400000000038,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446782.9305682,
+      "stopped_speaking_at": 1792446784.790792,
+      "transcription_delay": 0.2065742015838623,
+      "end_of_turn_delay": 0.38239407539367676,
+      "on_user_turn_completed_delay": 0.00022559999706572853
+    }
+  },
+  {
+    "role": "user",
+    "text": "would you like to update or check your insurance details on file?",
+    "interrupted": false,
+    "elapsed_seconds": 56.34299999999712,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446785.2342122,
+      "stopped_speaking_at": 1792446788.3992145,
+      "transcription_delay": 0.2405226230621338,
+      "end_of_turn_delay": 0.3827385902404785,
+      "on_user_turn_completed_delay": 0.00018170000112149864
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Thanks, but I'd prefer not to update or check insurance now. The new plan starts November first, but my appointment is October twenty-seventh. Does accepting the plan mean that visit would be covered?",
+    "interrupted": false,
+    "elapsed_seconds": 68.8279999999977,
+    "metrics": {
+      "started_speaking_at": 1792446790.4712434,
+      "stopped_speaking_at": 1792446801.286222,
+      "llm_node_ttft": 1.0783896000029927,
+      "llm_node_tps": 27.938935844122835,
+      "llm_node_ttfs": 1.484072000002925,
+      "tts_node_ttfb": 0.1979310999995505,
+      "playback_latency": 0.0,
+      "e2e_latency": 2.072028875350952,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Accepting the plan means we work with Aetna TPO. But coverage for your October twenty seventh visit depends on your plan's start date. Since your new plan starts November first, your October appointment likely won't be covered by Aetna PPO.",
+    "interrupted": false,
+    "elapsed_seconds": 85.88999999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446804.282948,
+      "stopped_speaking_at": 1792446817.942312,
+      "transcription_delay": 0.2863161563873291,
+      "end_of_turn_delay": 0.39023780822753906,
+      "on_user_turn_completed_delay": 0.0001894999986689072
+    }
+  },
+  {
+    "role": "user",
+    "text": "You may wanna check with your current insurance for that visit.",
+    "interrupted": false,
+    "elapsed_seconds": 89.03099999999904,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446818.338078,
+      "stopped_speaking_at": 1792446821.094372,
+      "transcription_delay": 0.21723008155822754,
+      "end_of_turn_delay": 0.37923336029052734,
+      "on_user_turn_completed_delay": 0.0001202000021294225
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Okay, so was eligibility verified for the October twenty-seventh visit, or is that just general acceptance of the insurer?",
+    "interrupted": false,
+    "elapsed_seconds": 97.2029999999977,
+    "metrics": {
+      "started_speaking_at": 1792446824.1058826,
+      "stopped_speaking_at": 1792446829.6629324,
+      "llm_node_ttft": 1.6890920999976515,
+      "llm_node_tps": 36.86214119497207,
+      "llm_node_ttfs": 2.4218924999986484,
+      "tts_node_ttfb": 0.20288200000140932,
+      "playback_latency": 0.0010006427764892578,
+      "e2e_latency": 3.0115106105804443,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "That's just general acceptance of the insurer.",
+    "interrupted": false,
+    "elapsed_seconds": 102.3279999999977,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446832.33081,
+      "stopped_speaking_at": 1792446834.392764,
+      "transcription_delay": 0.20266389846801758,
+      "end_of_turn_delay": 0.39132213592529297,
+      "on_user_turn_completed_delay": 0.00028139999994891696
+    }
+  },
+  {
+    "role": "user",
+    "text": "Eligibility for your October twenty seventh visit would be checked based on the insurance you have on file for that date.",
+    "interrupted": false,
+    "elapsed_seconds": 108.93699999999808,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446834.934147,
+      "stopped_speaking_at": 1792446840.990757,
+      "transcription_delay": 0.26039695739746094,
+      "end_of_turn_delay": 0.4033486843109131,
+      "on_user_turn_completed_delay": 0.00022929999977350235
+    }
+  },
+  {
+    "role": "user",
+    "text": "If you want, I can help you review or update your insurance details for that appointment.",
+    "interrupted": false,
+    "elapsed_seconds": 113.3279999999977,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446841.4370916,
+      "stopped_speaking_at": 1792446845.3481667,
+      "transcription_delay": 0.28824806213378906,
+      "end_of_turn_delay": 0.4043388366699219,
+      "on_user_turn_completed_delay": 0.00015780000103404745
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "No, not right now. Could I pay myself on October twenty-seventh and claim it back after the plan starts, or would the insurer need to check that first?",
+    "interrupted": false,
+    "elapsed_seconds": 123.375,
+    "metrics": {
+      "started_speaking_at": 1792446848.3733947,
+      "stopped_speaking_at": 1792446855.8334758,
+      "llm_node_ttft": 1.9807426000006672,
+      "llm_node_tps": 82.25311492518215,
+      "llm_node_ttfs": 2.4144622000021627,
+      "tts_node_ttfb": 0.19925489999877755,
+      "playback_latency": 0.0,
+      "e2e_latency": 3.0252280235290527,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "You can usually pay out of pocket on October twenty seventh, but whether you",
+    "interrupted": false,
+    "elapsed_seconds": 134.09299999999712,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446859.0821838,
+      "stopped_speaking_at": 1792446866.1430643,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.40982508659362793,
+      "on_user_turn_completed_delay": 0.00011269999959040433
+    }
+  },
+  {
+    "role": "user",
+    "text": "can claim it back from Aetna PPO after your plan starts depends on their policies. Most insurers only cover services received after your plan start date.",
+    "interrupted": false,
+    "elapsed_seconds": 138.75,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446866.631335,
+      "stopped_speaking_at": 1792446870.7911618,
+      "transcription_delay": 0.17276906967163086,
+      "end_of_turn_delay": 0.41198110580444336,
+      "on_user_turn_completed_delay": 0.00016600000162725337
+    }
+  },
+  {
+    "role": "user",
+    "text": "It's best to check directly with Aetna PPO to see if they allow reimbursement for visits before your coverage begins.",
+    "interrupted": false,
+    "elapsed_seconds": 145.06199999999808,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446871.1849375,
+      "stopped_speaking_at": 1792446877.1152303,
+      "transcription_delay": 0.2067852020263672,
+      "end_of_turn_delay": 0.408555269241333,
+      "on_user_turn_completed_delay": 0.00018889999773819
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Got it. If I need more details on paying myself or claiming later, should I talk to your billing department or contact Aetna PPO directly?",
+    "interrupted": false,
+    "elapsed_seconds": 154.29699999999866,
+    "metrics": {
+      "started_speaking_at": 1792446879.2436845,
+      "stopped_speaking_at": 1792446886.7527485,
+      "llm_node_ttft": 1.0134937000002537,
+      "llm_node_tps": 50.7725551999733,
+      "llm_node_ttfs": 1.7235729999993055,
+      "tts_node_ttfb": 0.19091079999998328,
+      "playback_latency": 0.0,
+      "e2e_latency": 2.1284542083740234,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "For details about paying yourself,",
+    "interrupted": false,
+    "elapsed_seconds": 159.04699999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446889.5329587,
+      "stopped_speaking_at": 1792446891.0947425,
+      "transcription_delay": 0.31574296951293945,
+      "end_of_turn_delay": 0.4087696075439453,
+      "on_user_turn_completed_delay": 0.00019580000298446976
+    }
+  },
+  {
+    "role": "user",
+    "text": "our billing department can help.",
+    "interrupted": false,
+    "elapsed_seconds": 161.03099999999904,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446891.5351098,
+      "stopped_speaking_at": 1792446893.0418038,
+      "transcription_delay": 0.17340779304504395,
+      "end_of_turn_delay": 0.41173219680786133,
+      "on_user_turn_completed_delay": 0.00021689999994123355
+    }
+  },
+  {
+    "role": "user",
+    "text": "For questions about claiming reimbursement or coverage rules,",
+    "interrupted": false,
+    "elapsed_seconds": 164.2029999999977,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446893.5833924,
+      "stopped_speaking_at": 1792446896.1914508,
+      "transcription_delay": 0.2808988094329834,
+      "end_of_turn_delay": 0.44110751152038574,
+      "on_user_turn_completed_delay": 0.00017800000205170363
+    }
+  },
+  {
+    "role": "user",
+    "text": "it's best to contact Aetna PPO directly.",
+    "interrupted": false,
+    "elapsed_seconds": 167.51499999999942,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446896.8329682,
+      "stopped_speaking_at": 1792446899.49723,
+      "transcription_delay": 0.2399139404296875,
+      "end_of_turn_delay": 0.44635653495788574,
+      "on_user_turn_completed_delay": 0.0001239000011992175
+    }
+  },
+  {
+    "role": "user",
+    "text": "Would you like the clinic's billing contact information?",
+    "interrupted": false,
+    "elapsed_seconds": 171.03099999999904,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792446899.9346702,
+      "stopped_speaking_at": 1792446903.1417701,
+      "transcription_delay": 0.32734179496765137,
+      "end_of_turn_delay": 0.3514997959136963
+    }
+  }
+]

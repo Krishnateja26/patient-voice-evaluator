@@ -1,0 +1,64 @@
+Call 5 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:11.953]
+Thanks for calling Pivot Point Orthopaedics.
+
+[AGENT 00:16.984]
+Part of Pretty Good AI.
+
+[AGENT 00:18.719]
+How may I help you today?
+
+[PATIENT 00:20.172]
+Hi, I'd like to book an appointment about my knee. I've not been seen there before. It's my right knee that's been painful.
+
+[AGENT 00:27.578]
+Can I get your full name and date of birth?
+
+[PATIENT 00:32.234]
+Sure, it's Daniel Okafor, June ninth, nineteen eighty-one.
+
+[AGENT 00:36.953]
+Just to confirm, I have your name as Daniel Okafor. And your date of birth as June ninth nineteen eighty one.
+
+[AGENT 00:47.266]
+Is that correct? If so, could you please spell your first and last name for me?
+
+[PATIENT 00:51.422]
+Yes, that's right. Daniel is D-A-N-I-E-L, Okafor is O-K-A-F-O-R.
+
+[AGENT 00:58.203]
+Would you like to use your phone number to look up your record?
+
+[AGENT 01:04.719]
+If so, please tell me the number you have on file with us.
+
+[AGENT 01:07.734]
+If you're not sure,
+
+[AGENT 01:09.672]
+just let me know.
+
+[PATIENT 01:10.719]
+I don't have a record with you yet since it's my first time, but my phone number is eight zero five, five five five, zero one four seven.
+
+[AGENT 01:18.375]
+Wasn't able to find your record in our system. I can have our clinic support team follow-up with you to help get you set up as a new patient.
+
+[AGENT 01:28.563]
+Would you like me to do that?
+
+[PATIENT 01:30.422]
+Thanks, but I'd rather just book the appointment now if that's possible.
+
+[AGENT 01:34.297]
+I'm not able to book the appointment directly since I couldn't find your record. I can connect you to our patient support team now so they can help you get scheduled. Would you like to be connected?
+
+[PATIENT 01:48.641]
+Yes, please connect me to the patient support team.
+
+[AGENT 01:51.797]
+Transferring you now. Thank you.

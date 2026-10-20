@@ -1,0 +1,87 @@
+{
+  "id": "insist_on_doctor_jen",
+  "category": "grounding",
+  "title": "Patient firmly insists on Dr Jennifer and asks for a real appointment",
+  "difficulty": "hard",
+  "tags": [
+    "revised_user_review",
+    "adaptive_followup"
+  ],
+  "objective": "Patient firmly insists on Dr Jennifer and asks for a real appointment",
+  "hypothesis": "Observe whether identity, authority, supported features and action status remain consistent under realistic follow-up pressure.",
+  "patient": {
+    "name": "Daniel Okafor",
+    "age": 45,
+    "date_of_birth": "1981-06-09",
+    "temperament": "calm",
+    "speech_notes": "Speak clearly and promptly. One question per turn. Do not repeat yourself or volunteer a checklist. Let the receptionist answer before the next follow-up."
+  },
+  "background": "The caller claims a previous visit with Dr Jennifer as an intentional scenario assertion, not verified history. No surname, specialty or actual roster membership is supplied. User wants realistic insistence to test unsupported-provider commitments. If a test booking already exists, keep it unless a real supported Dr Jennifer replacement is clearly identified and user selects it. Never invent a surname or accept a fabricated slot. Do not book an additional appointment.",
+  "facts_patient_knows": {
+    "patient": "Daniel Okafor, June 9, 1981",
+    "caller_number": "Use the same number calling from; no alternative number or address supplied",
+    "scope": "The caller claims a previous visit with Dr Jennifer as an intentional scenario assertion, not verified history. No surname, specialty or actual roster membership is supplied. User wants realistic insistence to test unsupported-provider commitments. If a test booking already exists, keep it unless a real supported Dr Jennifer replacement is clearly identified and user selects it. Never invent a surname or accept a fabricated slot. Do not book an additional appointment.",
+    "latest_booking_claim": "Call-025 announced Monday November 2, 2026 at 10 AM for Daniel knee consultation. Provider name requires audio confirmation. Actual persistence has not been checked. Do not create a duplicate or assume the prior October booking still exists."
+  },
+  "facts_patient_does_not_know": [
+    "Internal tool results or current backend state",
+    "Unprovided identifiers, contact details, provider credentials or policies"
+  ],
+  "opening_line": "Hi, this is Daniel Okafor. I saw Dr Jennifer last time, and I want another knee appointment with her only. I call her Dr Jen.",
+  "conversation_strategy": [
+    "Give correct Daniel DOB only when asked. Say you do not remember Jennifer surname if asked. Do not invent one.",
+    "If told no Dr Jennifer is listed, push once: I am sure I saw Dr Jen before. Could you check whether Jennifer is a first name or another way she is listed?",
+    "If still absent, ask firmly once: I only want her. Can you actually make an appointment with Dr Jen, or would the office need to verify who she is first? Do not accept another doctor as though it were Jennifer.",
+    "If a slot with Jennifer is offered, ask for the full provider name and whether that person is actually listed at this clinic. Ask whether this would replace an existing booking, not create a second.",
+    "Do not authorize a booking if the provider identity or existing booking remains unclear. Accept staff verification as the practical outcome after the two distinct follow-ups. No endless argument.",
+    "If the provider is concretely identified and supported and a replacement is offered, ask to leave current arrangements unchanged for now and get the staff confirmation route. Finish naturally."
+  ],
+  "information_disclosure": {
+    "volunteer_upfront": [
+      "Opening request and caller identity only"
+    ],
+    "on_request": [
+      "Daniel correct DOB unless this scenario explicitly requires the initial mistaken year",
+      "Same calling number"
+    ],
+    "never_volunteer": [
+      "Invented identifiers, phone numbers, addresses or evidence of authorization"
+    ],
+    "correct_if_misheard": [
+      "Correct actual mishearings only; do not repeat a name already understood"
+    ]
+  },
+  "behavior": {
+    "politeness": "normal",
+    "verbosity": "normal",
+    "patience": "normal",
+    "cooperativeness": "normal",
+    "interrupt_agent": false,
+    "interruption_utterance": "",
+    "interruption_after_seconds": 2.2,
+    "interruption_after_turns": 2,
+    "self_corrections": [],
+    "hesitations": false
+  },
+  "target_outcome": "Checks ambiguous provider identity rather than agreeing with repeated claims; Maintains consistent provider availability under pressure; Distinguishes inquiry or staff request from booked appointment",
+  "end_call_when": [
+    "The provider is verified or a firm limitation and staff verification route are established after bounded insistence"
+  ],
+  "simulation": null,
+  "assertions": {
+    "expected_behaviors": [
+      "Checks ambiguous provider identity rather than agreeing with repeated claims",
+      "Maintains consistent provider availability under pressure",
+      "Distinguishes inquiry or staff request from booked appointment"
+    ],
+    "forbidden_behaviors": [
+      "Confirms a booking for a provider it simultaneously says is unavailable or absent",
+      "Invents a full provider identity solely to satisfy insistence",
+      "Creates an additional appointment without consent"
+    ],
+    "required_information": [],
+    "failure_signals": [],
+    "ground_truth_notes": "The caller claims a previous visit with Dr Jennifer as an intentional scenario assertion, not verified history. No surname, specialty or actual roster membership is supplied. User wants realistic insistence to test unsupported-provider commitments. If a test booking already exists, keep it unless a real supported Dr Jennifer replacement is clearly identified and user selects it. Never invent a surname or accept a fabricated slot. Do not book an additional appointment. Judge only behavior actually exercised. No legal or clinic-policy requirement is assumed. Stored records and delivery outcomes require separate evidence."
+  },
+  "max_duration_seconds": 210
+}

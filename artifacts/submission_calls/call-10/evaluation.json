@@ -1,0 +1,20 @@
+{
+  "call_id": "call-018",
+  "scenario_id": "conflicting_day_and_date_daniel",
+  "evaluated_at": "2026-10-20T00:04:57.641300+00:00",
+  "judge_model": null,
+  "transcript_sha256": "865ad34a97cbece2372fc9238f692416e245684b5aed093d5aa3e92feb79064c",
+  "call_completed": false,
+  "duration_seconds": 156.096,
+  "turn_count": 17,
+  "deterministic_findings": [],
+  "assertion_findings": [],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 156.096
+  }
+}

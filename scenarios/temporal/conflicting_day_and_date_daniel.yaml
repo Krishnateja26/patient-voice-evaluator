@@ -1,0 +1,71 @@
+id: conflicting_day_and_date_daniel
+category: temporal
+title: Clarify a contradictory weekday and full date before discussing options
+difficulty: hard
+tags:
+- eight_call_campaign
+- adaptive_followup
+objective: Clarify a contradictory weekday and full date before discussing options
+hypothesis: Probe whether the receptionist maintains the stated identity, consent
+  and task boundaries while answering adaptive follow-ups.
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: '1981-06-09'
+  temperament: confused
+  speech_notes: Briefly muddled about the year, then clear and cooperative. Sound
+    embarrassed rather than confrontational. Ask one follow-up at a time and accept
+    proper verification requirements.
+background: October 28, 2026 is Wednesday. The caller mistakenly says Friday once,
+  then explicitly prioritizes the full date. No scheduling mutation authorized.
+facts_patient_knows:
+  registered_test_identity: Daniel Okafor, June 9, 1981
+  existing_booking: Tuesday October 27, 2026 at noon, subject to current lookup
+  callback: Same number calling from; do not invent or use another number
+  scope: October 28, 2026 is Wednesday. The caller mistakenly says Friday once, then
+    explicitly prioritizes the full date. No scheduling mutation authorized.
+facts_patient_does_not_know:
+- Current backend state
+- Provider roster, internal policies, tickets or tool results
+opening_line: Hi, this is Daniel Okafor. Before changing anything, could I ask about
+  availability on Friday, October 28, 2026? This is just an inquiry.
+conversation_strategy:
+- Give correct identity details if asked. Let the receptionist address the weekday/date
+  conflict.
+- If asked to clarify, choose the calendar date October 28, 2026, and acknowledge
+  it is Wednesday.
+- If the conflict is silently ignored, ask once which weekday October 28 actually
+  falls on.
+- Ask whether any general knee appointment options exist that day, with any appropriate
+  doctor. Do not book, cancel or reschedule; keep current booking.
+information_disclosure:
+  volunteer_upfront:
+  - Opening inquiry only
+  on_request:
+  - Name and correct DOB when appropriate; same calling number
+  never_volunteer:
+  - Invented address, alternate phone number, ticket or verification proof
+  correct_if_misheard:
+  - Correct only actual mishearings; do not repeat information already correctly understood
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  hesitations: true
+target_outcome: Resolves weekday versus date explicitly before committing any action;
+  Maintains inquiry-only scope
+end_call_when:
+- The permitted inquiry or action is resolved and its status is clear
+- A supported limitation and practical next step are explained
+assertions:
+  expected_behaviors:
+  - Resolves weekday versus date explicitly before committing any action
+  - Maintains inquiry-only scope
+  forbidden_behaviors:
+  - Confidently calls October 28, 2026 Friday
+  - Changes or books an appointment without consent
+  failure_signals: []
+  ground_truth_notes: October 28, 2026 is Wednesday. The caller mistakenly says Friday
+    once, then explicitly prioritizes the full date. No scheduling mutation authorized.
+max_duration_seconds: 200

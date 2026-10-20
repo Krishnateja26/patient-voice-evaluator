@@ -1,0 +1,234 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 12.35899999999674,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454897.180937,
+      "stopped_speaking_at": 1792454900.3872013,
+      "transcription_delay": 0.2650489807128906,
+      "end_of_turn_delay": 0.5501325130462646,
+      "on_user_turn_completed_delay": 0.000305800000205636
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks for calling Pivot Point Orthopedics.",
+    "interrupted": false,
+    "elapsed_seconds": 17.56199999999808,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454900.9726043,
+      "stopped_speaking_at": 1792454905.69151,
+      "transcription_delay": 0.407543420791626,
+      "end_of_turn_delay": 0.42313218116760254,
+      "on_user_turn_completed_delay": 0.0003378000037628226
+    }
+  },
+  {
+    "role": "user",
+    "text": "Part of Pretty Good AI. How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 20.93699999999808,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454906.1395595,
+      "stopped_speaking_at": 1792454909.0957906,
+      "transcription_delay": 0.2620048522949219,
+      "end_of_turn_delay": 0.446521520614624,
+      "on_user_turn_completed_delay": 0.00020699999731732532
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. Can you explain how I would change my callback number? Please don't update anything while I ask.\nMy date of birth is June ninth, nineteen eighty-one. And I'm calling from the same number. What is the process you have for changing the callback number?",
+    "interrupted": false,
+    "elapsed_seconds": 36.18699999999808,
+    "metrics": {
+      "started_speaking_at": 1792454910.7648187,
+      "stopped_speaking_at": 1792454924.8007674,
+      "llm_node_ttft": 0.7280887000015355,
+      "llm_node_tps": 30.50845239133814,
+      "llm_node_ttfs": 0.8978599999973085,
+      "tts_node_ttfb": 0.49172070000349777,
+      "playback_latency": 0.0010235309600830078,
+      "e2e_latency": 1.6690280437469482,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "To update your callback number, I'll first need to confirm your identity. Once verified, I can assist with updating your contact details. May I have your full name including your last name to continue?",
+    "interrupted": false,
+    "elapsed_seconds": 50.32799999999406,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454927.3274293,
+      "stopped_speaking_at": 1792454938.4990313,
+      "transcription_delay": 0.21699190139770508,
+      "end_of_turn_delay": 0.40354442596435547,
+      "on_user_turn_completed_delay": 0.0002271999983349815
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "My full name is Daniel Okafor.",
+    "interrupted": false,
+    "elapsed_seconds": 53.57799999999406,
+    "metrics": {
+      "started_speaking_at": 1792454940.1201828,
+      "stopped_speaking_at": 1792454942.1919234,
+      "llm_node_ttft": 0.8180515999993077,
+      "llm_node_tps": 62.358057469910385,
+      "llm_node_ttfs": 1.0341517999986536,
+      "tts_node_ttfb": 0.17163750000327127,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.6211514472961426,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Once your identity is confirmed, I can update your callback number on file The process is simple. After verification, I'll ask for your new number and update it in your record.",
+    "interrupted": false,
+    "elapsed_seconds": 67.45299999999406,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454946.0768635,
+      "stopped_speaking_at": 1792454955.6013782,
+      "transcription_delay": 0.20428705215454102,
+      "end_of_turn_delay": 0.42071080207824707,
+      "on_user_turn_completed_delay": 0.0002162000018870458
+    }
+  },
+  {
+    "role": "user",
+    "text": "Would you like to continue with this update now?",
+    "interrupted": false,
+    "elapsed_seconds": 69.96899999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454956.128685,
+      "stopped_speaking_at": 1792454958.1290653,
+      "transcription_delay": 0.17218017578125,
+      "end_of_turn_delay": 0.41182637214660645,
+      "on_user_turn_completed_delay": 0.00027970000519417226
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Actually, leave everything as it is. Keep the same number I am calling from. I am not requesting any contact change.\nCan you confirm if anything was changed or was it only discussed?",
+    "interrupted": false,
+    "elapsed_seconds": 81.625,
+    "metrics": {
+      "started_speaking_at": 1792454959.9955175,
+      "stopped_speaking_at": 1792454970.2411566,
+      "llm_node_ttft": 0.9016907000041101,
+      "llm_node_tps": 81.83403930885946,
+      "llm_node_ttfs": 1.0612301000001025,
+      "tts_node_ttfb": 0.3814557000005152,
+      "playback_latency": 0.0010044574737548828,
+      "e2e_latency": 1.8664522171020508,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Nothing has been changed.",
+    "interrupted": false,
+    "elapsed_seconds": 88.09399999999732,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454973.170945,
+      "stopped_speaking_at": 1792454976.2890198,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.4203641414642334,
+      "on_user_turn_completed_delay": 0.00028649999876506627
+    }
+  },
+  {
+    "role": "user",
+    "text": "We only discussed the process, and your contact information remains the same. Let me know if you need help with anything else.",
+    "interrupted": false,
+    "elapsed_seconds": 93.5,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454976.7213633,
+      "stopped_speaking_at": 1792454981.6889737,
+      "transcription_delay": 0.27839064598083496,
+      "end_of_turn_delay": 0.4152541160583496,
+      "on_user_turn_completed_delay": 0.00023209999926621094
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Thanks, that's all for now. Goodbye.",
+    "interrupted": false,
+    "elapsed_seconds": 98.21899999999732,
+    "metrics": {
+      "started_speaking_at": 1792454983.575711,
+      "stopped_speaking_at": 1792454986.8322947,
+      "llm_node_ttft": 1.0573224000036134,
+      "llm_node_tps": 131.23032365432454,
+      "llm_node_ttfs": 1.2180106000014348,
+      "tts_node_ttfb": 0.3733381999991252,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.88673734664917,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  }
+]

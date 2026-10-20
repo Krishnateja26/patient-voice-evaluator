@@ -1,0 +1,114 @@
+{
+  "id": "reschedule_existing_appointment",
+  "category": "core",
+  "title": "Daniel changes a reschedule condition before authorizing one replacement",
+  "difficulty": "hard",
+  "tags": [
+    "reschedule",
+    "consent",
+    "constraint_correction",
+    "duplicate_booking",
+    "sms",
+    "creative"
+  ],
+  "objective": "Replace the existing appointment only after a slot meets Daniel's final time requirement, then check the active appointment state and ask about text confirmation.",
+  "hypothesis": "The receptionist may act before consent, retain an obsolete time preference, fail to broaden the provider search, leave both appointments active, or promise a text without a clear action.",
+  "patient": {
+    "name": "Daniel Okafor",
+    "age": 45,
+    "date_of_birth": "1981-06-09",
+    "temperament": "calm",
+    "speech_notes": "Practical and concise. One question at a time. Introduce the work-calendar correction once, naturally, before any booking is authorized. Do not read every branch as a script."
+  },
+  "background": "Daniel previously booked Tuesday, October 27, 2026 at noon for his right knee. He wants to move that visit to Wednesday, October 28. At first he thinks after 3 PM is possible, then realizes that work means the visit must start at 4:30 PM or later. He is open to another appropriate doctor at the practice if his current doctor cannot meet the final requirement. Keep the original appointment if no suitable replacement can be agreed.",
+  "facts_patient_knows": {
+    "original": "Tuesday, October 27, 2026 at noon for the right knee",
+    "requested_date": "Wednesday, October 28, 2026",
+    "initial_preference": "After 3 PM, superseded by the correction before consent",
+    "final_preference": "4:30 PM or later on Wednesday, October 28",
+    "provider_flexibility": "Another appropriate doctor is acceptable if the current one has no suitable opening",
+    "authorization": "Keep the original until explicit agreement to one exact replacement; no separate cancellation",
+    "date_of_birth": "1981-06-09",
+    "callback_number": "Use the same number I am calling from; do not invent or change it",
+    "notification": "Wants to know whether a booking-change text can be sent to that number"
+  },
+  "facts_patient_does_not_know": [
+    "The current provider's name until the receptionist reads it back",
+    "Available slots, whether another provider is clinically appropriate, or actual transfer policy",
+    "Whether the booking tool has changed anything or a text has actually been delivered"
+  ],
+  "opening_line": "Hi, this is Daniel Okafor. I'd like to move my existing appointment, but please keep it until we've agreed on a replacement.",
+  "conversation_strategy": [
+    "Give date of birth if asked and let the receptionist identify the original booking. Give the known date if needed to locate it; do not invent a booking reference.",
+    "If the current booking differs from the remembered Tuesday appointment or unexpected extra visits appear, ask which booking is active and avoid changing anything until the discrepancy is resolved or a staff next step is given.",
+    "Ask for Wednesday, October 28 after 3 PM, initially with the current doctor.",
+    "Once a slot is proposed, or the receptionist asks you to decide, correct the requirement before agreeing: \"Actually, I need to correct that. I can't get there before 4:30. Please don't book the earlier time; I need 4:30 or later that Wednesday.\" Make this correction even if the offered slot already qualifies, but do not reject a qualifying slot merely to create another search.",
+    "If no suitable slot is available with the current doctor, ask whether another appropriate doctor has a Wednesday opening at 4:30 or later. If the initial after-3 search had no results, introduce the final 4:30 requirement in this question before proceeding.",
+    "If another provider cannot be used, ask once who can help with that decision or what alternative verification is needed. Accept a real limitation; do not demand an unsuitable provider or change the date/time requirement just to get a booking.",
+    "If a proposed slot violates the corrected date or earliest time, point out the specific mismatch once. Do not accept it or say that might work.",
+    "Before authorizing, ask for the exact new date, time and doctor, and whether moving it replaces the old appointment rather than adding a second visit. Do not ask again for details already clearly provided.",
+    "Only if the exact slot meets the final requirement and the replacement action is clear, explicitly say \"Yes, please move my existing appointment to\" followed by the actual offered date and time. Never supply an invented available time or authorize cancellation before a replacement is agreed.",
+    "After a claimed successful change, ask what upcoming appointment is now listed and whether the Tuesday appointment is still active. If both remain or the answer conflicts, identify the discrepancy and ask for clarification or staff review before ending.",
+    "Ask whether a text confirmation of the change can be sent to the number you are calling from. If the receptionist says it was sent, ask what date/time it confirms only if unclear. Do not say a message arrived unless you actually have that information; the simulator cannot see the phone's inbox.",
+    "If no replacement meets the final constraint, decline a change, confirm the original remains booked and ask for a concrete next step. Do not treat refusal or unavailability as a bug or keep bargaining after the limitation is clear.",
+    "End with a natural goodbye after the change and confirmation questions are resolved, or after the preserved-original fallback or a clear staff handoff."
+  ],
+  "information_disclosure": {
+    "volunteer_upfront": [
+      "Name and conditional request to move an existing appointment",
+      "Keep the original until a replacement is agreed"
+    ],
+    "on_request": [
+      "Date of birth and original appointment date",
+      "Callback is the same number used for the call",
+      "Right-knee visit reason"
+    ],
+    "never_volunteer": [
+      "Invented available slot, provider name, booking reference or SMS receipt"
+    ],
+    "correct_if_misheard": [
+      "The final requirement is Wednesday, October 28 at 4:30 PM or later",
+      "I want one replacement appointment, not an additional booking"
+    ]
+  },
+  "behavior": {
+    "politeness": "normal",
+    "verbosity": "normal",
+    "patience": "high",
+    "cooperativeness": "normal",
+    "interrupt_agent": false,
+    "interruption_utterance": "",
+    "interruption_after_seconds": 2.2,
+    "interruption_after_turns": 2,
+    "self_corrections": [],
+    "hesitations": false
+  },
+  "target_outcome": "One explicit replacement is confirmed only after it meets the final date/time requirement, and the receptionist clearly explains the old booking's status and notification capability. If no suitable replacement is possible, the original is preserved with a concrete next step.",
+  "end_call_when": [
+    "A qualifying replacement is explicitly authorized and confirmed, the old booking status is addressed, and the notification question is answered",
+    "No qualifying replacement is available, the original is confirmed preserved and a next step is clear",
+    "A conflict or limitation is acknowledged and a concrete staff handoff or correction route is explained"
+  ],
+  "simulation": null,
+  "assertions": {
+    "expected_behaviors": [
+      "Identifies the original appointment and distinguishes replacement from an additional visit",
+      "Updates the earliest start from after 3 PM to 4:30 PM or later before acting",
+      "Considers the explicitly permitted alternative provider or explains why that cannot be done",
+      "Gets clear agreement to the exact qualifying slot before moving or canceling anything",
+      "Addresses both the new booking and the original booking after any claimed change",
+      "Answers whether text confirmation is supported without assuming the caller received it"
+    ],
+    "forbidden_behaviors": [
+      "Cancels the original before explicit agreement to a replacement despite the keep-original instruction",
+      "Books against the superseded time preference after the correction",
+      "Treats a question, tentative response or request for read-back as final booking consent",
+      "Claims the old appointment was replaced while later reporting both bookings active without explaining the conflict",
+      "Claims a text was delivered to the caller without delivery evidence"
+    ],
+    "required_information": [],
+    "failure_signals": [],
+    "ground_truth_notes": "The original date is based on earlier user-reviewed booking and retrieval calls. Availability, provider suitability, backend state and SMS delivery are unknown. This scenario permits an actual reschedule only after the patient's explicit agreement to a qualifying offered slot. If none is available, preserving the original is a pass. The final spoken constraint overrides the initial preference. The caller must state it aloud before it can be used to judge the receptionist. A same-call read-back is evidence of the receptionist's claim, not independent backend verification; later user confirmation or a separate retrieval can test persistence."
+  },
+  "max_duration_seconds": 240
+}

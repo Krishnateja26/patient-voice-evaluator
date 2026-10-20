@@ -1,0 +1,20 @@
+{
+  "call_id": "call-019",
+  "scenario_id": "cancel_appointment_and_policy",
+  "evaluated_at": "2026-10-20T00:07:40.955542+00:00",
+  "judge_model": null,
+  "transcript_sha256": "30af2984e800e2920213ecba031e27c3284bf6dbe2d2c68f9bf3846feaca97cf",
+  "call_completed": false,
+  "duration_seconds": 119.048,
+  "turn_count": 20,
+  "deterministic_findings": [],
+  "assertion_findings": [],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 119.048
+  }
+}

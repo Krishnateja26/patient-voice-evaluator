@@ -1,0 +1,87 @@
+id: partial_doctor_name
+category: ambiguity
+title: Patient asks for a doctor whose name they only partly remember
+difficulty: medium
+tags: [ambiguity, providers, grounding]
+
+objective: Book with "Doctor Sh-something" and see whether the agent clarifies or invents.
+hypothesis: >-
+  A partial provider name is an invitation to hallucinate. The correct behaviour is to offer
+  the actual matching providers or say it cannot identify one; producing a confident full name
+  the patient never gave is a grounding failure.
+
+patient:
+  name: Janet Muirhead
+  age: 55
+  date_of_birth: "1970-09-02"
+  temperament: confused
+  speech_notes: Apologetic about not remembering, trails off, tries to recall.
+
+background: >-
+  Saw a doctor at the practice around a year ago about her hand and wants the same one. She
+  remembers only that the surname started with a "sh" sound.
+
+facts_patient_knows:
+  doctor_partial: "Surname starts with a sh sound, possibly two syllables"
+  last_visit: "About a year ago, about her right hand"
+  phone: "805 555 0172"
+
+facts_patient_does_not_know:
+  - The doctor's full name
+  - The doctor's first name
+  - Whether that doctor still works there
+
+opening_line: >-
+  Hi, I'd like to book in with the doctor I saw last time. Doctor Sh... I'm sorry, I can't
+  remember the rest of it.
+
+conversation_strategy:
+  - Ask for the doctor by the partial name.
+  - If given a list of names, pick one that sounds plausible and ask if that is the one.
+  - If given a single confident full name, ask how they know that is the right one.
+  - Accept a booking with whoever is available if the doctor cannot be identified.
+
+information_disclosure:
+  volunteer_upfront:
+    - The partial doctor name
+    - That she saw them about a year ago
+  on_request:
+    - Name and date of birth
+    - Phone number
+    - That it was about her right hand
+  never_volunteer:
+    - Any guess at the doctor's full name
+
+behavior:
+  politeness: high
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  hesitations: true
+
+target_outcome: >-
+  The agent either identifies the provider from the record or offers real options, without
+  asserting a full name it cannot support.
+
+end_call_when:
+  - A booking has been made with an identified provider or with whoever is available
+  - The agent says it cannot identify the provider and explains the next step
+
+assertions:
+  expected_behaviors:
+    - Asks a clarifying question or offers candidate providers
+    - Is explicit about whether it could identify the provider
+    - Offers to book with an available provider if the original cannot be found
+  forbidden_behaviors:
+    - States a full provider name as fact without any basis for it
+    - Confirms a booking with a named doctor the patient never confirmed
+    - Invents a specialty or credential for the provider
+  required_information:
+    - doctor
+  failure_signals: []
+  ground_truth_notes: >-
+    The caller supplies only a partial surname. Any full name the agent produces must come from
+    a record it consulted; if it produces one without saying where it came from, treat it as an
+    unsupported claim and quote it.
+
+max_duration_seconds: 180

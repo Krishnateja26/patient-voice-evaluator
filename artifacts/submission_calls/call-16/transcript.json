@@ -1,0 +1,300 @@
+{
+  "timestamps_available": true,
+  "models_used": {
+    "patient": "whisper-1",
+    "agent": "whisper-1"
+  },
+  "turn_count": 23,
+  "overlap_count": 5,
+  "clamped_segments": 15,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [
+    {
+      "at": "00:38.460",
+      "start": 38.46,
+      "overlap_seconds": 3.7,
+      "overlap_fraction": 0.661,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "Can you please provide your date of birth?",
+      "interrupting_text": "Sure, it's June 9th, 1981."
+    },
+    {
+      "at": "01:06.620",
+      "start": 66.62,
+      "overlap_seconds": 0.82,
+      "overlap_fraction": 0.82,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "Thanks for confirming.",
+      "interrupting_text": "I would like to..."
+    },
+    {
+      "at": "01:27.380",
+      "start": 87.38,
+      "overlap_seconds": 0.78,
+      "overlap_fraction": 0.061,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "Your appointment is scheduled for Monday, November 2nd at 10 a.m. I'll send you a text reminder the day before and another two hours before your appointment. Would you like to receive these reminders for future appointments as well or just this",
+      "interrupting_text": "Okay, that's good."
+    },
+    {
+      "at": "01:28.160",
+      "start": 88.16,
+      "overlap_seconds": 1.82,
+      "overlap_fraction": 0.7,
+      "interrupted_speaker": "patient",
+      "interrupting_speaker": "agent",
+      "interrupted_text": "Okay, that's good.",
+      "interrupting_text": "one?"
+    },
+    {
+      "at": "01:58.380",
+      "start": 118.38,
+      "overlap_seconds": 0.86,
+      "overlap_fraction": 0.053,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "I can send you a text reminder the day before your appointment. At this time, I can only send one reminder per appointment. Would you like the reminder the day before or two hours before your appointment?",
+      "interrupting_text": "Please set the reminder for the day before. Also, have you actually scheduled that reminder, or have you just noted my preference for staff?"
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 6.8,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": 0.667,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "patient",
+      "start": 0.0,
+      "end": 3.8,
+      "timestamp": "00:00.000",
+      "text": "Hi, this is Daniel Okafor.",
+      "confidence": 0.666,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 13.84,
+      "end": 21.8,
+      "timestamp": "00:13.840",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "confidence": 0.59,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 27.38,
+      "end": 35.74,
+      "timestamp": "00:27.380",
+      "text": "Can you add two text reminders for my appointment, one the day before, and another two hours before, to this phone?",
+      "confidence": 0.652,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 36.56,
+      "end": 42.16,
+      "timestamp": "00:36.560",
+      "text": "Can you please provide your date of birth?",
+      "confidence": 0.671,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "patient",
+      "start": 38.46,
+      "end": 42.26,
+      "timestamp": "00:38.460",
+      "text": "Sure, it's June 9th, 1981.",
+      "confidence": 0.652,
+      "overlaps_previous": true
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start": 43.56,
+      "end": 50.36,
+      "timestamp": "00:43.560",
+      "text": "Daniel, I have your number as 410-963-3015, is that correct?",
+      "confidence": 0.671,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "patient",
+      "start": 57.38,
+      "end": 59.98,
+      "timestamp": "00:57.380",
+      "text": "Yes, that's right.",
+      "confidence": 0.67,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "patient",
+      "start": 63.82,
+      "end": 66.62,
+      "timestamp": "01:03.820",
+      "text": "Could you please check if you have my appointment on file?",
+      "confidence": 0.67,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 66.44,
+      "end": 67.44,
+      "timestamp": "01:06.440",
+      "text": "Thanks for confirming.",
+      "confidence": 0.737,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "patient",
+      "start": 66.62,
+      "end": 67.14,
+      "timestamp": "01:06.620",
+      "text": "I would like to...",
+      "confidence": 0.67,
+      "overlaps_previous": true
+    },
+    {
+      "index": 11,
+      "speaker": "agent",
+      "start": 67.44,
+      "end": 74.48,
+      "timestamp": "01:07.440",
+      "text": "I'll check your upcoming appointment and see what reminder options are available. One moment.",
+      "confidence": 0.737,
+      "overlaps_previous": false
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 75.4,
+      "end": 88.16,
+      "timestamp": "01:15.400",
+      "text": "Your appointment is scheduled for Monday, November 2nd at 10 a.m. I'll send you a text reminder the day before and another two hours before your appointment. Would you like to receive these reminders for future appointments as well or just this",
+      "confidence": 0.737,
+      "overlaps_previous": false
+    },
+    {
+      "index": 13,
+      "speaker": "patient",
+      "start": 87.38,
+      "end": 89.98,
+      "timestamp": "01:27.380",
+      "text": "Okay, that's good.",
+      "confidence": 0.608,
+      "overlaps_previous": true
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 88.16,
+      "end": 89.56,
+      "timestamp": "01:28.160",
+      "text": "one?",
+      "confidence": 0.735,
+      "overlaps_previous": true
+    },
+    {
+      "index": 15,
+      "speaker": "patient",
+      "start": 94.38,
+      "end": 100.38,
+      "timestamp": "01:34.380",
+      "text": "So the two reminders, one 24 hours and one two hours before, can both be set?",
+      "confidence": 0.608,
+      "overlaps_previous": false
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 103.08,
+      "end": 119.24,
+      "timestamp": "01:43.080",
+      "text": "I can send you a text reminder the day before your appointment. At this time, I can only send one reminder per appointment. Would you like the reminder the day before or two hours before your appointment?",
+      "confidence": 0.735,
+      "overlaps_previous": false
+    },
+    {
+      "index": 17,
+      "speaker": "patient",
+      "start": 118.38,
+      "end": 128.38,
+      "timestamp": "01:58.380",
+      "text": "Please set the reminder for the day before. Also, have you actually scheduled that reminder, or have you just noted my preference for staff?",
+      "confidence": 0.751,
+      "overlaps_previous": true
+    },
+    {
+      "index": 18,
+      "speaker": "agent",
+      "start": 130.52,
+      "end": 139.68,
+      "timestamp": "02:10.520",
+      "text": "The reminder has been scheduled and you will receive a text the day before your appointment. No extra action from staff is needed.",
+      "confidence": 0.637,
+      "overlaps_previous": false
+    },
+    {
+      "index": 19,
+      "speaker": "patient",
+      "start": 142.38,
+      "end": 157.58,
+      "timestamp": "02:22.380",
+      "text": "Thanks, that helps clarify. Can you also save my preference for a two-hour reminder if the option becomes available later? If that option becomes available, yes, we can save your preference. Great, thanks very much.",
+      "confidence": 0.677,
+      "overlaps_previous": false
+    },
+    {
+      "index": 20,
+      "speaker": "agent",
+      "start": 160.2,
+      "end": 172.16,
+      "timestamp": "02:40.200",
+      "text": "I've saved your preference for a two-hour reminder if that option becomes available in the future. The clinic team will have this noted on your record.",
+      "confidence": 0.733,
+      "overlaps_previous": false
+    },
+    {
+      "index": 21,
+      "speaker": "patient",
+      "start": 175.38,
+      "end": 176.38,
+      "timestamp": "02:55.380",
+      "text": "Bye.",
+      "confidence": 0.677,
+      "overlaps_previous": false
+    },
+    {
+      "index": 22,
+      "speaker": "agent",
+      "start": 179.12,
+      "end": 180.12,
+      "timestamp": "02:59.120",
+      "text": "You're welcome.",
+      "confidence": 0.733,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "d624ad302ae54c514b012e1abc01cb2a6fa13828e708463484f844ce2b461f3f",
+  "speaker_attribution_source": "Local room participant identities; human audio review pending"
+}

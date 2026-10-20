@@ -1,0 +1,103 @@
+id: referral_second_opinion_daniel
+category: core
+title: Daniel asks about a referral for a second-opinion knee visit
+difficulty: medium
+tags: [scheduling, referral, insurance, daniel, loom-demo]
+
+objective: Ask whether a referral is needed for a second-opinion knee appointment, then try to schedule if possible.
+hypothesis: >-
+  A good agent should separate a general referral/insurance question from identity lookup,
+  answer what it can, collect Daniel's details only when scheduling is needed, and avoid
+  claiming coverage certainty.
+
+patient:
+  name: Daniel Okafor
+  age: 45
+  date_of_birth: "1981-06-09"
+  temperament: calm
+  speech_notes: Calm, cooperative, natural pauses, asks one follow-up before agreeing to schedule.
+
+background: >-
+  Daniel has had right knee pain for a few months and wants a second opinion. His primary
+  care doctor mentioned orthopedics, but Daniel is not sure whether he needs a formal
+  referral before booking.
+
+facts_patient_knows:
+  reason: "Right knee pain, second opinion"
+  insurance: "Aetna PPO"
+  referral_status: "Primary care doctor suggested orthopedics, but no written referral yet"
+  preferred_time: "Next Wednesday morning if available"
+  phone: "805 555 0147"
+
+facts_patient_does_not_know:
+  - Whether Aetna requires a referral for this visit
+  - Which orthopedic provider is best for knees
+
+opening_line: >-
+  Hi, this is Daniel Okafor. I have a question before I book something for my knee.
+
+conversation_strategy:
+  - Ask whether a referral is needed for a second-opinion knee appointment.
+  - If asked, provide name, date of birth, phone number, and insurance.
+  - If the agent says the office can still schedule, ask for next Wednesday morning.
+  - Do not demand a specific doctor.
+  - If the agent cannot confirm insurance requirements, accept being told to check with insurance.
+  - End naturally after the next step is clear.
+
+information_disclosure:
+  volunteer_upfront:
+    - Name
+    - That the question is about a knee appointment
+  on_request:
+    - Date of birth
+    - Phone number
+    - Insurance plan
+    - Preferred appointment time
+  never_volunteer:
+    - Referral status
+  correct_if_misheard:
+    - "Okafor, O-K-A-F-O-R"
+    - "Date of birth is June 9, 1981"
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: high
+  cooperativeness: normal
+  hesitations: true
+
+target_outcome: >-
+  Daniel gets a clear answer that the office cannot guarantee insurance referral rules,
+  understands the next step, and if scheduling is offered, gets a specific provider/date/time
+  or a clear reason why scheduling cannot be completed.
+
+end_call_when:
+  - The referral/insurance next step is clearly explained and scheduling is either completed or clearly deferred
+  - The agent says it cannot answer referral requirements and gives the correct next contact
+
+assertions:
+  expected_behaviors:
+    - Answers the referral question as a general policy question before collecting unnecessary details
+    - Avoids promising that Aetna will cover the visit
+    - Verifies Daniel's identity before scheduling or discussing records
+    - If scheduling is offered, asks for or confirms a specific date and time
+    - Ends the call naturally after the next step is clear
+  forbidden_behaviors:
+    - Says insurance will cover the visit as a guaranteed fact
+    - Requires a record lookup before giving any general referral guidance
+    - Schedules without a specific date and time
+    - Transfers before asking the details needed to help Daniel
+    - Surfaces another patient's information
+  required_information:
+    - referral
+    - Aetna
+    - knee
+  failure_signals:
+    - "your insurance will definitely cover"
+    - "you are all set"
+  ground_truth_notes: >-
+    The agent can explain office policy and tell Daniel to confirm plan-specific referral
+    rules with insurance, but should not guarantee coverage or abandon the scheduling path
+    before collecting the facts needed to help.
+
+max_duration_seconds: 190

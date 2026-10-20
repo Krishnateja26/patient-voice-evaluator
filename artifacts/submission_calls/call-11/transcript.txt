@@ -1,0 +1,61 @@
+Call 18 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[PATIENT 00:13.828]
+Hello, this is
+
+[AGENT 00:16.703]
+For calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:20.234]
+Hi, this is Daniel Okafor. I have a question about cancelling my appointment, but please don't cancel it yet. Is there a cancellation fee or notice requirement?
+
+[AGENT 00:29.078]
+Can you please provide your date of birth?
+
+[AGENT 00:33.297]
+I needed to look up your information.
+
+[PATIENT 00:35.531]
+Sure, it's June ninth, nineteen eighty-one.
+
+[AGENT 00:39.328]
+Thanks, Daniel.
+
+[AGENT 00:44.125]
+Let me check your appointment details and cancellation policy for you.
+
+[AGENT 00:48.000]
+You have an appointment scheduled for Tuesday, October twenty seventh at twelve PM. Pivot Point Orthopaedics does not charge a cancellation fee but we do ask for as much notice as possible if you need to cancel or reschedule. Would you like to cancel this appointment?
+
+[PATIENT 01:04.563]
+Yes, please cancel that Tuesday, October twenty-seventh noon appointment now. I do not want a replacement booking.
+
+[AGENT 01:11.656]
+Understood. Just to confirm, you want to cancel your appointment with
+
+[AGENT 01:22.781]
+doctor Dugi Hauser on Tuesday, October twenty seventh. Is that correct?
+
+[PATIENT 01:23.922]
+Yes, that's correct. Please go ahead and cancel it.
+
+[AGENT 01:28.438]
+Your appointment with doctor Judy Hauser on Tuesday, October twenty seventh at noon has been canceled.
+
+[AGENT 01:36.078]
+Is there anything else I can help you with today?
+
+[PATIENT 01:38.625]
+Can you confirm if the cancellation is fully completed now or if it's just a request sent?
+
+[AGENT 01:43.766]
+The cancellation is fully completed. Your appointment has been removed from the schedule.
+
+[AGENT 01:51.531]
+Let me know if you need anything else.
+
+[PATIENT 01:53.422]
+Great, thanks very much. Goodbye.

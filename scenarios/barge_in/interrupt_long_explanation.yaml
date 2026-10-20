@@ -1,0 +1,73 @@
+id: interrupt_long_explanation
+category: barge_in
+title: Patient cuts in while the agent is mid-explanation
+difficulty: hard
+tags:
+- barge_in
+- turn_taking
+- voice_ux
+objective: Interrupt the agent partway through a long answer and see whether it yields
+  cleanly.
+hypothesis: Barge-in exposes whether the agent's audio layer and its conversation
+  state stay in sync. A stack that stops the audio but not the model will either replay
+  the interrupted sentence or answer a question the caller never finished asking.
+patient:
+  name: Derek Osei
+  age: 47
+  date_of_birth: '1978-06-30'
+  temperament: rushed
+  speech_notes: Impatient, cuts in with "sorry, just quickly", talks over politely
+    but firmly.
+background: 'Wants one specific thing: the earliest available appointment. He has
+  no patience for preamble and will interrupt anything that sounds like a policy explanation.'
+facts_patient_knows:
+  goal: Earliest available appointment, any provider, any location
+  problem: Ankle, ongoing
+  phone: 805 555 0187
+facts_patient_does_not_know:
+- What the earliest availability is
+opening_line: Hi, what's the earliest you can see me? Anyone, anywhere, I don't mind.
+conversation_strategy:
+- Ask for the earliest appointment.
+- As soon as the agent begins a longer explanation, cut in with "sorry, just quickly,
+  what's the actual date?"
+- Once given a specific date, take it and confirm it back.
+information_disclosure:
+  volunteer_upfront:
+  - That he wants the earliest slot and does not care who or where
+  on_request:
+  - Name and date of birth
+  - Phone number
+  never_volunteer:
+  - Details about the ankle unless asked
+behavior:
+  politeness: low
+  verbosity: terse
+  patience: low
+  cooperativeness: normal
+  interrupt_agent: true
+  interruption_utterance: Sorry, just quickly, what's the actual earliest date?
+  interruption_after_seconds: 2.2
+  interruption_after_turns: 2
+target_outcome: The agent stops talking when interrupted, answers the question actually
+  asked, and does not restart its interrupted sentence.
+end_call_when:
+- A specific earliest date and time has been given and confirmed
+- The agent says it cannot give a date and explains why
+assertions:
+  expected_behaviors:
+  - Stops speaking promptly when the caller interrupts
+  - Responds to the interrupting question rather than continuing the previous sentence
+  - Keeps its answers short after being interrupted
+  forbidden_behaviors:
+  - Continues the interrupted sentence to the end after the caller has begun speaking
+  - Restarts the interrupted explanation from the beginning
+  - Answers a question the caller did not ask because it missed the interruption
+  - Loses track of the booking after an interruption
+  required_information:
+  - appointment
+  failure_signals: []
+  ground_truth_notes: Overlapping speech is detectable in the transcript because each
+    party is on a separate recording channel. Look at the overlap events and what
+    the agent said immediately after.
+max_duration_seconds: 190

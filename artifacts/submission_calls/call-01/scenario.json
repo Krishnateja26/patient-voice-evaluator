@@ -1,0 +1,101 @@
+{
+  "id": "schedule_new_patient_knee",
+  "category": "core",
+  "title": "New patient books a first appointment for knee pain",
+  "difficulty": "easy",
+  "tags": [
+    "scheduling",
+    "new_patient",
+    "happy_path"
+  ],
+  "objective": "Book a first appointment for a knee that has been painful for about three weeks.",
+  "hypothesis": "Baseline. Establishes what a clean, cooperative scheduling call looks like so that failures in harder scenarios can be attributed to the scenario rather than to the agent being broken generally.",
+  "patient": {
+    "name": "Daniel Okafor",
+    "age": 44,
+    "date_of_birth": "1981-06-09",
+    "temperament": "calm",
+    "speech_notes": "Even pace, friendly, a slight pause before giving numbers."
+  },
+  "background": "Tweaked his right knee playing five-a-side about three weeks ago. It has not settled. His GP suggested he see an orthopaedic specialist. He has never been to this practice.",
+  "facts_patient_knows": {
+    "new_patient": "Yes, first time with this practice",
+    "problem": "Right knee, painful since a football injury about three weeks ago",
+    "availability": "Weekday mornings before 11am, or any time Friday",
+    "phone": "805 555 0147",
+    "insurance": "Blue Shield PPO",
+    "referral": "GP referral, but he does not have the referral number to hand"
+  },
+  "facts_patient_does_not_know": [
+    "His member ID number",
+    "Which specific doctor he should see",
+    "Whether the practice needs the referral paperwork before the visit"
+  ],
+  "opening_line": "Hi, I'd like to book an appointment about my knee. I've not been seen there before.",
+  "conversation_strategy": [
+    "State the reason for calling and that he is a new patient.",
+    "Give identifying details as they are asked for.",
+    "Do not repeat or correct the surname if it is pronounced correctly; only correct a clear audible mispronunciation.",
+    "Describe the knee problem briefly when asked.",
+    "Negotiate a time that fits weekday mornings or Friday.",
+    "Confirm back the date, time and location before finishing."
+  ],
+  "information_disclosure": {
+    "volunteer_upfront": [
+      "That he is a new patient",
+      "That it is about his right knee"
+    ],
+    "on_request": [
+      "Full name and date of birth",
+      "Phone number",
+      "Insurance carrier",
+      "When the injury happened"
+    ],
+    "never_volunteer": [
+      "That his GP referred him",
+      "That he plays football"
+    ],
+    "correct_if_misheard": [
+      "It is the right knee, not the left"
+    ]
+  },
+  "behavior": {
+    "politeness": "normal",
+    "verbosity": "normal",
+    "patience": "normal",
+    "cooperativeness": "normal",
+    "interrupt_agent": false,
+    "interruption_utterance": "",
+    "interruption_after_seconds": 2.2,
+    "interruption_after_turns": 2,
+    "self_corrections": [],
+    "hesitations": true
+  },
+  "target_outcome": "An appointment is booked at a specific date, time and location, and the agent has confirmed those details back to the patient.",
+  "end_call_when": [
+    "An appointment has been booked and read back",
+    "The agent says someone will call back to finish booking",
+    "It becomes clear no appointment can be made on this call"
+  ],
+  "simulation": null,
+  "assertions": {
+    "expected_behaviors": [
+      "Collects enough identity information to create a record (at minimum a full name and date of birth)",
+      "Asks what the appointment is about",
+      "Offers specific appointment options rather than vague availability",
+      "Reads back the final date, time and location before ending the call",
+      "Handles the new-patient path without assuming an existing record"
+    ],
+    "forbidden_behaviors": [
+      "Claims an appointment is booked without ever stating a specific date and time",
+      "Invents a doctor name or location that it has not previously mentioned",
+      "Ends the call while the patient still has an unanswered question"
+    ],
+    "required_information": [
+      "appointment"
+    ],
+    "failure_signals": [],
+    "ground_truth_notes": "No external facts are assumed. Any specific claim about availability, providers or location should be judged for internal consistency across the call."
+  },
+  "max_duration_seconds": 180
+}

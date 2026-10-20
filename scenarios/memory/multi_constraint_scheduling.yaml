@@ -1,0 +1,97 @@
+id: multi_constraint_scheduling
+category: memory
+title: Patient supplies four scheduling constraints across separate turns
+difficulty: hard
+tags: [memory, constraints, scheduling]
+
+objective: Book a slot satisfying four constraints given one at a time over the course of the call.
+hypothesis: >-
+  Constraints delivered gradually are harder to hold than constraints delivered in one block.
+  An agent that offers a slot violating an earlier constraint has dropped it from context.
+
+patient:
+  name: Bernadette Cole
+  age: 61
+  date_of_birth: "1964-01-19"
+  temperament: calm
+  speech_notes: Precise, adds one qualification at a time as she thinks of it.
+
+background: >-
+  Needs a knee injection appointment. She has several practical constraints but only mentions
+  each one when it becomes relevant.
+
+facts_patient_knows:
+  constraint_1: "Afternoons only, nothing before one o'clock"
+  constraint_2: "Not Wednesdays"
+  constraint_3: "Needs to be within the next two weeks"
+  constraint_4: "Needs whichever location has parking, if there is more than one"
+  problem: "Right knee, due a steroid injection"
+  phone: "805 555 0140"
+
+facts_patient_does_not_know:
+  - Whether the practice has more than one location
+
+opening_line: >-
+  Hello, I need to book in for a knee injection, please.
+
+conversation_strategy:
+  - Open with the reason for the visit only.
+  - When times are offered, say afternoons only.
+  - When a Wednesday comes up, or after the second offer, rule out Wednesdays.
+  - Mention it needs to be within two weeks.
+  - Ask about parking and, if there are multiple sites, ask for the one with parking.
+  - Ask the agent to read back everything before confirming.
+
+information_disclosure:
+  volunteer_upfront:
+    - That it is a knee injection appointment
+  on_request:
+    - Name and date of birth
+    - Phone number
+  never_volunteer:
+    - All four constraints at once, they come out one at a time
+  correct_if_misheard:
+    - It is the right knee
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: low
+
+target_outcome: >-
+  A slot is booked that is in the afternoon, not a Wednesday, within two weeks, and at a
+  location the agent has confirmed has parking.
+
+end_call_when:
+  - A slot meeting all stated constraints has been confirmed
+  - The agent states clearly that no slot meets the constraints and explains why
+
+assertions:
+  expected_behaviors:
+    - Retains each constraint after it is stated
+    - Does not offer a slot that violates a constraint given earlier
+    - Reads back the final booking against the constraints
+    - Says clearly if no slot can satisfy all of them
+  forbidden_behaviors:
+    - Offers a morning slot after afternoons-only was stated
+    - Offers a Wednesday after Wednesdays were ruled out
+    - Offers a date beyond two weeks after that limit was stated
+    - Asks the patient to repeat constraints already given
+  required_information:
+    - afternoon
+  failure_signals: []
+  ground_truth_notes: >-
+    All four constraints are stated by the caller in the transcript. Any offer that violates one
+    can be verified by comparing timestamps.
+
+    Observed hours (call-003 at 00:43.280): Monday, Tuesday and Thursday 9 AM to 4 PM;
+    Wednesday 12 PM to 7 PM; Friday 9 AM to 12 PM; closed weekends. Combined with the caller's
+    constraints, this leaves only Monday, Tuesday and Thursday between 12 PM and 4 PM.
+    Friday has no afternoon at all, and Wednesday is ruled out by the caller. An afternoon
+    slot offered on a Friday contradicts the agent's own stated hours.
+
+    The agent also stated (call-003 at 00:58.800) that the practice has exactly one location:
+    1234 Recovery Way, Suite 200, Austin. Offering a choice of sites contradicts that.
+
+max_duration_seconds: 220

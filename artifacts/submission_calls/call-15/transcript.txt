@@ -1,0 +1,61 @@
+Call: call-027; audio: recording.mp3
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[PATIENT 00:00.000]
+Hi, this is Daniel Okafor.
+
+[AGENT 00:12.600]
+Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:25.760]
+I saw Dr. Jennifer last time, and I want another knee appointment with her only. I call her Dr. Jen.
+
+[AGENT 00:35.720]
+Can you please provide your date of birth?
+
+[PATIENT 00:38.040]  <-- possible overlapping speech
+Sure, it's June 9th, 1981.
+
+[AGENT 00:47.400]
+What kind of visit do you need for your knee this time? For example, is this a follow-up, a new concern, or something else?
+
+[PATIENT 00:56.760]  <-- possible overlapping speech
+It's a follow-up appointment from my last visit. I want to continue with Dr. Jen specifically. Could you please check carefully?
+
+[AGENT 01:10.760]
+I checked the schedule, but I do not see any openings with Dr. Jen for follow-up visits this week. Would you like me to look for her next available times on later dates?
+
+[PATIENT 01:25.760]
+I am sure I saw Dr. Jen before. Could you check whether Jennifer is a first name or another way she is listed?
+
+[AGENT 01:37.640]  <-- possible overlapping speech
+I searched for Dr. Jen, but the only available provider for follow-up knee appointments this week is Doogie Howser. It's possible Dr. Jen is listed differently or may not have openings right now. Would you like me to search for future dates or try a different provider?
+
+[PATIENT 01:58.760]
+I only want Dr. Jen. Can you actually make an appointment with Dr. Jen?
+
+[AGENT 02:06.520]  <-- possible overlapping speech
+I am not seeing any available appointments with Dr. Jen for follow-up visits right now. Would you like me to have the office follow-up with you about her next openings, or would you prefer to wait and try again later?
+
+[PATIENT 02:20.760]
+Yes, please have the office verify who Dr. Jen is and follow up with me later. For now, I want to keep my existing Monday, November 2nd appointment at 10 a.m. for my knee consultation. Great.
+
+[AGENT 02:37.760]
+Is there anything else I could help you with today?
+
+[PATIENT 02:44.760]
+No, that's all for now. Thanks, bye.
+
+[AGENT 02:50.760]
+Take care.
+
+------------------------------------------------------------
+Overlapping speech:
+  00:38.040  patient cut across agent for 3.28s
+  00:56.760  patient cut across agent for 1.52s
+  01:37.640  agent cut across patient for 1.92s
+  02:06.520  agent cut across patient for 1.44s
+
+Note: 16 segment end time(s) were trimmed to a plausible speaking rate.

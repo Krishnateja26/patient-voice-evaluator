@@ -1,0 +1,58 @@
+Call 10 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:11.344]
+Thanks for calling Pivot Point Orthopaedics.
+
+[AGENT 00:16.844]
+Part of Pretty Good AI. How may I help you today?
+
+[PATIENT 00:20.110]
+Hi, this is Daniel Okafor. Could you tell me what appointment I currently have, and whether there might be a Thursday or Friday afternoon option? I'm only checking for now, so please don't change anything.
+
+[AGENT 00:31.610]
+Can you please provide your date of birth?
+
+[AGENT 00:36.250]
+I needed to look up your information.
+
+[PATIENT 00:38.500]
+Sure, my date of birth is June 9, 1981.
+
+[AGENT 00:42.094]
+You have an appointment on Tuesday, October twenty seventh at noon with doctor Doobie Hauser at Pivot Point Orthopaedics.
+
+[AGENT 00:59.188]
+Two two zero Athens Way, Would you like to see if there are Thursday or Friday afternoon options for this appointment?
+
+[PATIENT 01:08.594]
+Yes, please check if there are any available Thursday or Friday afternoon options, but do not change anything yet. I just want to know my options.
+
+[AGENT 01:16.235]
+Let me check for Thursday or Friday afternoon options for you. I will only share what's available and won't make any changes.
+
+[AGENT 01:27.297]
+There are Thursday afternoon options at Pivot Point Orthopedics,
+
+[AGENT 01:31.485]
+with doctor Dugi Hauser, The next opening is Thursday, October twenty second at one thirty PM. There are also slots at two fifteen PM. And three PM that day. Your current appointment on Tuesday, October twenty seventh at noon is still on the schedule.
+
+[AGENT 01:49.594]
+Would you like to keep looking or do you have any other questions?
+
+[AGENT 01:52.750]
+Here are your Thursday afternoon options with doctor Dugge Hauser at Pivot Point Orthopaedics.
+
+[AGENT 01:58.766]
+The next opening is Thursday, October twenty second at one thirty PM. There are also auctions at two fifteen PM and three PM that same day. Would you like to keep your current appointment, or are you interested in one of these times? No changes will be made unless you ask.
+
+[PATIENT 02:14.469]
+Thanks for the info. Just to be clear, I want to keep my original appointment on Tuesday, October 27 at noon. I'm not making any changes now. Could you also check if there are any Friday afternoon options?
+
+[AGENT 02:26.657]
+There are no Friday afternoon openings with Doctor. Dugie Hauser between October twenty three and November twenty three. Would you like to check other days or times, or do you want to keep your current appointment on Tuesday, October twenty seventh at noon?
+
+[PATIENT 02:46.172]
+Okay, please keep my current appointment on Tuesday, October 27 at noon as it is. I’m just gathering information today. Thanks for your help, goodbye.

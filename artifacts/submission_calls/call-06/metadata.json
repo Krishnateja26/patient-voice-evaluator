@@ -1,0 +1,36 @@
+{
+  "call_id": "call-012",
+  "scenario_id": "insurance_effective_date_uncertainty",
+  "caller_number": "+14109633015",
+  "destination": "+18054398008",
+  "status": "ended",
+  "seed": 42,
+  "recording_source": "local_rtc_subscriber",
+  "recording_channel_mapping": [
+    "patient",
+    "agent"
+  ],
+  "patient_identity": "patient-call-012",
+  "audio_validated": true,
+  "human_verified": false,
+  "call_completed": false,
+  "termination_reason": "patient_end_call",
+  "updated_at": "2026-10-19T21:55:11.147533+00:00",
+  "call_review": null,
+  "audio_duration_seconds": 170.33,
+  "recording_filename": "recording.mp3",
+  "recording_sha256": "13e5c661aa8c167ef34c6f3123ba5fcd5a7e5ed2ad59315966b44a959d2435fb",
+  "recording_channels": 2,
+  "channel_sha256": {
+    "patient": "84edd4698dd0ac171f219c6baa61684a577d7fda21b775c2b3f6e4325b52399c",
+    "agent": "14e198a53d8a8908348bfb525e51238d817142256b9f8a7f0215b81ea4330fe7"
+  },
+  "recording_status": "decoded_and_energy_checked_not_human_verified",
+  "recording_ingested_at": "2026-10-19T21:55:10.951986+00:00",
+  "call_name": "Call 11",
+  "transcript_recording_sha256": "13e5c661aa8c167ef34c6f3123ba5fcd5a7e5ed2ad59315966b44a959d2435fb",
+  "transcript_turn_count": 28,
+  "evaluated_at": "2026-10-19T21:55:11.141544+00:00",
+  "finding_count": 0,
+  "task_success": null
+}

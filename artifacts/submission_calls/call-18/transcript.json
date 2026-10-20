@@ -1,0 +1,230 @@
+{
+  "timestamps_available": true,
+  "models_used": {
+    "patient": "whisper-1",
+    "agent": "whisper-1"
+  },
+  "turn_count": 17,
+  "overlap_count": 4,
+  "clamped_segments": 14,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [
+    {
+      "at": "00:50.360",
+      "start": 50.36,
+      "overlap_seconds": 4.04,
+      "overlap_fraction": 0.43,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "Thanks for providing your date of birth. Can you please confirm your full name, including your last name?",
+      "interrupting_text": "Sure, it's Daniel Okafor."
+    },
+    {
+      "at": "02:04.400",
+      "start": 124.4,
+      "overlap_seconds": 2.6,
+      "overlap_fraction": 0.26,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "There is no record of a cancellation notice being sent for your appointment. Your booking is still active. If you would like, I can send you a text message with your upcoming appointment details.",
+      "interrupting_text": "No, that's okay for now."
+    },
+    {
+      "at": "02:07.000",
+      "start": 127.0,
+      "overlap_seconds": 1.2,
+      "overlap_fraction": 0.316,
+      "interrupted_speaker": "patient",
+      "interrupting_speaker": "agent",
+      "interrupted_text": "No, that's okay for now.",
+      "interrupting_text": "Would you like me to do that?"
+    },
+    {
+      "at": "02:34.400",
+      "start": 154.4,
+      "overlap_seconds": 7.0,
+      "overlap_fraction": 0.427,
+      "interrupted_speaker": "agent",
+      "interrupting_speaker": "patient",
+      "interrupted_text": "The best way to protect your appointment is to keep your personal information, like your date of birth and phone number, private. Only someone who can verify your details can make changes. If you ever suspect unauthorized changes, contact the clinic right away.",
+      "interrupting_text": "Great, thanks very much, bye."
+    }
+  ],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 6.8,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": 0.613,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "patient",
+      "start": 0.0,
+      "end": 3.8,
+      "timestamp": "00:00.000",
+      "text": "Hi, this is Daniel Okafor.",
+      "confidence": 0.619,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 15.0,
+      "end": 23.4,
+      "timestamp": "00:15.000",
+      "text": "Thanks for calling Kivet Point Orthopedics, part of Pretty Good AI. How may I help you today?",
+      "confidence": 0.613,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 28.36,
+      "end": 43.34,
+      "timestamp": "00:28.360",
+      "text": "Can you check whether my knee appointment is still booked? I haven't asked anyone to change it, and I haven't received a message about a cancellation. My date of birth is June 9, 1981.",
+      "confidence": 0.709,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 45.0,
+      "end": 54.4,
+      "timestamp": "00:45.000",
+      "text": "Thanks for providing your date of birth. Can you please confirm your full name, including your last name?",
+      "confidence": 0.826,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "patient",
+      "start": 50.36,
+      "end": 53.56,
+      "timestamp": "00:50.360",
+      "text": "Sure, it's Daniel Okafor.",
+      "confidence": 0.655,
+      "overlaps_previous": true
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start": 61.0,
+      "end": 73.6,
+      "timestamp": "01:01.000",
+      "text": "Your knee appointment is still booked for Monday, November 2nd at 10 a.m. Would you like to reschedule this appointment to a different day or time?",
+      "confidence": 0.826,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "patient",
+      "start": 73.36,
+      "end": 85.28,
+      "timestamp": "01:13.360",
+      "text": "No thanks. I want to keep the appointment as is. Could you tell me if there's any record of an attempted cancellation request, or who might have requested it?",
+      "confidence": 0.655,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "agent",
+      "start": 85.0,
+      "end": 100.4,
+      "timestamp": "01:25.000",
+      "text": "I do not see any record of a cancellation request for your appointment. Your booking for Monday, November 2nd at 10 a.m. is still active. If you have any other questions or concerns, let me know.",
+      "confidence": 0.878,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "patient",
+      "start": 102.48,
+      "end": 116.4,
+      "timestamp": "01:42.480",
+      "text": "Thanks for confirming that. Can you tell me whether any actual cancellation notice was sent, or if you only know the usual policy about notifications? I haven't received any message myself.",
+      "confidence": 0.704,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 117.0,
+      "end": 127.0,
+      "timestamp": "01:57.000",
+      "text": "There is no record of a cancellation notice being sent for your appointment. Your booking is still active. If you would like, I can send you a text message with your upcoming appointment details.",
+      "confidence": 0.878,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "patient",
+      "start": 124.4,
+      "end": 128.2,
+      "timestamp": "02:04.400",
+      "text": "No, that's okay for now.",
+      "confidence": 0.704,
+      "overlaps_previous": true
+    },
+    {
+      "index": 12,
+      "speaker": "agent",
+      "start": 127.0,
+      "end": 132.0,
+      "timestamp": "02:07.000",
+      "text": "Would you like me to do that?",
+      "confidence": 0.882,
+      "overlaps_previous": true
+    },
+    {
+      "index": 13,
+      "speaker": "patient",
+      "start": 136.36,
+      "end": 142.2,
+      "timestamp": "02:16.360",
+      "text": "Just one more thing, what is the best way to prevent someone else from changing my booking from my phone?",
+      "confidence": 0.704,
+      "overlaps_previous": false
+    },
+    {
+      "index": 14,
+      "speaker": "agent",
+      "start": 145.0,
+      "end": 161.4,
+      "timestamp": "02:25.000",
+      "text": "The best way to protect your appointment is to keep your personal information, like your date of birth and phone number, private. Only someone who can verify your details can make changes. If you ever suspect unauthorized changes, contact the clinic right away.",
+      "confidence": 0.841,
+      "overlaps_previous": false
+    },
+    {
+      "index": 15,
+      "speaker": "patient",
+      "start": 154.4,
+      "end": 158.2,
+      "timestamp": "02:34.400",
+      "text": "Great, thanks very much, bye.",
+      "confidence": 0.53,
+      "overlaps_previous": true
+    },
+    {
+      "index": 16,
+      "speaker": "agent",
+      "start": 167.0,
+      "end": 168.0,
+      "timestamp": "02:47.000",
+      "text": "You're welcome.",
+      "confidence": 0.566,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "553c6a2f73dfbb29dc20a183bd5205e74c627f90486665331d74fe16249b09a9",
+  "speaker_attribution_source": "Local room participant identities; human audio review pending"
+}

@@ -1,0 +1,37 @@
+{
+  "event_counts": {
+    "configuration": 1,
+    "agent_state_changed": 25,
+    "user_state_changed": 26,
+    "user_input_transcribed": 35,
+    "speech_created": 11,
+    "conversation_item_added": 14,
+    "speech_completed": 11,
+    "termination_signal": 1,
+    "call_finished": 1
+  },
+  "sdk_latency": {
+    "end_of_turn_delay": {
+      "count": 9,
+      "p50_seconds": 0.43317103385925293,
+      "p95_seconds": 0.4485287666320801
+    },
+    "llm_node_ttft": {
+      "count": 5,
+      "p50_seconds": 0.4483507000040845,
+      "p95_seconds": 0.8792482000062591
+    },
+    "tts_node_ttfb": {
+      "count": 5,
+      "p50_seconds": 0.1977718000052846,
+      "p95_seconds": 0.27199239999754354
+    },
+    "e2e_latency": {
+      "count": 5,
+      "p50_seconds": 0.9933605194091797,
+      "p95_seconds": 1.4721946716308594
+    }
+  },
+  "timing_source": "LiveKit SDK; remote PSTN first-audible and cancellation times unmeasured",
+  "human_verified": false
+}

@@ -1,0 +1,20 @@
+{
+  "call_id": "call-005",
+  "scenario_id": "schedule_new_patient_knee",
+  "evaluated_at": "2026-10-19T18:44:10.973597+00:00",
+  "judge_model": null,
+  "transcript_sha256": "7f73ac73fd15bb3138027276565dff0c2bba7a1a72f8b4523e64b28439b2ed4d",
+  "call_completed": false,
+  "duration_seconds": 117.033,
+  "turn_count": 21,
+  "deterministic_findings": [],
+  "assertion_findings": [],
+  "judge": null,
+  "quality_gate_warnings": [
+    "Live text is not independent audio ASR; verify quotations against recording before reporting",
+    "transcription returned no timestamps, so turn ordering and overlap detection are approximate"
+  ],
+  "metrics": {
+    "duration_seconds": 117.033
+  }
+}

@@ -1,0 +1,70 @@
+Call 13 - LIVE TRANSCRIPT: check every finding against recording; times are observation estimates
+
+[AGENT 00:00.000]
+This call may be recorded for quality and training purposes.
+
+[AGENT 00:12.360]
+Thanks for calling Pivot Point Orthopaedics.
+
+[AGENT 00:17.672]
+Part of Pretty Good AI.
+
+[AGENT 00:19.313]
+How may I help you today?
+
+[PATIENT 00:20.657]
+Hi, this is Daniel Okafor. I'd like to move my existing appointment, but please keep it until we've agreed on a replacement.
+
+[AGENT 00:27.438]
+Please provide your date of birth.
+
+[PATIENT 00:32.641]
+It's June ninth, nineteen eighty-one.
+
+[AGENT 00:35.000]
+You have an appointment on Tuesday, October twenty seventh at noon with doctor Judy Hauser at Pivot Point Orthopedics.
+
+[AGENT 00:46.891]
+Is this the appointment you wanna reschedule?
+
+[PATIENT 00:49.579]
+Yes, that's the one. I want to move it to Wednesday, October twenty eighth, if possible. After 3 PM would be ideal.
+
+[AGENT 00:57.204]
+There are no openings after three PM on Wednesday. October twenty eighth or Thursday, October twenty ninth.
+
+[AGENT 01:06.797]
+Would you like to try a different day, or is there another time that can work for you?
+
+[PATIENT 01:10.782]
+Actually, I need to correct that. I can't get there before 4:30 PM on Wednesday, October twenty eighth. Please don't book any earlier time; I need 4:30 or later that Wednesday. Is there any slot available with the same doctor at that time or later?
+
+[AGENT 01:24.610]
+There are no Wednesday afternoon openings with doctor Duji Hao between October twenty eighth and November twenty eighth.
+
+[AGENT 01:33.422]
+Would you like to try a different day, or should I transfer you to someone at the clinic for more help?
+
+[PATIENT 01:38.422]
+Would there be another appropriate doctor at your practice with a Wednesday opening at 4:30 PM or later? I'd prefer to keep it on that day if possible.
+
+[AGENT 01:45.969]
+There are no Wednesday afternoon openings with any provider between twenty eight and November twenty eight.
+
+[AGENT 01:55.532]
+Would you like to try a different day or should I transfer you to someone at the clinic who can help further?
+
+[PATIENT 02:00.344]
+No, thanks. Please leave the original Tuesday noon appointment as it is. Can you confirm that it is still booked?
+
+[AGENT 02:07.016]
+Your appointment for Tuesday, October twenty seventh at noon with doctor Duttihauser is still booked and unchanged.
+
+[PATIENT 02:16.313]
+Great, thanks. One more thing, can you send a text confirmation of that original appointment to this number?
+
+[AGENT 02:21.375]
+You should get a text confirmation of your upcoming appointment soon at this number.
+
+[AGENT 02:30.469]
+Let me know if you need anything else.

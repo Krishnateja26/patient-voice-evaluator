@@ -1,0 +1,391 @@
+[
+  {
+    "role": "user",
+    "text": "This call may be recorded for quality and training purposes.",
+    "interrupted": false,
+    "elapsed_seconds": 13.828000000001339,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454733.7812734,
+      "stopped_speaking_at": 1792454739.445393,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.40329813957214355,
+      "on_user_turn_completed_delay": 0.0003637000045273453
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hello, this is",
+    "interrupted": true,
+    "elapsed_seconds": 16.70300000000134,
+    "metrics": {
+      "started_speaking_at": 1792454740.0639694,
+      "stopped_speaking_at": 1792454742.725171,
+      "llm_node_ttft": 1.160557899995183,
+      "llm_node_tps": 101.850981537587,
+      "llm_node_ttfs": 2.7674828999952297,
+      "tts_node_ttfb": 0.17882580000150483,
+      "playback_latency": 0.0009958744049072266,
+      "e2e_latency": 0.6185762882232666,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "For calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?",
+    "interrupted": false,
+    "elapsed_seconds": 20.234000000004016,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454740.6429148,
+      "stopped_speaking_at": 1792454745.8093662,
+      "transcription_delay": 0.18511080741882324,
+      "end_of_turn_delay": 0.44348621368408203,
+      "on_user_turn_completed_delay": 0.0003302999975858256
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Hi, this is Daniel Okafor. I have a question about cancelling my appointment, but please don't cancel it yet. Is there a cancellation fee or notice requirement?",
+    "interrupted": false,
+    "elapsed_seconds": 29.07800000000134,
+    "metrics": {
+      "started_speaking_at": 1792454746.8720527,
+      "stopped_speaking_at": 1792454755.1021316,
+      "llm_node_ttft": 0.5227492999983951,
+      "llm_node_tps": 160.30301850978796,
+      "llm_node_ttfs": 0.6672839000020758,
+      "tts_node_ttfb": 0.19633230000181356,
+      "playback_latency": 0.0010097026824951172,
+      "e2e_latency": 1.0626864433288574,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Can you please provide your date of birth?",
+    "interrupted": false,
+    "elapsed_seconds": 33.29699999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454757.428322,
+      "stopped_speaking_at": 1792454758.8939402,
+      "transcription_delay": 0.3026289939880371,
+      "end_of_turn_delay": 0.4296131134033203,
+      "on_user_turn_completed_delay": 0.00024679999478394166
+    }
+  },
+  {
+    "role": "user",
+    "text": "I needed to look up your information.",
+    "interrupted": false,
+    "elapsed_seconds": 35.53100000000268,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454759.4783695,
+      "stopped_speaking_at": 1792454761.090146,
+      "transcription_delay": 0.1605370044708252,
+      "end_of_turn_delay": 0.4230945110321045,
+      "on_user_turn_completed_delay": 0.00023639999562874436
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Sure, it's June ninth, nineteen eighty-one.",
+    "interrupted": false,
+    "elapsed_seconds": 39.32800000000134,
+    "metrics": {
+      "started_speaking_at": 1792454762.8018253,
+      "stopped_speaking_at": 1792454765.3574073,
+      "llm_node_ttft": 0.8828839999987395,
+      "llm_node_tps": 75.56844646322082,
+      "llm_node_ttfs": 1.0753108999997494,
+      "tts_node_ttfb": 0.19878690000041388,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.711679220199585,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Thanks, Daniel.",
+    "interrupted": false,
+    "elapsed_seconds": 44.125,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454768.9794376,
+      "stopped_speaking_at": 1792454769.643068,
+      "transcription_delay": 0.38929057121276855,
+      "end_of_turn_delay": 0.4694030284881592,
+      "on_user_turn_completed_delay": 0.00038330000097630545
+    }
+  },
+  {
+    "role": "user",
+    "text": "Let me check your appointment details and cancellation policy for you.",
+    "interrupted": false,
+    "elapsed_seconds": 48.0,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454770.1382186,
+      "stopped_speaking_at": 1792454773.5420444,
+      "transcription_delay": 0.2675604820251465,
+      "end_of_turn_delay": 0.4358518123626709,
+      "on_user_turn_completed_delay": 0.00031370000215247273
+    }
+  },
+  {
+    "role": "user",
+    "text": "You have an appointment scheduled for Tuesday, October twenty seventh at twelve PM. Pivot Point Orthopaedics does not charge a cancellation fee but we do ask for as much notice as possible if you need to cancel or reschedule. Would you like to cancel this appointment?",
+    "interrupted": false,
+    "elapsed_seconds": 64.56300000000192,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454774.9271119,
+      "stopped_speaking_at": 1792454790.0968795,
+      "transcription_delay": 0.17810392379760742,
+      "end_of_turn_delay": 0.43168139457702637,
+      "on_user_turn_completed_delay": 0.00029350000113481656
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Yes, please cancel that Tuesday, October twenty-seventh noon appointment now. I do not want a replacement booking.",
+    "interrupted": false,
+    "elapsed_seconds": 71.65600000000268,
+    "metrics": {
+      "started_speaking_at": 1792454791.9815009,
+      "stopped_speaking_at": 1792454797.6779509,
+      "llm_node_ttft": 1.011492100005853,
+      "llm_node_tps": 104.01119160593703,
+      "llm_node_ttfs": 1.2340996000057203,
+      "tts_node_ttfb": 0.20352229999843985,
+      "playback_latency": 0.0009961128234863281,
+      "e2e_latency": 1.8846213817596436,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Understood. Just to confirm, you want to cancel your appointment with",
+    "interrupted": false,
+    "elapsed_seconds": 82.78100000000268,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454800.127815,
+      "stopped_speaking_at": 1792454808.3410196,
+      "transcription_delay": 0,
+      "end_of_turn_delay": 0.4571967124938965,
+      "on_user_turn_completed_delay": 0.00030699999479111284
+    }
+  },
+  {
+    "role": "user",
+    "text": "doctor Dugi Hauser on Tuesday, October twenty seventh. Is that correct?",
+    "interrupted": false,
+    "elapsed_seconds": 83.92199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454808.8217528,
+      "stopped_speaking_at": 1792454809.490014,
+      "transcription_delay": 0.3526895046234131,
+      "end_of_turn_delay": 0.45114564895629883,
+      "on_user_turn_completed_delay": 0.0001894999950309284
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Yes, that's correct. Please go ahead and cancel it.",
+    "interrupted": false,
+    "elapsed_seconds": 88.43800000000192,
+    "metrics": {
+      "started_speaking_at": 1792454811.4509227,
+      "stopped_speaking_at": 1792454814.4565225,
+      "llm_node_ttft": 0.9607471999988775,
+      "llm_node_tps": 63.809537364966765,
+      "llm_node_ttfs": 1.1958130999992136,
+      "tts_node_ttfb": 0.39480960000219056,
+      "playback_latency": 0.0009975433349609375,
+      "e2e_latency": 1.9609086513519287,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "Your appointment with doctor Judy Hauser on Tuesday, October twenty seventh at noon has been canceled.",
+    "interrupted": false,
+    "elapsed_seconds": 96.07800000000134,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454816.8785033,
+      "stopped_speaking_at": 1792454821.693913,
+      "transcription_delay": 0.15897679328918457,
+      "end_of_turn_delay": 0.40960240364074707,
+      "on_user_turn_completed_delay": 0.00015730000450275838
+    }
+  },
+  {
+    "role": "user",
+    "text": "Is there anything else I can help you with today?",
+    "interrupted": false,
+    "elapsed_seconds": 98.625,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454822.2251406,
+      "stopped_speaking_at": 1792454824.1589012,
+      "transcription_delay": 0.2080080509185791,
+      "end_of_turn_delay": 0.42240142822265625,
+      "on_user_turn_completed_delay": 0.00028079999901819974
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Can you confirm if the cancellation is fully completed now or if it's just a request sent?",
+    "interrupted": false,
+    "elapsed_seconds": 103.76600000000326,
+    "metrics": {
+      "started_speaking_at": 1792454825.8957758,
+      "stopped_speaking_at": 1792454829.7905257,
+      "llm_node_ttft": 0.8721249000009266,
+      "llm_node_tps": 92.64388082402915,
+      "llm_node_ttfs": 1.1152481000026455,
+      "tts_node_ttfb": 0.18301039999641944,
+      "playback_latency": 0.0,
+      "e2e_latency": 1.7368745803833008,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  },
+  {
+    "role": "user",
+    "text": "The cancellation is fully completed. Your appointment has been removed from the schedule.",
+    "interrupted": false,
+    "elapsed_seconds": 111.53100000000268,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454832.4271438,
+      "stopped_speaking_at": 1792454837.140686,
+      "transcription_delay": 0.13329792022705078,
+      "end_of_turn_delay": 0.4132955074310303,
+      "on_user_turn_completed_delay": 0.00027719999343389645
+    }
+  },
+  {
+    "role": "user",
+    "text": "Let me know if you need anything else.",
+    "interrupted": false,
+    "elapsed_seconds": 113.42199999999866,
+    "metrics": {
+      "stt_metadata": {
+        "model_name": "deepgram/nova-3",
+        "model_provider": "livekit"
+      },
+      "started_speaking_at": 1792454837.6268556,
+      "stopped_speaking_at": 1792454838.947943,
+      "transcription_delay": 0.15796279907226562,
+      "end_of_turn_delay": 0.445009708404541,
+      "on_user_turn_completed_delay": 0.00021669999841833487
+    }
+  },
+  {
+    "role": "assistant",
+    "text": "Great, thanks very much. Goodbye.",
+    "interrupted": false,
+    "elapsed_seconds": 117.5,
+    "metrics": {
+      "started_speaking_at": 1792454841.027706,
+      "stopped_speaking_at": 1792454843.5199826,
+      "llm_node_ttft": 1.0693261999986134,
+      "llm_node_tps": 123.96594459678602,
+      "llm_node_ttfs": 1.2238446999981534,
+      "tts_node_ttfb": 0.3950449000039953,
+      "playback_latency": 0.0010020732879638672,
+      "e2e_latency": 2.0797629356384277,
+      "llm_metadata": {
+        "model_name": "openai/gpt-4.1-mini",
+        "model_provider": "livekit"
+      },
+      "tts_metadata": {
+        "model_name": "cartesia/sonic-3",
+        "model_provider": "livekit"
+      }
+    }
+  }
+]

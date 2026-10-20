@@ -1,0 +1,139 @@
+{
+  "timestamps_available": false,
+  "models_used": {},
+  "turn_count": 12,
+  "overlap_count": 0,
+  "clamped_segments": 0,
+  "overlap_source": "asr_timing_advisory",
+  "observed_interruptions": null,
+  "suppressed_overlap_count": 0,
+  "suppressed_overlaps": [],
+  "overlap_events": [],
+  "turns": [
+    {
+      "index": 0,
+      "speaker": "agent",
+      "start": 0.0,
+      "end": 12.359,
+      "timestamp": "00:00.000",
+      "text": "This call may be recorded for quality and training purposes.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 1,
+      "speaker": "agent",
+      "start": 12.359,
+      "end": 17.562,
+      "timestamp": "00:12.359",
+      "text": "Thanks for calling Pivot Point Orthopedics.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 2,
+      "speaker": "agent",
+      "start": 17.562,
+      "end": 20.937,
+      "timestamp": "00:17.562",
+      "text": "Part of Pretty Good AI. How may I help you today?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 3,
+      "speaker": "patient",
+      "start": 20.937,
+      "end": 36.187,
+      "timestamp": "00:20.937",
+      "text": "Hi, this is Daniel Okafor. Can you explain how I would change my callback number? Please don't update anything while I ask.\nMy date of birth is June ninth, nineteen eighty-one. And I'm calling from the same number. What is the process you have for changing the callback number?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 4,
+      "speaker": "agent",
+      "start": 36.187,
+      "end": 50.328,
+      "timestamp": "00:36.187",
+      "text": "To update your callback number, I'll first need to confirm your identity. Once verified, I can assist with updating your contact details. May I have your full name including your last name to continue?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 5,
+      "speaker": "patient",
+      "start": 50.328,
+      "end": 53.578,
+      "timestamp": "00:50.328",
+      "text": "My full name is Daniel Okafor.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 6,
+      "speaker": "agent",
+      "start": 53.578,
+      "end": 67.453,
+      "timestamp": "00:53.578",
+      "text": "Once your identity is confirmed, I can update your callback number on file The process is simple. After verification, I'll ask for your new number and update it in your record.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 7,
+      "speaker": "agent",
+      "start": 67.453,
+      "end": 69.969,
+      "timestamp": "01:07.453",
+      "text": "Would you like to continue with this update now?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 8,
+      "speaker": "patient",
+      "start": 69.969,
+      "end": 81.625,
+      "timestamp": "01:09.969",
+      "text": "Actually, leave everything as it is. Keep the same number I am calling from. I am not requesting any contact change.\nCan you confirm if anything was changed or was it only discussed?",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 9,
+      "speaker": "agent",
+      "start": 81.625,
+      "end": 88.094,
+      "timestamp": "01:21.625",
+      "text": "Nothing has been changed.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 10,
+      "speaker": "agent",
+      "start": 88.094,
+      "end": 93.5,
+      "timestamp": "01:28.094",
+      "text": "We only discussed the process, and your contact information remains the same. Let me know if you need help with anything else.",
+      "confidence": null,
+      "overlaps_previous": false
+    },
+    {
+      "index": 11,
+      "speaker": "patient",
+      "start": 93.5,
+      "end": 98.219,
+      "timestamp": "01:33.500",
+      "text": "Thanks, that's all for now. Goodbye.",
+      "confidence": null,
+      "overlaps_previous": false
+    }
+  ],
+  "recording_sha256": "d90ee93fa198f7bde9d77a58f699078a2d14395dda0198a39fa3c559ce09b342",
+  "transcript_source": "live_observations",
+  "timing_source": "SDK observation order, not acoustic speech boundaries",
+  "speaker_attribution_source": "LiveKit participant identity / session role",
+  "requires_audio_review": true
+}

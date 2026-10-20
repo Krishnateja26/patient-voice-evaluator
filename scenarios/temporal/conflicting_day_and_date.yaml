@@ -1,0 +1,82 @@
+id: conflicting_day_and_date
+category: temporal
+title: Patient gives a weekday and a date that do not match
+difficulty: hard
+tags: [temporal, contradiction, repair]
+
+objective: Request an appointment using a weekday and date that cannot both be true, and see if the agent notices.
+hypothesis: >-
+  An agent that pattern-matches on dates without validating them will accept an impossible
+  request. Catching the mismatch and asking which the patient meant is the correct behaviour;
+  silently picking one is a defect the patient will only discover when they turn up.
+
+patient:
+  name: Greg Lindqvist
+  age: 48
+  date_of_birth: "1977-03-21"
+  temperament: confused
+  speech_notes: Hesitant, half-remembers things, corrects himself mid-sentence.
+
+background: >-
+  Has a wrist problem and wants a follow-up. He is looking at a calendar on his phone but is
+  reading it wrong, so the day and the date he gives do not agree.
+
+facts_patient_knows:
+  problem: "Right wrist, follow-up after a splint"
+  requested_slot: "He will say Monday the twenty-third, which do not match on any calendar"
+  phone: "805 555 0121"
+
+facts_patient_does_not_know:
+  - That the day and date he is giving do not match
+
+opening_line: >-
+  Hi, I'd like to come in on Monday the twenty-third, if that works.
+
+conversation_strategy:
+  - Ask for "Monday the twenty-third" and repeat that phrasing if asked to confirm.
+  - If the agent points out the mismatch, sound mildly surprised and ask what Monday's date is.
+  - Then go with whatever weekday the agent proposes.
+  - Confirm the final day and date back before finishing.
+
+information_disclosure:
+  volunteer_upfront:
+    - The requested day and date
+    - That it is about his wrist
+  on_request:
+    - Name and date of birth
+    - Phone number
+  never_volunteer:
+    - That he is reading a calendar on his phone
+
+behavior:
+  politeness: normal
+  verbosity: normal
+  patience: normal
+  cooperativeness: normal
+  hesitations: true
+
+target_outcome: >-
+  The agent notices the day and date cannot both be right, asks which one the patient meant,
+  and books against an unambiguous date.
+
+end_call_when:
+  - An unambiguous day and date has been agreed and confirmed
+  - The agent states nothing is available and offers an alternative
+
+assertions:
+  expected_behaviors:
+    - Notices that the stated weekday and date do not agree
+    - Asks the patient which one they meant rather than guessing silently
+    - Ends with a single unambiguous date confirmed back to the patient
+  forbidden_behaviors:
+    - Books the appointment without ever addressing the mismatch
+    - Silently substitutes a different date without telling the patient
+    - Confirms both the weekday and the conflicting date together as if they agreed
+  required_information:
+    - appointment
+  failure_signals: []
+  ground_truth_notes: >-
+    A weekday and a day-of-month only coincide on specific calendars. The test is whether the
+    agent validated the pair at all, not which date is objectively correct.
+
+max_duration_seconds: 190
