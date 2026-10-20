@@ -59,6 +59,11 @@ Calls 027–030 came from a temporary direct-OpenAI experiment. I found the simu
 - [Iteration history](ITERATION_LOG.md)
 - [GitHub readiness](docs/GITHUB_READINESS.md)
 
+## Loom videos
+
+- [Project walkthrough](https://www.loom.com/share/225f03190ee443dca5630c1e7147db1b)
+- [AI debugging walkthrough](https://www.loom.com/share/9f0402ac501d4b509e8b25938c220fe1)
+
 ## Development checks
 
 Install optional test tools and run local checks without making calls:
@@ -73,4 +78,4 @@ For local configuration checks, use `voice-evaluator preflight`. The strict `voi
 
 ## GitHub handling
 
-I keep the repository private because the selected recordings and call metadata contain personal test details. The code, documentation, and 18 selected call folders have been pushed to the private GitHub repository. I have not invited the reviewer or submitted the form; I will finish the videos and final review first. Local credentials, caller configuration, caches, intermediate WAV files, and the unselected full archive stay out of the repository.
+I keep the repository private because the selected recordings and call metadata contain personal test details. The code, documentation, and 18 selected call folders have been pushed to the private GitHub repository. The two Loom walkthroughs are linked above. Local credentials, caller configuration, caches, intermediate WAV files, and the unselected full archive stay out of the repository.
