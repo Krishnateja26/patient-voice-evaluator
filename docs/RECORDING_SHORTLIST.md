@@ -1,44 +1,20 @@
-# Recording selection and user review notes
+# How I chose the recordings
 
-The current GitHub bundle is curated separately in
-[`SUBMISSION_CALLS.md`](SUBMISSION_CALLS.md): 18 numbered folders selected from
-the complete local archive. This file preserves broader selection history and
-review limits; the other local call folders remain on the workstation and are
-excluded from Git.
+I kept the full local call archive on my computer and selected 18 folders for the private GitHub bundle. I chose one clear example from the repeated first-time-patient calls and kept the different scheduling, insurance, refill, identity, reminder, and cancellation cases. The selection is documented in docs/SUBMISSION_CALLS.md; other local recordings remain untouched.
 
-Use folder IDs as stable references. The display counter is one lower after a failed attempt:
-for example folder call-013 is display Call 12. The user's latest review refers to folder IDs.
-These notes preserve user listening feedback and transcript evidence, not completed formal reviews.
-
-| Recording/group | User assessment and distinct value | Reporting limit |
+| Call or group | Why I kept it | What I cannot claim from it |
 | --- | --- | --- |
-| Folders ending 1477 and 37db, plus call-004 and call-007 | Four near-identical first-time/unregistered-patient flows. Select one representative for the baseline. | Count as one scenario, not four separate bugs or kinds of coverage. Choose the clearest complete audio after review. |
-| call-005 | Explicitly identifies the caller as a new patient and offers help connecting to patient setup. | Useful improvement/comparison with the baseline intake group, not automatically a separate defect or a different workflow. |
-| call-008 | Caller-ID/registered-name and different supplied-number case. User suggests asking which number to use; the receptionist eventually explains it cannot create the record. | It revealed a registered name before the caller identified themselves, but this is the user's test profile. The supplied number differed from actual caller ID; this was not a controlled number-change experiment. Report the observable identity/contact ambiguity, not a proven unauthorized disclosure or successful update. |
-| call-009 | Explores multiple dates and books an appointment. User rates it positively overall. | User reports no booking text on this occasion but receiving one on another occasion. No SMS promise is in this saved transcript; missing delivery alone is not a verified notification bug. Caller check-in and post-booking cutoff remain recording-quality considerations. |
-| call-011 | Strongest user-identified target issue: repeats the Thursday availability list without a request, about 01:27–02:14. | Do not count both repetitions as different bugs. The earlier wrong-week candidate is withdrawn because the intended same-week constraint was not spoken aloud. |
-| call-012 | Insurance questions answered properly; adaptive patient follow-ups covered acceptance, effective date, reimbursement and the appropriate contact. | Positive capability/robustness evidence; no target bug established. |
-| call-013 | Medication uncertainty handled consistently through multiple follow-ups. Receptionist says the request was documented for clinic review and no refill/change would occur until confirmation. User rates it positively. | A spoken documentation/follow-up claim does not prove a ticket, tool execution or staff notification. Verify through available staff/backend evidence before claiming successful action. No target bug established from the user review. |
-| call-014 | Conditional reschedule inquiry: corrected earliest time, alternative-provider question, no suitable slot, original booking preserved. User reports the explicitly requested confirmation text arrived. | Positive fallback and user-reported SMS delivery, not a completed reschedule. The earlier absence of an automatic booking text is still not a verified notification bug. |
+| Calls ending 1477, 37db, plus call-004 and call-007 | These were near-duplicates. I chose 37db as the clearest representative. | They count as one baseline flow, not four different bugs. |
+| Call 2 | It clearly acknowledged a first-time patient and explained setup. | It does not prove the clinic's full registration policy. |
+| Call 3 | It raised a caller-ID versus supplied-number clarification question. | I did not run a controlled number-change test or prove an unauthorized disclosure. |
+| Call 4 | I liked the appointment conversation overall. | I did not receive a booking text, but there was no promise in the transcript. |
+| Call 5 | I heard the Thursday availability list repeated without a new request. | I did not state the intended week aloud, so this is not a proven wrong-week booking. |
+| Call 6 | I thought the insurance answers and follow-ups were strong. | It is positive capability evidence, not a bug. |
+| Call 7 | I thought the refill follow-up stayed within limits. | A spoken promise to document the request does not prove a ticket or staff notification. |
+| Call 8 | I received a text after I explicitly requested one, and the receptionist kept my original slot. | It was not a completed reschedule and does not prove all bookings trigger texts. |
+| Call 9 | It captures my concern about conflicting DOB years. | I had given the correct DOB earlier and did not complete the planned retest. |
+| Call 13 | I heard a specific case ID given and then withdrawn. | It does not establish whether a backend request exists. |
+| Calls 17 and 18 | Together they show my sister's cancellation request was refused and the appointment stayed active. | They do not test an unauthorized booking or unknown successful cancellation. |
+| Source folders call-027 to call-030 (selected Calls 15–18) | They cover a firm provider request, reminder options, an unauthorized cancellation attempt, and a follow-up state check. | They used a different caller pipeline and sounded less natural to me, so the receptionist-side quality comparison is confounded. |
 
-## Findings to retain for the final report
-
-- Unsolicited availability repetition: user-identified issue in call-011.
-- New-patient acknowledgment/intake friction: baseline improvement observation; call-005 shows clearer acknowledgment. Actual clinic intake limits remain unknown.
-- Identity/contact mismatch in call-008: candidate for explicit number clarification. Do not treat fictional callback mismatch as proof the target chose the wrong real number.
-- SMS consistency: the user reports a booking text on an earlier occasion and no text for call-009. A future explicit promise plus delivery check is needed to establish a notification defect.
-- Medication action claims: document what was said in call-013, with ticket creation and staff notification unverified. The conditional success is valuable, but cannot yet be called verified tool use.
-
-The short call-010 is excluded from selection at the user's request, irrespective of whether its
-folder has been manually deleted. The short weekend call ends before a saved response to the
-Sunday request and supplies no evidence of an out-of-hours booking defect. Failed attempts do
-not add completed conversations. The retained library is broader than this selection.
-
-## Eight-call campaign completed
-
-Eight authorized calls were saved in call-015 through call-022; see EIGHT_CALL_CAMPAIGN.md. Prioritize call-021 for audio review of the specific-reference contradiction, call-019 plus call-022 as a cancellation/persistence pair, and call-016 for the helper authorization boundary. Call-018 is a calendar-clarification quality candidate, not evidence of a wrong-date booking. Call-015 has limited contradiction timing and an abrupt simulator ending; do not count it as a polished completed conversation without review. All eight recordings are preserved, but none has been newly marked human verified. No replacement appointment was booked after cancellation.
-
-
-## User-directed revisions
-
-Original call-015 through call-022 retained. Call-023 is a limited DOB attempt with caller drift; call-024 is the cleaner wrong-DOB verification example. Call-025 captures explicit non-listed sister booking acceptance but is interrupted by a provider quota error, so it is not a complete conversation for submission. The four revised attempts in folders call-027 through call-030 were completed using a temporary OpenAI-backed patient simulator. The user found this caller voice less natural and more latent than the earlier configuration. Keep those recordings as historical evidence, but assess them with that limitation in mind. Folder call-026 is a very short failed attempt and is not a completed conversation. The user has asked for no further calls. See REVISED_CALL_CAMPAIGN.md for outcomes and user review. Do not repeat the sister booking: the November 2 at 10 AM appointment was retrieved and remains active in call-030.
+I excluded the short Call 10 from the earlier archive. Calls 027–030 were made during a temporary direct-OpenAI caller experiment; I keep them as historical records. I have not marked the calls formally human-verified. The saved user_observations notes preserve my listening feedback, while transcripts, timing summaries, and automatic evaluations remain separate evidence.

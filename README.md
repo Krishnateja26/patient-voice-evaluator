@@ -1,6 +1,6 @@
 # Voice Agent Evaluator
 
-A local Python patient simulator for testing a fixed telephone assessment line. It uses a separate speech-to-text, text language model and text-to-speech pipeline through LiveKit Agents. The complete call archive stays in the local `artifacts/calls/` folder; the selected, numbered submission recordings and their evidence are in `artifacts/submission_calls/`.
+I built this Python patient caller to test a phone-based assistant through realistic conversations. It uses LiveKit Agents with separate speech-to-text, text LLM, and text-to-speech stages, records both sides locally, and saves evidence for review. The selected, numbered calls are in `artifacts/submission_calls/`.
 
 ## Set up once
 
@@ -41,7 +41,7 @@ The patient simulator uses LiveKit Inference with the LiveKit project credential
 
 These are separate pipeline stages. The `openai/gpt-4.1-mini` model name is a LiveKit Inference model identifier; live calls do not use a direct OpenAI API key. `OPENAI_API_KEY` is optional and used only by post-call audio transcription or semantic evaluation. Leave it blank to use the saved live transcript and local heuristic evaluation.
 
-Calls 027–030 were made during a temporary direct OpenAI STT/LLM/TTS experiment and are retained as historical evidence. The user found that run's caller voice unnatural and the conversation latency high. Those recordings should be interpreted with the changed patient simulator in mind. The current code and `.env.example` are restored to LiveKit Inference.
+Calls 027–030 came from a temporary direct-OpenAI experiment. I found the simulated caller sounded less natural and the conversations felt slower. That experiment changed the caller's speech recognition, voice, and turn handling, so I keep those calls clearly marked as historical and avoid attributing the difference to the receptionist alone. The current code and `.env.example` use the LiveKit Inference setup I preferred.
 
 ## Project notes
 
@@ -58,6 +58,7 @@ Calls 027–030 were made during a temporary direct OpenAI STT/LLM/TTS experimen
 - [Current compliance review](COMPLIANCE_REVIEW.md)
 - [Iteration history](ITERATION_LOG.md)
 - [GitHub readiness](docs/GITHUB_READINESS.md)
+ - [Project explanation and Loom notes](docs/PROJECT_AND_LOOM_GUIDE.md)
 
 ## Development checks
 
@@ -73,4 +74,4 @@ For local configuration checks, use `voice-evaluator preflight`. The strict `voi
 
 ## GitHub handling
 
-The challenge requires a private repository. Keep this repository private because its selected call recordings and metadata may contain the user's voice and test identity details. The private repository `Krishnateja26/patient-voice-evaluator` is configured as `origin`; the current Version 2 commit is prepared locally, but the GitHub repository is still empty until that commit is pushed. `.env`, local caller identity settings, intermediate WAV files, caches and the full call archive are excluded; the 18 selected MP3 recordings, transcripts and evaluations are included. Do not invite the reviewer until the user has uploaded all required files and Loom links.
+I keep the repository private because the selected recordings and call metadata contain personal test details. The code, documentation, and 18 selected call folders have been pushed to the private GitHub repository. I have not invited the reviewer or submitted the form; I will finish the videos and final review first. Local credentials, caller configuration, caches, intermediate WAV files, and the unselected full archive stay out of the repository.

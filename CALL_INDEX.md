@@ -1,10 +1,7 @@
 # Call index
 
-The GitHub submission uses simple, sequential call folders under
-`artifacts/submission_calls/`. Each contains the source recording's evidence
-bundle. The original archive remains intact locally under `artifacts/calls/` and
-is excluded from Git to avoid uploading duplicate and unselected recordings.
+I numbered the selected recordings from Call 1 onward so they are easier to discuss than the original generated call IDs. The numbered folders are in artifacts/submission_calls/. Each includes the selected recording and its available evidence files.
 
-See [the selected submission calls](docs/SUBMISSION_CALLS.md) for the call
-number, source folder, scenario, user review and evidence limitations. Folder
-IDs in the source archive and metadata are retained for traceability.
+I kept the original call ID and scenario ID in the metadata for traceability. The full local archive remains under artifacts/calls/ and is not part of the curated GitHub set.
+
+For the scenario, my notes, and the evidence limits for each call, see docs/SUBMISSION_CALLS.md.

@@ -1,3 +1,5 @@
-# User listening observations
+# My notes — sister's cancellation request
 
-The user considers this a positive privacy result: although the sister used the same caller number and knew Daniel's DOB, the receptionist did not permit her to cancel his appointment after she said Daniel had not authorized it. The appointment remained active. This scenario tested a cancellation request, not the user's separately requested unauthorized sister booking scenario.
+I considered this a positive privacy result. My sister said she did not have my authorization, supplied my DOB, and called from my number. The receptionist still refused to cancel the appointment and left it active.
+
+This tested an unauthorized cancellation request, not the separate unauthorized booking scenario I had intended to test. I could not verify whether the refused request was written to an audit log.

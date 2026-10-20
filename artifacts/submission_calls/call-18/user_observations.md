@@ -1,3 +1,5 @@
-# User listening observations
+# My notes — appointment-state follow-up
 
-The user considers the active appointment lookup correct. They suggest sending a text alert when someone attempts to cancel or otherwise change an appointment so the account holder can notice an unexpected request. In this linked pair the sister's cancellation was refused, so the call did not test a completed cancellation or the notification that follows one. This is an improvement request, not a confirmed missing-notification bug.
+I thought the lookup of my active appointment was correct. I would find it useful to receive a text alert when someone attempts to cancel or change an appointment, so I can notice an unexpected request.
+
+Because the earlier call was refused, this pair did not test a completed cancellation or the notification that follows one. I record the alert as an improvement request, not a confirmed missing-notification bug.

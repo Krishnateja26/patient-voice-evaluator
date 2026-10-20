@@ -1,5 +1,5 @@
+# My notes — Call 22
 
+I wanted to ask who cancelled the appointment, why it happened, whether a note was left, and what notification was sent. The later linked call instead found the appointment active because my sister's earlier cancellation request had been refused.
 
-## Follow-up user audio review
-
-User requests audit of who cancelled, why, and what notification is available. New linked test: sister cancellation attempt on own test booking, then independent Daniel lookup/requester/reason/notice inquiry. Compare actual preceding outcome, including refusal, rather than assuming cancellation succeeded.
+So this pair did not test an unknown successful cancellation or the notice that would follow one. I would still like an alert when someone attempts a change, but I record that as an improvement idea.

@@ -1,8 +1,8 @@
 # Complete challenge checklist
 
-Source: user-supplied Downloads PDF, all four pages read before this audit. The Desktop PDF is obsolete. Requirement IDs below are review identifiers, not text from the challenge.
+Source: the current challenge PDF I used. The Desktop copy is older. Requirement IDs below are my review labels, not text printed in the PDF.
 
-The user additionally requests structured state, destination/caller guards, evidence verification, a real iteration log, and strict PASS / PASS WITH ISSUES / FAIL reviews. Those are implementation requirements from the user, not new mandatory clauses invented for the PDF. In particular, the PDF does not mandate a specific STT/LLM/TTS provider, a research framework, dual-channel audio, a fixed 45-second minimum, or ten distinct scenario IDs.
+I added caller and destination guards, structured call evidence, and review notes while building the tool. Those are my design choices, not extra mandatory clauses from the PDF. The PDF does not require a particular STT, LLM, or TTS vendor, S3, a research framework, dual-channel audio, or a specific minimum call length beyond its guidance that a good call is a full conversation.
 
 | ID | PDF page | Category | Requirement |
 | --- | --- | --- | --- |
@@ -54,4 +54,4 @@ Campaign implementation note (2026-10-19): C03/C40 fixed destination and caller 
 
 Revised-user-review campaign: C04/C25/C35 six additional purposeful cases preserve the original library; C03/C40 fixed caller/destination maintained; C05/C13/C15 original and partial evidence preserved without false completion labels; C36 prompt answer-isolation fix tested. Call-025 provider_error reflects exhausted LLM credits. See REVISED_CALL_CAMPAIGN.md for prepared versus executed work.
 
-Current runtime (2026-10-20): C07-C09 use separate LiveKit Inference STT, text LLM and TTS stages; direct OpenAI live routing was removed at the user's request after calls 027-030 sounded less natural and more latent. C03/C40 destination/caller guards remain. C11 setup and one-command execution remain documented. Optional OpenAI access is for post-call analysis only. Calls 027-030 retain their historical provider metadata.
+Current runtime (2026-10-20): I use separate LiveKit Inference STT, text LLM, and TTS stages. I removed the temporary direct-OpenAI live route after I found calls 027–030 less natural and slower. The fixed destination and caller guards remain. The optional OpenAI key is for post-call analysis only. Calls 027–030 retain their original provider metadata.

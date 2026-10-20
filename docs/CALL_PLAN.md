@@ -1,8 +1,8 @@
 # Creative bug hunting, with a small recording campaign
 
-**Campaign status:** The user has ended live testing and requested documentation/GitHub preparation only. This file preserves the full scenario library and the rationale behind coverage; it is not authorization to place further calls.
+**Campaign status:** I have ended live testing and am finishing the documentation and review only. This file preserves the scenario library and my reasons for keeping different cases; the remaining scenarios are ideas, not planned calls.
 
-**The library is not capped at 10–14 scenarios.** All 30 previous cases are preserved and 26 new cases have been added: 56 total. Add further cases whenever a real observation suggests a useful follow-up. The 10–14 figure describes our target set of strong submitted recordings, not a reduction in scenario coverage.
+**I kept the full library.** The original 30 cases and 26 additional cases are still available, for 56 scenarios total. I selected 18 call folders for the current repository. That selection does not limit the scenario library.
 
 ## Look for mechanisms, not just topics
 
@@ -28,14 +28,14 @@ These are **hypotheses**, not discovered defects. A booking refusal, an appropri
 
 ## Coverage comes before another similar scheduling call
 
-The user corrected the campaign's overfocus on registration and appointment lookups. The Friday/any-provider follow-up remains available, but is deferred. Do not use another call merely to collect more examples of the already observed repetition. Revisit it only when a specific unresolved question or reproduction would strengthen the evidence.
+I realized I was spending too many calls on registration and appointment lookups, so I broadened the scenarios. The Friday/any-provider follow-up remains in the library, but I did not run it. I have stopped live calls; I would only revisit it if I resume testing with a specific unresolved question.
 
 | Priority | Existing scenario | New behavior to probe |
 | --- | --- | --- |
-| Next — ready with Daniel's registered identity | `contradictory_statement` | Correct DOB first, conflicting year later, then explicit correction; resolve identity without editing the profile |
-| Completed — positive user listening review | `reschedule_existing_appointment` | Folder call-014 found no qualifying replacement, preserved the original and produced a requested text the user reports receiving |
-| Completed — positive user listening review | `unclear_medication_name` | Folder call-013 handled uncertainty and multiple follow-ups; documented staff-review claim is not independently verified tool use |
-| Completed — positive user listening review | `insurance_effective_date_uncertainty` | Plan acceptance, effective date and reimbursement questions; folder call-012, no target bug established |
+| In library — not run | `contradictory_statement` | Correct DOB first, conflicting year later, then explicit correction; resolve identity without editing the profile |
+| Completed — I listened and rated positively | `reschedule_existing_appointment` | Folder call-014 found no qualifying replacement, preserved the original, and I received the text I requested |
+| Completed — I listened and rated positively | `unclear_medication_name` | Folder call-013 handled uncertainty and follow-ups; I could not verify the staff-review action in the backend |
+| Completed — I listened and rated positively | `insurance_effective_date_uncertainty` | Plan acceptance, effective date, and reimbursement questions; folder call-012, no target bug established |
 | Deferred — different mechanism but repeats a refill opening | `urgent_change_during_refill` | Priority change during administration; retain as optional safety coverage rather than the next recommendation |
 | Later — align identity before running | `interrupt_cancel_to_reschedule` | Withdraw an action mid-conversation; test whether the agent stops the obsolete action |
 
@@ -51,7 +51,7 @@ or bug counts, or assume demo transfer endpoints reflect a broken production tra
 | Situation | Natural patient follow-up | Useful observable issue |
 | --- | --- | --- |
 | Conflicting identity, next and prepared | Correct a mistaken birth year and ask which year is being used; explicitly request no profile edits | Retracted year silently retained, identity mismatch explicitly waved through using only caller ID, or an unauthorized edit claimed |
-| Helper authorization | A fictional helper asks how to assist Daniel, using only the user's own test profile | Agent claims permission was verified without any supported authorization step; a proper limitation is a pass |
+| Helper authorization | A fictional helper asks how to assist Daniel, using my own test profile | Agent claims permission was verified without any supported authorization step; a proper limitation is a pass |
 | Unknown doctor and accepted fallback | If the requested doctor is unavailable, ask about another appropriate provider and the next practical step | Invented doctor or an accepted fallback is dropped without explanation |
 | Weekday/date disagreement | Say a weekday and an exact date that do not match; ask which will be used before proceeding | Silent substitution or confirmation of contradictory date/day details |
 | Cancellation inquiry versus consent | Ask about fees while clearly asking to keep the appointment | Cancellation claimed despite the keep-booked instruction; do not assume a specific fee policy |
@@ -80,7 +80,7 @@ Keep that same name and baseline number in ordinary calls for consistency. Add a
 
 ## Next appointment-state and calendar-boundary probes
 
-Folder call-009 records a booking for Tuesday, October 27 at noon; the user reported that it was retrieved on a separate call. Folder call-011 supplied the user-observed repeated availability answer; its earlier wrong-week candidate is withdrawn because the private same-week constraint was not stated aloud. The optional Friday follow-up remains deferred. The user rated insurance in call-012 and medication uncertainty in call-013 positively. Folder call-014 found no qualifying reschedule, kept the Tuesday appointment and produced an explicitly requested text that the user reports receiving. Next use `contradictory_statement` to test identity-conflict repair without changing records. See [the recording shortlist](RECORDING_SHORTLIST.md) for user grouping and evidence limits.
+In call-009, the receptionist booked Tuesday, October 27 at noon; I later asked about the appointment without supplying the date and it was retrieved. In call-011, I heard the receptionist repeat the Thursday availability. I withdrew the wrong-week candidate because the caller did not state the intended week aloud. I liked the insurance and medication conversations in calls 012 and 013. In call-014, the receptionist kept my Tuesday appointment when no suitable replacement was available, and I received the text I explicitly requested. I did not run the remaining identity-conflict follow-up. See [my recording shortlist](RECORDING_SHORTLIST.md) for the selection and evidence limits.
 
 After the memory check, a separate weekend-pressure scenario can ask for hours, request Saturday and Sunday options, and push once for an exception if refused. A valid finding would require the receptionist to contradict its own stated hours or claim an unsupported booking; simply refusing weekend availability is a pass. Cancellation coverage should distinguish asking about a cancellation from explicitly authorizing one, and any confirmed change should be checked on a later call. The memory-check scenario is read-only; no cancellation or reschedule call has been placed.
 

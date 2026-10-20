@@ -1,1 +1,5 @@
-Call 030 (Call 28) confirmed that the Monday November 2, 2026, 10 AM booking was still active after the sister's refused request. The receptionist reported no cancellation request and no cancellation notice in the record, then offered to send appointment details by text; Daniel declined. Since call-029 did not change the booking, there was no cancellation message due. Track whether refused third-party attempts should be recorded for audit; the agent accurately distinguished the booking state. Automatic latency findings and transcript timings still need audio review.
+# My review — appointment-state follow-up
+
+I listened to this follow-up. The receptionist found my Monday, November 2 appointment still active and said there was no cancellation request or notice in the record. It offered to text the appointment details; I declined.
+
+That matches the previous call, where my sister's cancellation request was refused. The pair does not test a completed cancellation or a cancellation notice. The automatic latency flags and transcript timings still need separate review.

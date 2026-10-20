@@ -1,5 +1,5 @@
+# My notes — Call 18
 
+When I asked about another date while an appointment was already on file, I thought it would have been clearer for the receptionist to mention the existing appointment and ask whether I wanted a second booking.
 
-## Follow-up user audio review
-
-User audio review: target initially echoes inconsistent weekday/date; later corrects when prompted. User suggests proactive mention of an existing appointment before making an additional booking. This call was inquiry-only, so no duplicate booking failure demonstrated. Improvement recorded; do not redial.
+This call was an inquiry and did not demonstrate that a duplicate appointment was created. I did not repeat it, so I record this as a possible improvement rather than a confirmed booking bug.

@@ -1,5 +1,5 @@
+# My notes — Call 21
 
+I heard the receptionist provide a specific case ID for the medication request, then say there was no case ID on file when I asked how staff would find it. I consider that an inconsistent reference and a useful candidate to preserve.
 
-## Follow-up user audio review
-
-User audio review confirms the specific case ID followed by no case ID inconsistency. Retain user corroboration of the candidate. Backend ticket/request existence remains unverified; no new call for this case and no scheduled monitor created.
+I could not check whether the clinic's backend request exists, so I am not claiming that the request itself was fabricated. I did not repeat the call.

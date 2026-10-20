@@ -1,34 +1,34 @@
-# Bug report and user-reviewed observations
+# What I noticed in the calls
 
-These findings combine the user's listening feedback with saved transcripts. The formal local audit still reports zero qualified findings because its human-verification records are incomplete. Treat the items below as user-reviewed candidates and improvements; verify the cited audio before making stronger claims about exact wording, timing, clinic policy, or backend actions.
+These are my observations from listening to selected calls, alongside the saved transcripts. I use the audio as the source of truth. The local metadata still marks the calls as not formally human-verified, so I am keeping these as observed candidates until I complete the required review records. I also separate what the receptionist said from backend actions I could not verify.
 
-## Candidate: repeated appointment availability
+## Repeated appointment options
 
-**Evidence:** [Submission Call 5 recording](artifacts/submission_calls/call-05/recording.mp3), [transcript](artifacts/submission_calls/call-05/transcript.txt), and [user notes](artifacts/submission_calls/call-05/user_observations.md), about 01:27–02:14.
+**Evidence:** Submission Call 5, recording and transcript, around 01:27–02:14.
 
-The receptionist gave Thursday availability, then repeated substantially the same date/time options without a new request. The user listened and identified the repeat as unnecessary. This is the clearest conversational-quality candidate in the selected set. The previously intended same-week constraint was not stated aloud, so a wrong-week defect is not established. The proposed Friday/any-provider variant was not run again.
+I heard the receptionist give Thursday availability and then repeat substantially the same options without me asking for them again. That made the conversation feel repetitive and could make it harder to keep track of the actual choices. I did not establish a wrong-week error: the caller did not say the intended week aloud. I also did not run the later any-doctor Friday follow-up.
 
-## Candidate: contradictory medication case reference
+## Conflicting medication case reference
 
-**Evidence:** [Submission Call 13 recording](artifacts/submission_calls/call-13/recording.mp3), [transcript](artifacts/submission_calls/call-13/transcript.txt), and [transcript review](artifacts/submission_calls/call-13/transcript_review.md), approximately 01:55–02:14.
+**Evidence:** Submission Call 13, recording and transcript, around 01:55–02:14.
 
-The receptionist gave a specific case ID and said staff could use it to find the request. After the caller asked whether to use the ID or their name, the receptionist said no case ID was on file. The user listened and corroborated the contradiction. A caller could rely on an unusable reference and lose confidence in the stated follow-up status. The local audit still lacks a completed formal review record, and this exchange does not prove whether a staff request was created.
+I heard the receptionist give a case ID and say staff could use it to find the request. When I asked whether to use the ID or my name, the receptionist said no case ID was on file. I would not know which reference to rely on. This supports an inconsistent spoken reference, but it does not prove whether the clinic received a medication request or created a staff ticket.
 
-## Candidate: provider-name grounding
+## Request for a doctor who may not be on the roster
 
-**Evidence:** [Submission Call 15 recording](artifacts/submission_calls/call-15/recording.mp3), [transcript](artifacts/submission_calls/call-15/transcript.txt), and [user notes](artifacts/submission_calls/call-15/user_observations.md).
+**Evidence:** Submission Call 15, recording and transcript.
 
-The caller firmly requested Dr Jennifer, whom the user says is not a doctor in the intended test roster. The receptionist did not clearly establish whether a Jennifer-named provider was listed or guide the caller through a focused verification and alternatives. The user also found the caller too repetitive. The roster was not independently checked, and this call used the temporary direct-OpenAI patient simulator; its voice and latency differ from earlier calls. Treat it as a provider-grounding and caller-script improvement candidate, not a confirmed roster defect.
+For this test I asked for Dr Jennifer, who was not on the roster I expected the receptionist to use. I found that the reply did not clearly verify the name or guide me to a useful alternative, while the simulated caller kept repeating the same demand. I have not independently checked the clinic's provider database, so I am recording this as a grounding and conversation-quality concern, not a confirmed roster defect. This call also used the temporary direct-OpenAI caller setup, which sounded less natural to me.
 
-## Other user-reviewed observations
+## Other things I want to track
 
-- **New-patient intake:** Submission Calls 1 and 2 provide a baseline and a clearer new-patient acknowledgement/setup comparison. The clinic's actual intake workflow is unknown, so the conversation does not establish that the receptionist should create a record or book directly.
-- **Identity/contact mismatch:** Submission Call 3 suggests the receptionist could clarify which number to use when caller ID and a supplied number differ. It was not a controlled phone-change test and does not prove an unauthorized disclosure or successful number update.
-- **Booking notifications:** Submission Call 4 has no explicit SMS promise in the transcript. The user reported no booking text for that call, while an explicitly requested confirmation text arrived in Call 8. This is inconsistent user-reported delivery, not a verified failure.
-- **Cancellation security and visibility:** In Submission Call 17 the receptionist refused the sister's cancellation request despite the same phone and correct DOB. Call 18 showed the booking still active and no cancellation request or notice recorded. These are positive privacy/state results; an alert or audit record for a declined change request remains an improvement idea. No unknown successful cancellation was tested.
-- **DOB confirmation:** Submission Call 9 contains the user's concern about conflicting birth years and asking the caller to validate a year. The user requested a retest, but it was not completed.
-- **Refill follow-up:** Submission Call 7 contains a useful staff-review explanation. Spoken documentation does not independently verify a ticket, tool call, or notification.
+- **New-patient intake:** Calls 1 and 2 show different acknowledgements of a first-time caller. I would prefer the receptionist to recognize the caller as new and explain the next step. The recordings do not establish the clinic's actual registration workflow.
+- **Number mismatch:** Call 3 raises a useful question: if I give a callback number different from caller ID, the receptionist could ask which number to use. This was not a controlled phone-number change test.
+- **Booking texts:** I did not receive a booking text after Call 4, but the transcript contains no promise to send one. I did receive a text after I explicitly requested one in Call 8. I do not have delivery logs, so I am tracking consistency as an improvement question rather than a verified bug.
+- **Cancellation notices:** The receptionist refused my sister's cancellation request in Call 17, and the booking was still active in Call 18. I would like an alert or audit record when someone attempts a change, but these calls did not test an unauthorized successful cancellation.
+- **Date-of-birth check:** In Call 9, I was concerned by the conflicting year read-back and the request for me to validate it. I wanted a retest, but I did not make one.
+- **Medication follow-up:** In Call 7, the receptionist said the request would be documented for staff. I could not inspect the clinic's tools or records, so I cannot say whether a ticket or notification was actually created.
 
-## Verified target bugs
+## Current status
 
-None are marked formally verified in the current compliance audit. See [compliance review](COMPLIANCE_REVIEW.md) and [selected call index](docs/SUBMISSION_CALLS.md). Do not count the excluded short call or duplicate first-time-patient recordings as additional findings.
+I have not marked any candidate as formally verified in the review metadata. I keep the candidate, the relevant call, and the evidence limits visible rather than presenting an unverified backend action as fact.

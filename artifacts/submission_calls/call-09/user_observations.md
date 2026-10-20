@@ -1,5 +1,5 @@
+# My notes — Call 15
 
+I heard the year given as 1981, then 1982, followed by the receptionist reading back 1981 and asking me to confirm. I found it concerning that the conversation seemed to ask me to validate the record rather than independently establish identity.
 
-## Follow-up user audio review
-
-User audio review: first 1981, then 1982, then receptionist read back 1981 and asked confirmation. User is concerned that this did not establish patient identity. Original exchange is ambiguous because the correct DOB had already been supplied; retain concern and test initial wrong-DOB disclosure separately. Original kept.
+I had also supplied the correct DOB earlier in the call, so this does not isolate whether a wrong DOB could bypass verification. I wanted a cleaner retest, but I did not make one. I keep this as a limited identity-check concern.
